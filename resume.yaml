@@ -1,0 +1,190 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Full-Stack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Fullstack Developer focused on modern mobile/web development technologies (Flutter, Vue.js) and back- end (NestJS, Java). Strong experience in software architecture, data modeling (MySQL, PostgreSQL, Prisma ORM), and proficiency in server environment administration and DevOps practices (Linux, Docker, CI/CD). I aim to optimize the entire software lifecycle process, from conception to production and maintenance."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Participated in the migration of the CI/CD pipeline from GitLab CI to GitHub Actions."
+      - "Integrated and deployed Moodle running on the VPS infrastructure with Docker and Nginx."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Took full responsibility for back-end development and maintenance using the #term.nest framework."
+      - "Managed the #term.mysql database using #term.prisma for data modeling and migrations."
+      - "Maintained and optimized the #term.cicd pipeline using #term.gitlabCI."
+      - "Administered the #term.vps (#term.hostgator), orchestrating the deployment and production environment with #term.docker."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Led the initial development of an educational project management application (Web and Mobile) using #term.flutter."
+      - "Clarified requirements and business rules through in-person meetings with the client."
+      - "Integrated APIs and collaborated asynchronously with back-end developers."
+      - "Implemented image storage and retrieval integration using #term.gcp.storage."
+
+  - name: "Fullstack Developer (Intership)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Worked in a startup as part of a remote agile team applying practices such as #term.scrum.pocker, testing (manual and automated), code review, and daily meetings."
+      - "Developed responsive interfaces and managed dynamic state in web and mobile applications using #term.vue (#term.quasar)."
+      - "Debugged legacy code and complex #term.java functions."
+      - "Solved issues in complex document synchronization flows with #term.couchdb."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifical Catholic University of Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifical Catholic University of Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional"
+      - "Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+  - studyType: "Online Studies"
+    area: "Mathematics and Computer Science"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Mathematics"
+      - "Programming Logic"
+      - "Introduction to Computer Science"
+
+skills:
+  - name: "Front-end"
+    keywords:
+      - "Flutter"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "React"
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore Database"
+      - "CouchDb"
+  - name: "DevOps"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Other"
+    keywords:
+      - "Git"
+      - "Firebase Storage"
+      - "Typescript"
+      - "Bash"
+      - "Neovim"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"
+  - language: "French"
+    fluency: "Beginner"
+  - language: "Japanese"
+    fluency: "Beginner"
+
+meta:
+  terms:
+    dart: "Dart"
+    flutter: "Flutter"
+    vue: "Vue.js"
+    nest: "NestJS"
+    java: "Java"
+    mysql: "MySQL"
+    postgres: "PostgreSQL"
+    prisma: "Prisma ORM"
+    linux: "Linux"
+    docker: "Docker"
+    cicd: "CI/CD"
+    gitlabCI: "GitLab CI"
+    githubActions: "GitHub Actions"
+    moodle: "Moodle"
+    vps: "VPS"
+    nginx: "Nginx"
+    hostgator: "Hostgator"
+    hostinger: "Hostinger"
+    quasar: "Quasar Framework"
+    couchdb: "CouchDb"
+    mfe: "Micro-frontends"
+    accessibility: "Accessibility"
+    codeSmells: "Code Smells"
+    antiPatterns: "Anti-patterns"
+    refactoring: "Refactoring"
+    staticAnalysis: "Static Analysis"
+    dataStructures: "Data Structures"
+    dataModeling: "Data Modeling"
+    oop: "Object-Oriented Programming (OOP)"
+    functionalProgramming: "Functional Programming"
+    softwareArchitecture: "Software Architecture"
+    softwareAnalysis: "Software Analysis"
+    math: "Mathematics"
+    programmingLogic: "Programming Logic"
+    cs: "Computer Science"
+    react: "React"
+    node: "Node.js"
+    git: "Git"
+    ts: "Typescript"
+    js: "Javascript"
+    bash: "Bash"
+    neovim: "Neovim"
+    gcp:
+      storage: "Firebase Storage"
+      firestore: "Firestore Database"
+    scrum:
+      pocker: "Scrum Pocker"
