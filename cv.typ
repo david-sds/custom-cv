@@ -183,7 +183,6 @@ Fullstack Developer focused on modern mobile/web development technologies (#term
 - Debugged legacy code and complex #term.java functions.
 - Solved issues in complex document synchronization flows with #term.couchdb.
 
-#pagebreak()
 == *Education*
 
 === *Master’s Degree – Software Engineering (Incomplete)*
