@@ -17,52 +17,16 @@
   #line(length: 100%, stroke: 1pt)
 ]
 
-#let term = (
-  dart: emph("Dart"),
-  flutter: emph("Flutter"),
-  vue: emph("Vue.js"),
-  nest: emph("NestJS"),
-  java: emph("Java"),
-  mysql: emph("MySQL"),
-  postgres: emph("PostgreSQL"),
-  prisma: emph("Prisma ORM"),
-  linux: emph("Linux"),
-  docker: emph("Docker"),
-  cicd: emph("CI/CD"),
-  gitlabCI: emph("GitLab CI"),
-  githubActions: emph("GitHub Actions"),
-  moodle: emph("Moodle"),
-  vps: emph("VPS"),
-  nginx: emph("Nginx"),
-  hostgator: emph("Hostgator"),
-  hostinger: emph("Hostinger"),
-  gcp: (storage: emph("Firebase Storage"), firestore: emph("Firestore Database")),
-  scrum: (pocker: emph("Scrum Pocker")),
-  quasar: emph("Quasar Framework"),
-  couchdb: emph("CouchDb"),
-  mfe: emph("Micro-frontends"),
-  accessibility: emph("Accessibility"),
-  codeSmells: emph("Code Smells"),
-  antiPatterns: emph("Anti-patterns"),
-  refactoring: emph("Refactoring"),
-  staticAnalysis: emph("Static Analysis"),
-  dataStructures: emph("Data Structures"),
-  dataModeling: emph("Data Modeling"),
-  oop: emph("Object-Oriented Programming (OOP)"),
-  functionalProgramming: emph("Functional Programming"),
-  softwareArchitecture: emph("Software Architecture"),
-  softwareAnalysis: emph("Software Analysis"),
-  math: emph("Mathematics"),
-  programmingLogic: emph("Programming Logic"),
-  cs: emph("Computer Science"),
-  react: emph("React"),
-  node: emph("Node.js"),
-  git: emph("Git"),
-  ts: emph("Typescript"),
-  js: emph("Javascript"),
-  bash: emph("Bash"),
-  neovim: emph("Neovim"),
-)
+#show link: underline
+
+
+#let keywords = data.skills.map(skill => skill.keywords).flatten()
+#for keyword in keywords {
+  show keywords.first(): emph
+}
+
+#let keywords = data.skills.map(skill => skill.keywords).flatten()
+#show regex("\b(" + keywords.join("|") + ")\b"): it => emph(it)
 
 #let duration-text(start, end) = {
   let total = (end.year() - start.year()) * 12 + (end.month() - start.month()) + 1
