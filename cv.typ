@@ -1,3 +1,5 @@
+#let data = yaml("resume.yaml")
+
 #set page(
   paper: "a4",
 )
@@ -116,100 +118,89 @@
   [#right],
 )
 
+#let format-phone(num) = {
+  let clean = num.replace(regex("\D"), "")
+  clean.replace(regex("^(\d{2})(\d{2})(\d{5})(\d{4})$"), m => {
+    "+" + m.captures.at(0) + " (" + m.captures.at(1) + ") " + m.captures.at(2) + "-" + m.captures.at(3)
+  })
+}
+
 = *David Sathler de Siqueira* -- *Full-Stack Developer*
 
 #{
   let items = (
-    link("mailto:dave.sathler@gmail.com")[#"dave.sathler@gmail.com"],
-    link("tel:+5571999672365")[#"+55 (41) 99967-2365"],
-    link("https://www.linkedin.com/in/david-sds")[#"LinkedIn"],
-    link("https://www.github.com/david-sds")[#"Github"],
+    link("mailto:" + data.basics.email)[#data.basics.email],
+    link("tel:" + data.basics.phone)[#format-phone(data.basics.phone)],
+    link(data.basics.profiles.find(e => e.network == "LinkedIn").url)[#"LinkedIn"],
+    link(data.basics.profiles.find(e => e.network == "Github").url)[#"Github"],
   )
   items.filter(x => x != none).join(" | ")
 }
 
 == *Summary*
-Fullstack Developer focused on modern mobile/web development technologies (#term.flutter, #term.vue) and back-end (#term.nest, #term.java). Strong experience in software architecture, data modeling (#term.mysql, #term.postgres, #term.prisma), and proficiency in server environment administration and DevOps practices (#term.linux, #term.docker, #term.cicd). I aim to optimize the entire software lifecycle process, from conception to production and maintenance.
+#data.basics.summary
 
 == *Professional Experience*
 
-=== *Fullstack Developer (Part-time employee)*
-#space-time(
-  [ *Fagundez Tecnologia - HOTMILK* ],
-  [
-    #date-range(datetime(year: 2026, month: 1, day: 1), none)
-  ],
-)
-- Participated in the migration of the #term.cicd pipeline from #term.gitlabCI to #term.githubActions.
-- Integrated and deployed #term.moodle running on the #term.vps infrastructure with #term.docker and #term.nginx.
-
-=== *Fullstack Developer (Research Grant)*
-#space-time(
-  [ *Fagundez Tecnologia - HOTMILK* ],
-  [
-    #date-range(
-      datetime(year: 2025, month: 1, day: 1),
-      datetime(year: 2025, month: 12, day: 31),
+#{
+  for exp in data.work {
+    [ === #{ exp.name } ]
+    space-time(
+      strong(exp.location),
+      [
+        #date-range(
+          datetime(
+            year: int(exp.startDate.split("-").at(0)),
+            month: int(exp.startDate.split("-").at(1)),
+            day: int(exp.startDate.split("-").at(2)),
+          ),
+          if "endDate" in exp {
+            datetime(
+              year: int(exp.endDate.split("-").at(0)),
+              month: int(exp.endDate.split("-").at(1)),
+              day: int(exp.endDate.split("-").at(2)),
+            )
+          } else {
+            none
+          },
+        )
+      ],
     )
-  ],
-)
-- Took full responsibility for back-end development and maintenance using the #term.nest framework.
-- Managed the #term.mysql database using #term.prisma for data modeling and migrations.
-- Maintained and optimized the #term.cicd pipeline using #term.gitlabCI.
-- Administered the #term.vps (#term.hostgator), orchestrating the deployment and production environment with #term.docker.
-
-=== *Frontend Developer (Research Grant)*
-#space-time([ *Fagundez Tecnologia - HOTMILK* ], [
-  #date-range(
-    datetime(year: 2023, month: 5, day: 1),
-    datetime(year: 2024, month: 12, day: 31),
-  )
-])
-- Led the initial development of an educational project management application (Web and Mobile) using #term.flutter.
-- Clarified requirements and business rules through in-person meetings with the client.
-- Integrated APIs and collaborated asynchronously with back-end developers.
-- Implemented image storage and retrieval integration using #term.gcp.storage.
-
-
-=== *Fullstack Developer (Intership)*
-#space-time([*Videnci - Remoto*], [
-  #date-range(
-    datetime(year: 2021, month: 12, day: 1),
-    datetime(year: 2022, month: 12, day: 1),
-  )
-])
-- Worked in a startup as part of a remote agile team applying practices such as #term.scrum.pocker, testing (manual and automated), code review, and daily meetings.
-- Developed responsive interfaces and managed dynamic state in web and mobile applications using #term.vue (#term.quasar).
-- Debugged legacy code and complex #term.java functions.
-- Solved issues in complex document synchronization flows with #term.couchdb.
+    for topic in exp.highlights {
+      [- #{ topic }]
+    }
+  }
+}
 
 == *Education*
 
-=== *Master’s Degree – Software Engineering (Incomplete)*
-#space-time([*Pontifical Catholic University of Paraná*], [
-  #date-range(
-    datetime(year: 2024, month: 1, day: 1),
-    datetime(year: 2025, month: 6, day: 30),
-  )
-])
-Focus of Study: #term.mfe, #term.accessibility, #term.codeSmells, #term.antiPatterns, #term.refactoring and #term.staticAnalysis.
-
-=== *Bachelor’s Degree in Information Systems*
-#space-time([*Pontifical Catholic University of Paraná*], [
-  #date-range(
-    datetime(year: 2020, month: 1, day: 1),
-    datetime(year: 2023, month: 12, day: 31),
-  )
-])
-Focus of Study: #term.dataStructures, #term.dataModeling, #term.oop, #term.functionalProgramming, #term.softwareArchitecture and #term.softwareAnalysis.
-
-=== *Mathematics and Computer Science*
-#space-time([*Khan Academy*], [ #date-range(
-    datetime(year: 2017, month: 1, day: 1),
-    datetime(year: 2020, month: 6, day: 30),
-  )
-])
-Focus of Study: Mathematics, Programming Logic, Introduction to Computer Science. #term.math, #term.programmingLogic and introduction to #term.cs.
+#{
+  for exp in data.education {
+    [ === #{ exp.studyType } -- #{ exp.area }  ]
+    space-time(
+      strong(exp.institution),
+      [
+        #date-range(
+          datetime(
+            year: int(exp.startDate.split("-").at(0)),
+            month: int(exp.startDate.split("-").at(1)),
+            day: int(exp.startDate.split("-").at(2)),
+          ),
+          if "endDate" in exp {
+            datetime(
+              year: int(exp.endDate.split("-").at(0)),
+              month: int(exp.endDate.split("-").at(1)),
+              day: int(exp.endDate.split("-").at(2)),
+            )
+          } else {
+            none
+          },
+        )
+      ],
+    )
+    [Focus of Study: #exp.courses.join(", ").]
+  }
+}
 
 == *Skills and Tools*
 
@@ -217,10 +208,11 @@ Focus of Study: Mathematics, Programming Logic, Introduction to Computer Science
   columns: (auto, auto),
   align: horizon,
   table.header([*Category*], [*Skills & Tools*]),
-  "Front-end & Mobile", [#term.flutter, #term.vue, #term.quasar, #term.react.],
-  "Back-end", [#term.nest, #term.node, #term.java, #term.prisma, #term.couchdb.],
-  "Bancos de Dados", [ #term.mysql, #term.postgres, #term.gcp.firestore, #term.couchdb. ],
-  "Infra & DevOps", [ #term.linux, #term.docker, #term.nginx, #term.gitlabCI, #term.githubActions. ],
-  "Languages", [ Advanced English, Beginner Japanese ],
-  "Other", [ #term.git, #term.gcp.storage, #term.ts, #term.bash, #term.neovim. ],
+  ..data
+    .skills
+    .map(skill => (
+      skill.name,
+      [#skill.keywords.join(", ").],
+    ))
+    .flatten(),
 )
