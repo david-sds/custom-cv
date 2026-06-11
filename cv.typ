@@ -17,8 +17,10 @@
   #line(length: 100%, stroke: 1pt)
 ]
 
+#show link: set text(
+  fill: rgb("#0000EE"),
+)
 #show link: underline
-
 
 #let keywords = data.skills.map(skill => skill.keywords).flatten()
 #for keyword in keywords {
