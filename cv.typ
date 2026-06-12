@@ -174,6 +174,7 @@
   columns: (auto, auto),
   align: horizon,
   table.header([*Category*], [*Skills & Tools*]),
+  [Languages], data.languages.map(e => e.fluency + " " + e.language).join(", ") + ".",
   ..data
     .skills
     .map(skill => (

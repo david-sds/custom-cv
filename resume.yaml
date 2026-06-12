@@ -59,7 +59,7 @@ work:
 education:
   - studyType: "Master's Degree"
     area: "Software Engineering (Incomplete)"
-    institution: "Pontifical Catholic University of Paraná"
+    institution: "Pontifícia Universidade Católica do Paraná"
     startDate: 2024-01-01
     endDate: 2025-06-30
     courses:
@@ -72,7 +72,7 @@ education:
 
   - studyType: "Bachelor's Degree"
     area: "Information Systems"
-    institution: "Pontifical Catholic University of Paraná"
+    institution: "Pontifícia Universidade Católica do Paraná"
     startDate: 2020-01-01
     endDate: 2023-12-31
     courses:
