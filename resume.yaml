@@ -79,8 +79,7 @@ education:
       - "Data Structures"
       - "Data Modeling"
       - "Object-Oriented Programming (OOP)"
-      - "Functional"
-      - "Programming"
+      - "Functional Programming"
       - "Software Architecture"
       - "Software Analysis"
 
@@ -125,7 +124,7 @@ skills:
     keywords:
       - "Git"
       - "Firebase Storage"
-      - "Typescript"
+      - "TypeScript"
       - "Bash"
       - "Neovim"
 
