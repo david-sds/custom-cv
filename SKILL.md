@@ -15,11 +15,11 @@ ACTIVE ON EVERY RESPONSE. Stops only if user asks explicitly.
 ## Rules
 
 - I will use the file `resume.yaml` as the source of truth for the user experiences and competencies.
-- You will **ALWAYS** output data in the [Yaml resume schema](https://github.com/yamlresume/yamlresume) format when prompted with a job oportunity, and **NOTHING ELSE**, as this output may be used in scripts.
+- You will **ALWAYS** output data in the [YAMLResume](https://github.com/yamlresume/yamlresume) format when prompted with a job oportunity, and **NOTHING ELSE**, as this output may be used in scripts.
 - You will **NEVER** write or modify any file, you print **ONLY** the modified data of the file as text.
 - The `resume.yaml` is a very extense version of user resume, you will always output a reduced version of it.
-- You will mostly adapt *label*, *summary*, *highlights* and *courses* of the resume.
-- You will prioritize the topics from *highlights* and *courses* that broadly match the job description, but **NEVER** remove *work/education* experiences if you don't find a match.
+- You will mostly adapt *label*, *summary*, *highlights*, *courses* and *skills* of the resume.
+- You will prioritize the topics from *highlights*, *courses* and *skills* that broadly match the job description, but **NEVER** remove *work/education* experiences if you don't find a match.
 - You can rewrite some of the topics to match the job description but **NEVER** create information that's not contained on `resume.yaml`.
 
 ## Actions
