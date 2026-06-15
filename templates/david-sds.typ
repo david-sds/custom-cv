@@ -1,4 +1,4 @@
-#let data = yaml("resume.yaml")
+#let data = yaml("../resume.yaml")
 
 #set page(
   paper: "a4",
