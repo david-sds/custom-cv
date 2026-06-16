@@ -15,6 +15,7 @@ spinner() {
 
   printf "\rDone.\n"
 }
+
 generate_resume_data() {
   local role=$1
   local err out pid status
@@ -59,7 +60,7 @@ generate_cv() {
   done
 
   OUTPUT_DIR="$ROOT_DIR/output/cv${i}"
-  mkdir "$OUTPUT_DIR"
+  mkdir -p "$OUTPUT_DIR"
   echo $ROLE >"$OUTPUT_DIR/job.txt"
 
   RESUME_DATA=$(generate_resume_data "$ROLE") || exit $?
