@@ -1,6 +1,8 @@
 #let path = sys.inputs.data
 #let data = yaml(path)
 
+// #let data = yaml("../resume.yaml")
+
 #set page(
   paper: "a4",
 )
@@ -92,9 +94,8 @@
   })
 }
 
-= *David Sathler de Siqueira* -- *Full-Stack Developer*
+= *#{ data.basics.name }* -- *#{ data.basics.label }*
 
-#raw
 #{
   let items = (
     link("mailto:" + data.basics.email)[#data.basics.email],

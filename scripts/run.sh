@@ -15,58 +15,61 @@ spinner() {
 
   printf "\rDone.\n"
 }
+generate_resume_data() {
+  local role=$1
+  local err out pid status
+
+  err=$(mktemp) || return 1
+  out=$(mktemp) || {
+    rm -f "$err"
+    return 1
+  }
+
+  opencode run "$role" 2>"$err" |
+    sed '/^```yaml$/d; /^```$/d' >"$out" &
+
+  pid=$!
+  spinner "$pid" >&2
+  wait "$pid"
+  status=$?
+
+  if [ "$status" -ne 0 ]; then
+    cat "$err" >&2
+    rm -f "$err" "$out"
+    return "$status"
+  fi
+
+  if ! prettierd teste.yaml <"$out"; then
+    status=$?
+    cat "$err" >&2
+    rm -f "$err" "$out"
+    return "$status"
+  fi
+
+  rm -f "$err" "$out"
+}
 
 generate_cv() {
   echo "Paste the job description. Press Ctrl+D when done:"
   ROLE=$(cat)
-  echo "$ROLE"
 
-  ERR=$(mktemp)
-  OUT=$(mktemp)
+  i=1
+  while [ -d "$ROOT_DIR/output/cv${i}" ]; do
+    i=$((i + 1))
+  done
 
-  opencode run "$ROLE" 2>"$ERR" |
-    sed '/^```yaml$/d; /^```$/d' >"$OUT" &
+  OUTPUT_DIR="$ROOT_DIR/output/cv${i}"
+  mkdir "$OUTPUT_DIR"
+  echo $ROLE >"$OUTPUT_DIR/job.txt"
 
-  PID=$!
-  spinner "$PID"
-  wait "$PID"
+  RESUME_DATA=$(generate_resume_data "$ROLE") || exit $?
 
-  STATUS=$?
-
-  if [ $STATUS -ne 0 ]; then
-    cat "$ERR"
-    exit $STATUS
-  fi
-
-  RES=$(cat "$OUT")
-  rm -f "$ERR" "$OUT"
-
-  echo "$RES"
-  STATUS=$?
-
-  if [ $STATUS -ne 0 ]; then
-    cat "$ERR"
-    rm -f "$ERR"
-    exit $STATUS
-  fi
-
-  RESUME_DATA=$(printf '%s\n' "$RES" | prettierd teste.yaml)
-
-  git diff --no-index --color \
-    "$ROOT_DIR/resume.yaml" \
-    <(echo "$RES" | prettierd teste.yaml) | less -R
+  git diff --no-index --color "$ROOT_DIR/resume.yaml" <(echo "$RESUME_DATA")
 
   read -rp "Apply changes? [Y/n] " answer
   case "$answer" in
   [Nn]*) echo "Cancelling..." ;;
   [Yy]*)
-    i=1
-    while [ -d "$ROOT_DIR/output/cv${i}" ]; do
-      i=$((i + 1))
-    done
-
-    OUTPUT_DIR="$ROOT_DIR/output/cv${i}"
-    mkdir "$OUTPUT_DIR"
     echo "$RESUME_DATA" >"$OUTPUT_DIR/data.yaml"
     typst compile "$ROOT_DIR/templates/david-sds.typ" \
       --root "$ROOT_DIR" \
