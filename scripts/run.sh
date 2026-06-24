@@ -61,8 +61,20 @@ edit() {
   printf '%s\n' "$value"
 }
 
+sugest() {
+  local session_id=$1
+
+  echo "Write your suggestions for a new version. Press Ctrl+D when done:" >&2
+  local sugestions=$(cat)
+
+  local resume_data=$(generate_resume_data "$sugestions" "$session_id") || exit $?
+
+  printf '%s\n' "$resume_data"
+}
+
 compile() {
-  local resume_data="$1"
+  local resume_data=$1
+  local session_id=$2
 
   echo "$resume_data" >"$OUTPUT_DIR/data.yaml"
   typst compile "$ROOT_DIR/templates/david-sds.typ" \
@@ -75,11 +87,11 @@ compile() {
     [Nn]*) echo "Cancelling..." >&2 ;;
     [Yy]*)
       res=$(edit "$resume_data")
-      confirm_cv "$res"
+      confirm_cv "$res" "$session_id"
       ;;
     *)
       echo "Invalid option" >&2
-      confirm_cv "$resume_data"
+      confirm_cv "$resume_data" "$session_id"
       ;;
     esac
 
@@ -90,21 +102,26 @@ compile() {
 
 confirm_cv() {
   local resume_data="$1"
+  local session_id="$2"
   git diff --no-index --color "$ROOT_DIR/resume.yaml" <(echo "$resume_data")
 
-  read -rp "Apply changes? [Y]es/[N]o/[E]dit " answer
+  read -rp "Apply changes? [Y]es/[N]o/[S]ugest/[E]dit " answer
   case "$answer" in
   [Nn]*) echo "Cancelling..." >&2 ;;
   [Yy]*)
-    compile "$resume_data"
+    compile "$resume_data" "$session_id"
+    ;;
+  [Ss]*)
+    local res=$(sugest "$session_id")
+    confirm_cv "$res" "$session_id"
     ;;
   [Ee]*)
-    res=$(edit "$resume_data")
-    confirm_cv "$res"
+    local res=$(edit "$resume_data")
+    confirm_cv "$res" "$session_id"
     ;;
   *)
     echo "Invalid option" >&2
-    confirm_cv "$resume_data"
+    confirm_cv "$resume_data" "$session_id"
     ;;
   esac
 }
@@ -121,10 +138,12 @@ generate_cv() {
   local job_id="cv${i}"
   OUTPUT_DIR="$ROOT_DIR/output/$job_id"
   mkdir "$OUTPUT_DIR"
-  echo $role >"$OUTPUT_DIR/job.txt"
+  echo $role >>"$OUTPUT_DIR/job.txt"
   tmp=$(mktemp)
 
-  opencode run "/custom-cv" --format json 2>/dev/null |
+  opencode run "/custom-cv" \
+    --model opencode/mimo-v2.5-free \
+    --format json 2>/dev/null |
     jq -r '.sessionID? // empty' >"$tmp" &
 
   pid=$!
@@ -132,12 +151,13 @@ generate_cv() {
   wait "$pid" || true
 
   session_id=$(head -n1 "$tmp")
+  echo "Running on $session_id" >&2
   rm -f "$tmp"
   echo $session_id >"$OUTPUT_DIR/opencodeSessionId"
 
-  RESUME_DATA=$(generate_resume_data "$role" "$session_id") || exit $?
+  local resume_data=$(generate_resume_data "$role" "$session_id") || exit $?
 
-  confirm_cv "$RESUME_DATA"
+  confirm_cv "$resume_data" "$session_id"
 }
 
 while true; do
