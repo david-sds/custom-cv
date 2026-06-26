@@ -1,5 +1,16 @@
 #!/usr/bin/env bash
 
+require() {
+  command -v "$1" &>/dev/null && return
+  printf "Required tool missing: %s\n" "$1" >&2
+  exit 1
+}
+
+require typst
+require opencode
+require jq
+require prettierd
+
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$SCRIPT_DIR/.."
 
@@ -41,7 +52,7 @@ generate_resume_data() {
     return "$status"
   fi
 
-  res=$(prettierd teste.yaml <"$out")
+  res=$(prettierd .yaml <"$out")
 
   rm -f "$err" "$out"
 
@@ -78,10 +89,12 @@ compile() {
   local session_id=$2
 
   echo "$resume_data" >"$OUTPUT_DIR/data.yaml"
+
   typst compile "$ROOT_DIR/templates/david-sds.typ" \
     --root "$ROOT_DIR" \
-    --input data="../output/cv${i}/data.yaml" \
+    --input data="$OUTPUT_DIR/data.yaml" \
     "$OUTPUT_DIR/cv.pdf"
+
   if [ "$?" -ne 0 ]; then
     read -rp "Fix errors? [Y]es/[N]o" ans
     case "$ans" in
@@ -139,7 +152,7 @@ generate_cv() {
   local job_id="cv${i}"
   OUTPUT_DIR="$ROOT_DIR/output/$job_id"
   mkdir "$OUTPUT_DIR"
-  echo $role >>"$OUTPUT_DIR/job.txt"
+  echo "$role" >>"$OUTPUT_DIR/job.txt"
   tmp=$(mktemp)
 
   opencode run "/custom-cv" \
@@ -155,7 +168,7 @@ generate_cv() {
   session_id=$(head -n1 "$tmp")
   printf '\nRunning on %s\n' "$session_id" >&2
   rm -f "$tmp"
-  echo $session_id >"$OUTPUT_DIR/opencodeSessionId"
+  echo "$session_id" >"$OUTPUT_DIR/opencodeSessionId"
 
   local resume_data=$(generate_resume_data "$role" "$session_id") || exit $?
 
