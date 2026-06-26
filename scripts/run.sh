@@ -32,6 +32,7 @@ generate_resume_data() {
   pid=$!
   spinner "$pid" "Generating customized resume.yaml" >&2
   wait "$pid"
+  printf '\r\033[K' >&2
   status=$?
 
   if [ "$status" -ne 0 ]; then
@@ -149,9 +150,10 @@ generate_cv() {
   pid=$!
   spinner "$pid" "Starting OpenCode session" >&2
   wait "$pid" || true
+  printf '\r\033[K' >&2
 
   session_id=$(head -n1 "$tmp")
-  echo "Running on $session_id" >&2
+  printf '\nRunning on %s\n' "$session_id" >&2
   rm -f "$tmp"
   echo $session_id >"$OUTPUT_DIR/opencodeSessionId"
 

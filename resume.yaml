@@ -106,6 +106,7 @@ skills:
       - "Node.js"
       - "Java"
       - "Prisma ORM"
+      - "Sprint Boot"
   - name: "Databases"
     keywords:
       - "MySQL"
