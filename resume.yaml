@@ -23,18 +23,25 @@ work:
     location: "Fagundez Tecnologia - HOTMILK"
     startDate: 2026-01-01
     highlights:
-      - "Participated in the migration of the CI/CD pipeline from GitLab CI to GitHub Actions."
-      - "Integrated and deployed Moodle running on the VPS infrastructure with Docker and Nginx."
+      - "Migrated from a dual-VPS setup (Hostgator) with production and development to a single VPS (Hostinger)"
+      - "Automated Linux server provisioning and maintenance using Docker and custom Bash scripts."
+      - "Set up cron jobs for automated database backups to Cloudflare R2."
+      - "Migrated the CI/CD pipeline from GitLab CI to GitHub Actions"
+      - "Deployed and configured Moodle on the VPS using Docker and Nginx for both production and development instances."
+      - "Integrated Moodle via its Web Services API and developed custom PHP plugins to extend platform functionality."
+      - "Migrated from a self-emitted JWT system with Keycloak as a centralized identity provider."
+      - "Integrated the educational app with Moodle seamlessly with Keycloak SSO."
 
   - name: "Fullstack Developer (Research Grant)"
     location: "Fagundez Tecnologia - HOTMILK"
     startDate: 2025-01-01
     endDate: 2025-12-31
     highlights:
-      - "Took full responsibility for back-end development and maintenance using the NestJS framework."
-      - "Managed the MySQL database using Prisma ORM for data modeling and migrations."
-      - "Maintained and optimized the CI/CD pipeline using GitLab CI."
-      - "Administered the VPS (Hostgator), orchestrating the deployment and production environment with Docker."
+      - "Owned the entire back-end development lifecycle using NestJS, from feature design to production maintenance."
+      - "Managed MySQL database schema design, migrations, and query optimization using Prisma ORM."
+      - "Maintained and optimized the CI/CD pipeline using GitLab CI for automated testing and deployment."
+      - "Administered the Hostgator VPS, managing Docker-based deployment and the production runtime environment."
+      - "Implemented a HTTP audit with interceptors and logging for success and failiures"
 
   - name: "Frontend Developer (Research Grant)"
     location: "Fagundez Tecnologia - HOTMILK"
