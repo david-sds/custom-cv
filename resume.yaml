@@ -26,11 +26,15 @@ work:
     summary: "Responsible for infrastructure consolidation, CI/CD migration, LMS integration with SSO authentication, and custom plugin development."
     highlights:
       - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, streamlining deployment workflows."
-      - "Consolidated infrastructure from two VPS instances (Hostgator) to a single Hostinger VPS, reducing costs and simplifying management."
+      - "Consolidated infrastructure from two VPS instances (Hostgator) to a single VPS (Hostinger), reducing costs and simplifying management."
+      - "Automated Linux server provisioning and maintenance using Docker and custom Bash scripts."
       - "Orchestrated multi-app deployment (frontend, backend, Moodle, Keycloak) using Docker and Nginx reverse proxy for production and development environments."
+      - "Set up cron jobs for automated database backups to Cloudflare R2."
+      - "Deployed and configured Moodle on the VPS using Docker and Nginx for both production and development instances."
       - "Integrated Moodle LMS with Flutter app via Moodle Web Services API for data synchronization."
       - "Developed custom PHP plugins for Moodle to enable gamification features and enhance user experience."
-      - "Replaced self-issued JWT authentication with Keycloak as centralized identity provider, implementing SSO across Moodle and future applications."
+      - "Migrated from a self-emitted JWT system with Keycloak as a centralized identity provider."
+      - "Integrated the Flutter app with Moodle seamlessly with Keycloak SSO."
 
   - name: "Fullstack Developer (Research Grant)"
     location: "Fagundez Tecnologia - HOTMILK"
@@ -41,7 +45,7 @@ work:
       - "Led full-stack development across frontend (Flutter) and backend (NestJS) modules."
       - "Designed and managed MySQL database with Prisma ORM, implementing data models and migrations."
       - "Optimized backend performance with caching strategies, pagination, and dynamic filtering endpoints."
-      - "Built backend audit logging system with interceptor-based request capture, pagination, and filter caching."
+      - "Implemented a HTTP audit with interceptors and logging for success and failiures"
       - "Refactored backend permissions system with granular role-based access control."
       - "Built frontend paginated lists with search, filter caching, and optimized loading states."
       - "Implemented frontend skeleton loading, responsive layouts, and cross-browser compatibility fixes."
@@ -243,6 +247,7 @@ skills:
       - "English (Advanced)"
       - "French (Beginner)"
       - "Japanese (Beginner)"
+
   - name: "Programming languages"
     keywords:
       - "TypeScript"
@@ -254,6 +259,7 @@ skills:
       - "SQL"
       - "HTML"
       - "CSS"
+
   - name: "Frontend"
     keywords:
       - "Flutter"
@@ -275,18 +281,21 @@ skills:
       - "Drift"
       - "Axios"
       - "Material Design"
+
   - name: "Backend"
     keywords:
       - "NestJS"
       - "Node.js"
       - "Symfony"
       - "Doctrine ORM"
-      - "REST API"
-      - "JWT"
+      - "Sprint Boot"
       - "Keycloak"
       - "Moodle"
-      - "SSO"
       - "bcrypt"
+      - "REST API"
+      - "JWT"
+      - "SSO"
+
   - name: "Databases"
     keywords:
       - "PostgreSQL"
@@ -295,10 +304,10 @@ skills:
       - "SQLite"
       - "CouchDB"
       - "Firestore Database"
+
   - name: "DevOps & Tools"
     keywords:
       - "Docker"
-      - "Docker Compose"
       - "Linux"
       - "Nginx"
       - "VPS Administration"
@@ -310,5 +319,5 @@ skills:
       - "Composer"
       - "Typst"
       - "YAML"
-      - "jq"
       - "Neovim"
+      - "jq"
