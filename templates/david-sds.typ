@@ -20,9 +20,9 @@
   #line(length: 100%, stroke: 1pt)
 ]
 
-#show link: set text(
-  fill: rgb("#0000EE"),
-)
+// #show link: set text(
+//   fill: rgb("#0000EE"),
+// )
 #show link: underline
 
 #let keywords = data.skills.map(skill => skill.keywords).flatten()
@@ -135,9 +135,23 @@
         )
       ],
     )
+    [ #{ exp.summary } \ #parbreak() ]
     for topic in exp.highlights {
       [- #{ topic }]
     }
+  }
+}
+
+== *Projects*
+
+#{
+  for proj in data.projects {
+    [ === #proj.name --- #link(proj.url)[#"Github"] ]
+    [ #proj.description \ #parbreak() ]
+    for topic in proj.highlights {
+      [- #{ topic }]
+    }
+    [ Technologies: #proj.technologies.join(", ").]
   }
 }
 
@@ -145,7 +159,7 @@
 
 #{
   for exp in data.education {
-    [ === #{ exp.studyType } -- #{ exp.area }  ]
+    [ === #exp.studyType -- #exp.area ]
     space-time(
       strong(exp.institution),
       [
@@ -167,7 +181,7 @@
         )
       ],
     )
-    [Focus of Study: #exp.courses.join(", ").]
+    [Subjects: #exp.courses.join(", ").]
   }
 }
 
@@ -177,7 +191,6 @@
   columns: (auto, auto),
   align: horizon,
   table.header([*Category*], [*Skills & Tools*]),
-  [Languages], data.languages.map(e => e.fluency + " " + e.language).join(", ") + ".",
   ..data
     .skills
     .map(skill => (

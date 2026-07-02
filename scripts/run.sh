@@ -49,7 +49,7 @@ generate_resume_data() {
 
 edit() {
   value=$1
-  tmp=$(mktemp)
+  tmp=$(mktemp --suffix=.yaml resume.XXXXXX)
 
   printf '%s' "$value" >"$tmp"
 
