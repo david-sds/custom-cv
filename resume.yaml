@@ -240,6 +240,26 @@ projects:
       - "jq"
       - "OpenCode CLI"
 
+  - name: "Dotfiles"
+    url: "https://github.com/david-sds/dotfiles"
+    description: "Personal development environment configuration for Neovim, Tmux, and CLI tools."
+    highlights:
+      - "Built modular Neovim configuration in Lua with LSP setups for 15+ languages and custom snippet collections."
+      - "Configured Tmux with vim motions, custom keybindings, and lazygit integration for terminal workflow."
+      - "Created install script for symlinking configurations across multiple machines."
+      - "Implemented git-based sync scripts for pushing/pulling changes between development environments."
+      - "Integrated AI coding assistants (OpenCode, Codex and Claude) with permission-based configuration."
+    technologies:
+      - "Neovim"
+      - "Lua"
+      - "Tmux"
+      - "Bash"
+      - "Alacritty"
+      - "LazyGit"
+      - "OpenCode"
+      - "Codex"
+      - "Claude Code"
+
 skills:
   - name: "Natural languages"
     keywords:
@@ -256,6 +276,7 @@ skills:
       - "PHP"
       - "Java"
       - "Bash"
+      - "Lua"
       - "SQL"
       - "HTML"
       - "CSS"
@@ -308,9 +329,11 @@ skills:
   - name: "DevOps & Tools"
     keywords:
       - "Docker"
+      - "Docker Compose"
       - "Linux"
       - "Nginx"
       - "VPS Administration"
+      - "Cloudflare R2"
       - "Git"
       - "GitLab CI"
       - "GitHub Actions"
@@ -320,4 +343,10 @@ skills:
       - "Typst"
       - "YAML"
       - "Neovim"
+      - "Alacritty"
+      - "LazyGit"
+      - "Tmux"
       - "jq"
+      - "OpenCode"
+      - "Codex"
+      - "Claude Code"
