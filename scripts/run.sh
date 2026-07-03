@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+RUNNING=true
+
 require() {
   command -v "$1" &>/dev/null && return
   printf "Required tool missing: %s\n" "$1" >&2
@@ -92,7 +94,7 @@ compile() {
 
   typst compile "$ROOT_DIR/templates/david-sds.typ" \
     --root "$ROOT_DIR" \
-    --input data="$OUTPUT_DIR/data.yaml" \
+    --input data="../$OUTPUT_SUB_DIR/data.yaml" \
     "$OUTPUT_DIR/cv.pdf"
 
   if [ "$?" -ne 0 ]; then
@@ -140,7 +142,22 @@ confirm_cv() {
   esac
 }
 
+start_opencode_session() {
+  local outfile=$1
+  local data=$2
+
+  opencode run "/custom-cv ${data}" \
+    --model opencode/mimo-v2.5-free \
+    --format json 2>/dev/null |
+    jq -r '.sessionID? // empty' >"$outfile"
+}
+
 generate_cv() {
+  tmp=$(mktemp)
+
+  start_opencode_session "$tmp" &
+  local session_pid=$!
+
   echo "Paste the job description. Press Ctrl+D when done:"
   local role=$(cat)
 
@@ -149,32 +166,64 @@ generate_cv() {
     i=$((i + 1))
   done
 
-  local job_id="cv${i}"
-  OUTPUT_DIR="$ROOT_DIR/output/$job_id"
+  OUTPUT_SUB_DIR="output/cv${i}"
+  OUTPUT_DIR="$ROOT_DIR/$OUTPUT_SUB_DIR"
   mkdir "$OUTPUT_DIR"
   echo "$role" >>"$OUTPUT_DIR/job.txt"
-  tmp=$(mktemp)
 
-  opencode run "/custom-cv" \
-    --model opencode/mimo-v2.5-free \
-    --format json 2>/dev/null |
-    jq -r '.sessionID? // empty' >"$tmp" &
-
-  pid=$!
-  spinner "$pid" "Starting OpenCode session" >&2
-  wait "$pid" || true
+  spinner "$session_pid" "Starting OpenCode session" >&2
+  wait "$session_pid" || return 1
   printf '\r\033[K' >&2
-
-  session_id=$(head -n1 "$tmp")
-  printf '\nRunning on %s\n' "$session_id" >&2
+  local session_id=$(head -n1 "$tmp")
   rm -f "$tmp"
-  echo "$session_id" >"$OUTPUT_DIR/opencodeSessionId"
 
   local resume_data=$(generate_resume_data "$role" "$session_id") || exit $?
 
   confirm_cv "$resume_data" "$session_id"
 }
 
-while true; do
-  generate_cv
+load_cv() {
+  mkdir -p "$ROOT_DIR/output"
+  SELECTED_CV=$(
+    find "$ROOT_DIR/output" -mindepth 1 -maxdepth 1 -type d |
+      awk -F/ '{print $NF "\t" $0}' |
+      fzf --delimiter=$'\t' --with-nth=1 |
+      awk -F'\t' '{print $2}'
+  )
+
+  local session_id=$(cat "$SELECTED_CV/opencodeSessionId")
+  local role=$(cat "$SELECTED_CV/job.txt")
+  local resume_data=$(cat "$SELECTED_CV/data.yaml")
+
+  # if ! opencode session list | awk '{print $1}' | grep -x "$session_id"; then
+  # start_opencode_session "$tmp" &
+  # local session_pid=$!
+  # TODO init a new session with the saved data
+  # fi
+
+  confirm_cv "$resume_data" "$session_id"
+}
+
+main_menu() {
+  read -rp "Main Menu [N]ew/[L]oad/[Q]uit/ " answer
+  case "$answer" in
+  [Nn]*)
+    generate_cv
+    ;;
+  [Ll]*)
+    load_cv
+    ;;
+  [Qq]*)
+    RUNNING=false
+    echo "Bye!" >&2
+    ;;
+  *)
+    echo "Invalid option" >&2
+    main_menu
+    ;;
+  esac
+}
+
+while "$RUNNING"; do
+  main_menu
 done

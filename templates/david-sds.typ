@@ -142,19 +142,6 @@
   }
 }
 
-== *Projects*
-
-#{
-  for proj in data.projects {
-    [ === #proj.name --- #link(proj.url)[#"Github"] ]
-    [ #proj.description \ #parbreak() ]
-    for topic in proj.highlights {
-      [- #{ topic }]
-    }
-    [ Technologies: #proj.technologies.join(", ").]
-  }
-}
-
 == *Education*
 
 #{
@@ -182,6 +169,19 @@
       ],
     )
     [Subjects: #exp.courses.join(", ").]
+  }
+}
+
+== *Projects*
+
+#{
+  for proj in data.projects {
+    [ === #proj.name --- #link(proj.url)[#"Github"] ]
+    [ #proj.description \ #parbreak() ]
+    for topic in proj.highlights {
+      [- #{ topic }]
+    }
+    [ Technologies: #proj.technologies.join(", ").]
   }
 }
 
