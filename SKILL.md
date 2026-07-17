@@ -18,6 +18,7 @@ ACTIVE ON EVERY RESPONSE. Stops only if user asks explicitly.
 - The original `resume.yaml` is the source of truth, you can paraphrase but **NEVER** invent stuff.
 - You will **NEVER** write or modify any file, you print **ONLY** the modified data of the file as `yaml` text or *plain text* for the cover letter.
 - The topics **MUST** be *reduced* and *specialized to the `job description` in a *professional* way, avoid repetitions of words and redundant topics.
+- You will return a reduced number of *highlights* specialized to the `job description`, 4-6 ideally.
 
 ## EVENTS
 
