@@ -1,0 +1,137 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Senior Flutter Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Fullstack Developer with strong experience in Flutter mobile development, software architecture, state management, RESTful API integration, and CI/CD pipelines. Experienced in leading mobile feature delivery from conception to production, with proficiency in clean architecture, SOLID principles, and cross-functional team collaboration."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Led migration of CI/CD pipeline from GitLab CI to GitHub Actions, improving deployment reliability."
+      - "Managed production infrastructure with Docker and Nginx on VPS environments."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Owned back-end development and maintenance using NestJS, delivering robust RESTful APIs."
+      - "Designed and maintained data models with MySQL and Prisma ORM, ensuring clean, scalable schemas."
+      - "Maintained and optimized CI/CD pipelines with GitLab CI."
+      - "Orchestrated production deployments using Docker on Linux VPS infrastructure."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Led end-to-end development of an educational project management application (Web and Mobile) using Flutter."
+      - "Collaborated closely with clients to clarify requirements and translate business needs into technical solutions."
+      - "Integrated RESTful APIs and collaborated asynchronously with back-end developers to deliver features."
+      - "Implemented image storage and retrieval using Firebase Storage."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Worked in a fully remote agile team applying Scrum, code review, and testing practices."
+      - "Built responsive mobile and web interfaces using Vue.js (Quasar Framework) with dynamic state management."
+      - "Debugged legacy code and resolved complex synchronization flows in distributed systems."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+  - studyType: "Online Studies"
+    area: "Mathematics and Computer Science"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Mathematics"
+      - "Programming Logic"
+      - "Introduction to Computer Science"
+
+skills:
+  - name: "Mobile & Front-end"
+    keywords:
+      - "Flutter"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "React"
+  - name: "Back-end & API"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+      - "RESTful APIs"
+  - name: "Databases & Storage"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore Database"
+      - "Firebase Storage"
+      - "CouchDB"
+  - name: "DevOps & CI/CD"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Other"
+    keywords:
+      - "Git"
+      - "TypeScript"
+      - "Bash"
+      - "Neovim"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"
+  - language: "French"
+    fluency: "Beginner"
+  - language: "Japanese"
+    fluency: "Beginner"

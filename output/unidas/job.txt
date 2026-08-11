@@ -1,0 +1,142 @@
+Sobre a vaga
+
+Descrição da vaga
+
+A Unidas, integrante do grupo Brookfield, é uma das maiores empresas do setor de mobilidade no Brasil.
+
+Conta com cerca de 100 mil ativos entre veículos leves, caminhões, máquinas e equipamentos pesados, e oferece uma plataforma completa de soluções de gestão e locação de veículos, operações e manutenção, trazendo economia e praticidade para pessoas e empresas em todo o país.
+
+Conta também com mais de 200 lojas entre aluguel de carros e venda de seminovos, incluindo leves e pesados, no varejo e atacado.
+
+A companhia, que tem mais de 4 mil colaboradores, é reconhecida como uma das melhores empresas para se trabalhar no Brasil pelo ranking Great Place to Work.
+
+Além disso, foi eleita como a 32ª marca mais valiosa pelo Brand Finance Brazil e, por sete vezes, conquistou o Prêmio Consumidor Moderno de Excelência em Serviço ao Cliente na categoria “Locadora de veículos”. Empoderamos as pessoas do nosso time e investimos no aprendizado diário e desenvolvimento contínuo. Aqui, cada Unilover é responsável por sua carreira e a leva para onde quiser. 💙 Deu match com o nosso jeito de ser? #VemPraUnidas
+
+Responsabilidades e atribuições
+
+Estamos em busca de um(a) Desenvolvedor(a) Node.js Pleno para integrar nosso time de tecnologia, atuando no desenvolvimento e evolução de aplicações modernas, com foco em APIs e integração de sistemas. Buscamos um profissional com perfil analítico, colaborativo e orientado à resolução de problemas.
+
+Responsabilidades
+
+Desenvolver, manter e evoluir APIs RESTful utilizando Node.js
+
+Atuar na construção de aplicações fullstack (backend e frontend)
+
+Garantir a qualidade do código por meio de boas práticas de desenvolvimento
+
+Trabalhar em conjunto com equipes multidisciplinares
+
+Participar ativamente de cerimônias ágeis
+
+Apoiar melhorias de arquitetura e performance das aplicações
+
+﻿﻿
+
+Requisitos e qualificações
+
+Formação Superior concluída em TI e entre outras;
+
+Conhecimentos Necessários
+
+Backend
+
+Experiência sólida com Node.js
+
+Framework Express
+
+Uso de módulo mssql
+
+Desenvolvimento de APIs REST
+
+Conhecimento em bancos de dados relacionais
+
+SQL
+
+Microsoft SQL Server
+
+Noções de bancos NoSQL
+
+Experiência com versionamento de código (Git)
+
+Noções de ambiente Linux
+
+ Frontend
+
+Experiência com Angular
+
+Conhecimentos Em
+
+HTML5
+
+CSS
+
+JavaScript
+
+TypeScript
+
+DevOps, Processos e Agilidade
+
+Conhecimento Em
+
+Azure DevOps
+
+Docker
+
+Experiência com metodologias ágeis (Scrum)
+
+Vivência em pipelines de CI/CD (diferencial)
+
+Informações adicionais
+
+Convênio Médico;
+
+Convênio Odontológico;
+
+Seguro de Vida;
+
+Vale Transporte;
+
+Vale Refeição e/ou Alimentação;
+
+Cartão Farmácia;
+
+WellHub;
+
+Clube de Vantagens;
+
+Programa de Lucros e Resultados.
+
+Seja bem-vindo(a)!
+
+Na Unidas, acreditamos que carreira é jornada, não destino. Somos um dos maiores grupos do Brasil no setor de mobilidade e terceirização de frotas, com soluções completas que vão de veículos leves a pesados, passando por máquinas e equipamentos. Mas o que realmente nos move são as pessoas.
+
+Somos um time que se movimenta em um único sentido: simplificar a vida dos nossos clientes com soluções completas, inovação em aluguel de ativos e serviços confiáveis. Esse é o nosso destino — e a nossa cultura é o veículo que nos leva até lá.
+
+Valorizamos o desenvolvimento contínuo, o aprendizado diário e o empoderamento individual. Acreditamos que cada talento tem o poder de transformar realidades — e oferecemos as ferramentas, o ambiente e os desafios certos para isso acontecer.
+
+Com Mais De 50 Anos De História, Presença Em Todo o Brasil e Mais De 120 Mil Ativos Em Operação, a Unidas é Feita De Movimento, Crescimento e Transformação. Atuamos Com Excelência Em Diversas Frentes
+
+    Unidas Aluguel de Carros: mobilidade sob medida para pessoas e empresas.
+    Unidas Livre: assinatura de veículos 0km com praticidade e liberdade.
+    Unidas Frotas: gestão inteligente de frotas leves e pesadas.
+    Unidas Pesados: soluções robustas para os setores agrícola, de mineração e construção.
+    Unidas Seminovos: veículos com procedência e ótimo custo-benefício.
+
+💡 POR QUE ESCOLHER A UNIDAS PARA SUA CARREIRA?
+
+E tem mais! Na Unidas você ainda conta com:
+
+    Cultura de protagonismo e colaboração.
+    Programas de desenvolvimento e capacitação.
+    Ambiente que valoriza a diversidade e inclusão.
+    Desafios reais com impacto direto nos negócios.
+    Oportunidades em diferentes regiões e áreas de atuação.
+
+🌍
+ FAZEMOS PARTE DE ALGO MAIOR.
+
+A Unidas integra o portfólio da Brookfield Asset Management, uma das maiores gestoras de ativos do mundo, com visão de longo prazo e compromisso com o desenvolvimento sustentável.
+
+✨ Deu match com o nosso jeito de ser e busca um lugar onde possa crescer, aprender, inovar e fazer parte de uma história de transformação, a Unidas é o seu caminho certo.
+
+Aqui, sua carreira tem direção, propósito e movimento.

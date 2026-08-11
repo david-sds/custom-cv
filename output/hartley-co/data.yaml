@@ -1,0 +1,133 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Full-Stack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Fullstack Developer focused on modern mobile/web development technologies (React, Vue.js, TypeScript) and state-heavy application architectures. Strong experience in software architecture, data modeling, and collaborative sync systems. Passionate about building rich, real-time UI experiences and integrating AI workflows into product surfaces."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Owned the migration of the CI/CD pipeline, ensuring reliable and fast deployments for a collaborative platform."
+      - "Deployed and maintained multi-user infrastructure with Docker and Nginx, supporting real-time application requirements."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Architected and maintained the backend data layer using NestJS and Prisma ORM, designing schemas for complex, state-heavy workflows."
+      - "Administered production VPS environments with Docker, ensuring low-latency data access for multi-user scenarios."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Led the development of a cross-platform project management application (Web and Mobile) using Flutter, owning the full UI lifecycle."
+      - "Integrated REST APIs and Firebase Storage, building rich user-facing interfaces for collaborative project workflows."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Built responsive, dynamic UIs with Vue.js (Quasar Framework) for a collaborative application used by remote teams."
+      - "Debugged and resolved complex document synchronization flows using CouchDB, ensuring data consistency across multiple users in real time."
+      - "Worked in a fast-moving agile startup environment, owning features end-to-end with code review and iterative shipping."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+  - studyType: "Online Studies"
+    area: "Mathematics and Computer Science"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Mathematics"
+      - "Programming Logic"
+      - "Introduction to Computer Science"
+
+skills:
+  - name: "Front-end & Mobile"
+    keywords:
+      - "React"
+      - "TypeScript"
+      - "Vue.js"
+      - "Flutter"
+      - "Quasar Framework"
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore Database"
+      - "CouchDB"
+  - name: "DevOps"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Other"
+    keywords:
+      - "Git"
+      - "Firebase Storage"
+      - "Bash"
+      - "Neovim"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"
+  - language: "French"
+    fluency: "Beginner"
+  - language: "Japanese"
+    fluency: "Beginner"

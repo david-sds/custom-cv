@@ -1,0 +1,58 @@
+About FullStack
+
+FullStack is the most transparent IT talent network, connecting highly skilled individuals with top global companies and Silicon Valley startups for remote, on-demand projects. We focus on building a trusted, high-performance network where talent can thrive in a positive, respectful, and supportive environment. By prioritizing transparency, fair opportunities, and professional growth, we empower our engineers to deliver their best work while collaborating with innovative teams worldwide.
+
+We’re Most Proud Of
+
+    Offering life-changing opportunities for talented software professionals across the Americas.
+    Enhancing highly-skilled software development teams of hundreds of the world’s greatest companies.
+    Our 4.2-star rating on GlassDoor.
+    Our client Net Promoter Score of 68, twice the industry average.
+
+The Opportunity
+
+Join our talent network and connect with U.S. clients for flexible, project-based development work as a Full Stack Developer (Java + Kotlin + React).
+
+    You will integrate directly into our client's team and work alongside their existing designers and engineers on a daily basis.
+
+What We're Looking For
+
+    5+ years of professional software development experience.
+    Advanced English is required.
+    Successful completion of a four-year college degree is required.
+    Extensive experience with Kotlin and Java for backend development.
+    Strong background in object-oriented programming and software design principles.
+    Proven experience building scalable backend services and APIs.
+    Hands-on experience working with frontend frameworks such as React, Vue, or Angular.
+    Demonstrated experience using TypeScript (preferred) or JavaScript for frontend development.
+    Deep experience in designing and developing full-stack applications.
+    Practical experience integrating frontend and backend systems.
+    Solid understanding of RESTful APIs and microservices architecture.
+    Familiar with modern frontend development practices and responsive design.
+    Knowledgeable in performance optimization and scalable system design.
+    Ability to work through new and difficult issues and contribute to libraries as needed.
+    Ability to create and maintain continuous integration and delivery of applications.
+    Forensic attention to detail.
+    A positive mindset and a can-do attitude.
+    Experience working on Agile / Scrum teams.
+    Meaningful experience working on large, complex systems.
+    Ability to take extreme ownership over your work. Every day is a challenge to ensure you are performing to the expectations you and your team have agreed upon.
+    Ability to identify with the goals of FullStack's clients, and dedicate yourself to delivering on the commitments you and your team make to them.
+    Ability to consistently work 40 hours per week.
+
+Nice To Have
+
+We’re Seeking Engineers Who Are AI-enthusiastic In Their Workflow. Professional Experience Or Personal Project Work With The Following Is a Significant Plus
+
+    Cursor, Windsurf, or Google Antigravity.
+    Claude Code, Gemini CLI, Codex, or Copilot CLI.
+
+What We Offer
+
+    Competitive pay.
+    100% remote work.
+    The ability to work with leading startups and Fortune 500 companies.
+    Continuing education opportunities.
+    Opportunity to grow and expand your career.
+
+Our talent network is committed to fostering a diverse, inclusive, and accessible environment where IT professionals can find opportunities that match their skills. We welcome individuals of all races, religions, genders, sexual orientations, national origins, abilities, and experiences. Our focus is on connecting talent with projects based on qualifications, ensuring a fair and transparent process that values diverse perspectives and global collaboration.

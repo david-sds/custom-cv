@@ -1,0 +1,132 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Software Engineer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Software Engineer with solid experience in Java back-end development, MySQL, and production system maintenance. Skilled in CI/CD pipelines, Docker, Linux administration, and API design. Passionate about building scalable, high-availability systems and improving developer experience through observability and automation."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, improving deployment reliability and developer feedback loops."
+      - "Deployed and maintained Moodle on VPS infrastructure using Docker and Nginx, ensuring high availability."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Led back-end development and maintenance using NestJS/Node.js, focusing on API design and system reliability."
+      - "Managed MySQL database with Prisma ORM for data modeling, migrations, and query optimization."
+      - "Maintained and optimized CI/CD pipeline with GitLab CI for continuous delivery."
+      - "Administered production VPS environment with Docker orchestration, monitoring system behavior."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Developed a cross-platform educational application using Flutter, integrating REST APIs."
+      - "Collaborated asynchronously with back-end developers on API contracts and integration testing."
+      - "Implemented cloud storage integration with Firebase for media handling."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Worked in a remote agile team with code review, daily standups, and test automation practices."
+      - "Debugged and maintained legacy Java code, improving system stability."
+      - "Solved complex data synchronization issues in distributed document flows with CouchDB."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+  - studyType: "Online Studies"
+    area: "Mathematics and Computer Science"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Mathematics"
+      - "Programming Logic"
+      - "Introduction to Computer Science"
+
+skills:
+  - name: "Back-end"
+    keywords:
+      - "Java"
+      - "NestJS"
+      - "Node.js"
+      - "REST API Design"
+      - "Prisma ORM"
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Data Modeling"
+      - "Query Optimization"
+  - name: "DevOps & Observability"
+    keywords:
+      - "Docker"
+      - "Linux"
+      - "Nginx"
+      - "CI/CD"
+      - "GitHub Actions"
+      - "GitLab CI"
+      - "Production Monitoring"
+  - name: "Tools & Practices"
+    keywords:
+      - "Git"
+      - "Code Review"
+      - "Agile Methodologies"
+      - "TypeScript"
+      - "Bash"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"
+  - language: "French"
+    fluency: "Beginner"
+  - language: "Japanese"
+    fluency: "Beginner"

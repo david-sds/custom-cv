@@ -1,0 +1,136 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Backend Pleno"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Fullstack com foco em desenvolvimento backend utilizando Node.js (NestJS) e Java. Experiência sólida em arquitetura de software, modelagem de dados e administração de bancos de dados relacionais (MySQL, PostgreSQL, Prisma ORM). Proficiência em administração de servidores Linux e práticas DevOps (Docker, CI/CD)."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Fullstack (Meio período)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Migrei o pipeline de CI/CD do GitLab CI para GitHub Actions."
+      - "Implantei e mantive a infraestrutura Moodle em VPS com Docker e Nginx."
+
+  - name: "Desenvolvedor Fullstack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Assumi responsabilidade total pelo desenvolvimento e manutenção backend utilizando NestJS."
+      - "Gerenciei o banco de dados MySQL com Prisma ORM para modelagem de dados e migrações."
+      - "Mantive e otimizei o pipeline de CI/CD com GitLab CI."
+      - "Administrei VPS (Hostgator), orquestrando deployment e ambiente de produção com Docker."
+
+  - name: "Desenvolvedor Frontend (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Liderei o desenvolvimento inicial de um aplicativo de gestão de projetos educacionais (Web e Mobile) com Flutter."
+      - "Realizei integração de APIs e colaborei de forma assíncrona com desenvolvedores backend."
+
+  - name: "Desenvolvedor Fullstack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Atuei em startup como parte de equipe ágil remota com práticas de code review e testes."
+      - "Desenvolvi interfaces responsivas e gerei estado dinâmico em aplicações web com Vue.js (Quasar Framework)."
+      - "Realizei debugging de código legado e funções complexas de uma ERP em Java."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Bacharelado"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+  - studyType: "Estudos Online"
+    area: "Matemática e Ciência da Computação"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Matemática"
+      - "Lógica de Programação"
+      - "Introdução à Ciência da Computação"
+
+skills:
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+      - "Desenvolvimento de APIs REST"
+  - name: "Bancos de Dados"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Modelagem de Dados"
+      - "Otimização de Consultas"
+      - "Firestore Database"
+      - "CouchDB"
+  - name: "DevOps"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Front-end & Mobile"
+    keywords:
+      - "Flutter"
+      - "Vue.js"
+      - "Quasar Framework"
+  - name: "Outros"
+    keywords:
+      - "Git"
+      - "TypeScript"
+      - "Bash"
+      - "Neovim"
+
+languages:
+  - language: "Português"
+    fluency: "Nativo"
+  - language: "Inglês"
+    fluency: "Avançado"
+  - language: "Francês"
+    fluency: "Iniciante"
+  - language: "Japonês"
+    fluency: "Iniciante"

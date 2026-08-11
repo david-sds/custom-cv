@@ -1,0 +1,66 @@
+Sobre a vaga
+
+Conheça o Inter
+Pioneiros, mudamos o mercado ao lançar o primeiro banco digital do Brasil e seguimos criando tendências com tecnologia de ponta. Evoluímos para um Super App Financeiro Global, com soluções completas e inovação de primeira. Aqui, o trabalho tem propósito: construir oportunidades reais, transformar a vida das pessoas e o mercado financeiro. Esse é o nosso Jeito Inter de Fazer. Se você quer fazer parte dessa mudança e deixar um legado, seu lugar é aqui.
+
+Vem ser Sangue Laranja.
+
+Get to Know Inter 
+As pioneers, we transformed the market by launching Brazil’s first digital bank and continue to shape the future with cutting-edge technology.
+We have evolved into a Global Financial Super App, delivering complete solutions and leading innovation. Here, work has purpose: creating real opportunities, transforming people’s lives, and reshaping the financial market.
+This is the Inter way of making things happen. If you want to be part of this transformation and leave your mark, your place is here.
+
+Become Sangue Laranja.
+ Buscamos Pessoas Desenvolvedoras Mobile Ios/Android | Pleno, Sênior e Especialista
+O Inter tá crescendo: novos produtos, novos mercados e uma escala cada vez maior.
+Por isso, a gente tá procurando pessoas desenvolvedoras Mobile que queiram construir o futuro da arquitetura do nosso Super App.
+Se você curte mais resolver problemas do que repetir padrões, seu lugar é aqui com a gente.
+O desafio
+Você vai construir os serviços distribuídos que fazem nosso Super App funcionar pra milhões de pessoas. Seu objetivo será garantir alta disponibilidade e baixa latência, com decisões de arquitetura que impactam de verdade a experiência de quem usa o app.
+Mais do que só implementar, a gente quer que você participe das decisões técnicas e ajude a evoluir o jeito que a gente faz tecnologia no Inter. No seu dia a dia, você vai:
+
+    Desenvolver e manter aplicativos nativos [Swift/SwiftUI | Kotlin/Jetpack].
+    Implementar telas, navegação e integração com APIs.
+    Garantir testes e boas práticas de código e arquitetura (ex.: MVVM).
+    Participar de code review e cerimônias do time.
+    Apoiar decisões de arquitetura e evolução do app.
+    Contribuir para padrões, performance e guias técnicos do time mobile
+    Atuar usando IA e tecnologias para automatizar a produção de código
+
+Obrigatório
+
+    Graduação completa em área tecnológica
+    Experiência em desenvolvimento nativo para iOS ou Android: Para iOS: Conhecimento em Swift, guidelines da Apple e gerenciamento de dependências. Para Android: Conhecimento em Kotlin, guidelines do Google, Jetpack Components, Coroutines e MVVM.
+    Conhecimento em testes unitários e instrumentados para garantir a qualidade do código;
+    Disponibilidade para trabalho presencial
+
+Diferenciais
+
+    Experiência com Server-Driven UI ou fluxos complexos (onboarding, formulários).
+    Conhecimento de CI/CD para mobile (Fastlane, Gradle, Xcode Cloud).
+    Prática de testes unitários e de UI.
+    Conhecimento da outra plataforma (iOS e Android) ou React Native/Flutter.
+    Vivência com metodologias ágeis (Scrum, Kanban)
+
+E pra simplificar a sua vida, olha só o que a gente oferece:
+
+    Vale-alimentação e vale-refeição
+    Plano de saúde e odontológico completo
+    Seguro de vida
+    Day Off no seu aniversário
+    Licença parental estendida
+    Programa Baby On Board (Sala de Amamentação): um espaço tranquilo e preparado no escritório pra quando as mães retornarem da licença maternidade.
+    Auxílio-creche/babá
+    WellHub (antigo Gympass) e Grupo de Corrida Inter: Acesso a academias e estúdios no Brasil todo e um grupo pra você correr e se conectar com a galera do Inter.
+    Espaço CARE4U: Serviços de cabelo, manicure e muito mais, sem complicação.
+    Vantagens exclusivas no Super App: Você tem acesso a benefícios como o Duo Gourmet, que te dá pratos em dobro nos melhores restaurantes, e muito mais
+    Cartão Prime Inter: Um cartão com benefícios exclusivos
+    Programas de treinamento e capacitação: A gente investe no seu desenvolvimento com cursos, workshops e plataformas de aprendizado pra você nunca parar de crescer
+
+Como funciona o processo
+
+    Conversa inicial
+    Avaliações técnicas
+    Entrevista com Talent
+    Entrevista com liderança
+    Proposta

@@ -1,0 +1,109 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Frontend Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Frontend Developer focused on modern web technologies (Vue.js, React) with strong experience in building responsive interfaces, component-based architectures, and collaborating with cross-functional teams. Experienced in integrating APIs and optimizing applications for performance and cross-browser compatibility."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://github.com/david-sds"
+
+work:
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Developed cross-platform frontend solution for an educational project management application."
+      - "Collaborated with clients to clarify requirements and translate business rules into technical specifications."
+      - "Integrated REST APIs and collaborated asynchronously with back-end developers."
+      - "Implemented cloud storage integration using Firebase Storage."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Developed responsive interfaces and managed dynamic state in web applications using Vue.js (Quasar Framework)."
+      - "Participated in code reviews, daily meetings, and agile ceremonies as part of a remote team."
+      - "Debugged legacy code and maintained Java-based backend services."
+      - "Solved complex data synchronization issues in a distributed document system."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Maintained and optimized the CI/CD pipeline for frontend and backend deployments."
+      - "Managed database modeling and API integrations using NestJS and Prisma ORM."
+
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, improving deployment reliability."
+      - "Managed Docker-based infrastructure for application hosting."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Refactoring"
+      - "Code Smells"
+      - "Anti-patterns"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Object-Oriented Programming"
+      - "Software Architecture"
+      - "Data Modeling"
+      - "Software Analysis"
+
+skills:
+  - name: "Front-end"
+    keywords:
+      - "Vue.js"
+      - "Quasar Framework"
+      - "React"
+      - "Flutter"
+  - name: "Languages"
+    keywords:
+      - "JavaScript (ES6+)"
+      - "TypeScript"
+      - "CSS/SCSS"
+  - name: "Tools & Build"
+    keywords:
+      - "Git"
+      - "Webpack"
+      - "Docker"
+      - "CI/CD"
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Prisma ORM"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"
+  - language: "French"
+    fluency: "Beginner"

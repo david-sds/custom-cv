@@ -1,0 +1,180 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Full-Stack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Full-Stack com experiência em desenvolvimento de software em produção, focado em back-end, APIs, automações e bancos de dados. Experiência consolidada em infraestrutura de servidores, CI/CD, Containerização com Docker e boas práticas de código limpo, seguro e escalável. Perfil proativo, com capacidade de trabalhar de forma autônoma em ambientes 100% remotos."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Full-Stack"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração de CI/CD, integração de LMS com autenticação SSO e desenvolvimento de plugins personalizados."
+    highlights:
+      - "Migrei pipeline de CI/CD do GitLab CI para GitHub Actions, otimizando fluxos de deploy."
+      - "Consolidei infraestrutura de duas instâncias VPS em uma única VPS, reduzindo custos e simplificando gestão."
+      - "Automatizei provisionamento e manutenção de servidor Linux usando Docker e scripts Bash personalizados."
+      - "Orquestrei deploy multi-aplicação (frontend, backend, Moodle, Keycloak) usando Docker e Nginx reverse proxy para ambientes de produção e desenvolvimento."
+      - "Configurei cron jobs para backups automatizados de banco de dados em Cloudflare R2."
+      - "Desenvolvi plugins PHP personalizados para Moodle, implementando funcionalidades de gamificação."
+      - "Migrei sistema JWT self-emitted para Keycloak como provedor de identidade centralizado."
+      - "Integrei aplicação Flutter com Moodle via Moodle Web Services API para sincronização de dados."
+
+  - name: "Desenvolvedor Full-Stack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderança no desenvolvimento full-stack com foco em otimização de performance no back-end, sistema de auditoria HTTP e permissões granulares."
+    highlights:
+      - "Liderei desenvolvimento full-stack em módulos de front-end (Flutter) e back-end (NestJS)."
+      - "Projetei e gerenciei banco de dados MySQL com Prisma ORM, implementando models e migrações."
+      - "Otimizei performance do back-end com estratégias de cache, paginação e endpoints de filtragem dinâmica."
+      - "Implementei auditoria HTTP com interceptors e logging para sucesso e falhas."
+      - "Refatorei sistema de permissões do back-end com controle de acesso baseado em papéis granular."
+      - "Mantive pipeline de CI/CD usando GitLab CI e administrei VPS com Docker."
+
+  - name: "Desenvolvedor Full-Stack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento full-stack em equipe ágil com foco em sistemas de formulários dinâmicos, debug de Java legado e sincronização de documentos."
+    highlights:
+      - "Trabalhei em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Desenvolvi interfaces responsivas para web e mobile usando Vue.js (Quasar Framework)."
+      - "Depurei back-end Java legado com roteamento baseado em XML e funções com mais de 2000 linhas."
+      - "Implementei operações CRUD e corrigi geração de PDF em sistema ERP Java legado."
+      - "Resolvi problemas de sincronização de documentos com CouchDB incluindo sync offline-first e resolução de conflitos."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+projects:
+  - name: "Notion Clone"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Aplicação full-stack de gerenciamento de documentos offline-first com arquitetura de sincronização em tempo real."
+    highlights:
+      - "Construí API REST com NestJS (TypeScript) com CRUD de documentos e endpoint de sincronização baseado em operações."
+      - "Implementei sistema de sincronização offline-first com push debounced e retry automático."
+      - "Modelei banco de dados PostgreSQL com Prisma ORM; containerizei ambiente local com Docker Compose."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Docker"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Sistema full-stack de gerenciamento de clientes com autenticação JWT e controle de acesso baseado em papéis."
+    highlights:
+      - "Desenvolvi API REST com NestJS com CRUD usuário/cliente, auth JWT (access + refresh tokens) e guards baseados em papéis (ADMIN/USER)."
+      - "Implementei fluxo de autenticação seguro com hash bcrypt, persistência de refresh token e autorização a nível de rota."
+      - "Projetei schema PostgreSQL com Prisma ORM incluindo relacionamentos muitos-para-muitos e modelagem de endereços."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "Docker"
+
+  - name: "Custom CV"
+    url: "https://github.com/david-sds/custom-cv"
+    description: "Ferramenta CLI com IA para geração de currículos personalizados e cartas de apresentação a partir de descrições de vagas."
+    highlights:
+      - "Construí fluxo interativo que recebe descrições de vagas e gera currículos customizados usando IA."
+      - "Projetei esquema YAML como única fonte de verdade com template Typst para compilação de PDF."
+      - "Integrei OpenCode CLI para adaptação de currículo com revisão via Git diff antes da compilação final."
+    technologies:
+      - "Bash"
+      - "YAML"
+      - "Typst"
+      - "jq"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+
+  - name: "Linguagens de Programação"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "PHP"
+      - "Java"
+      - "Bash"
+      - "SQL"
+
+  - name: "Back-end & APIs"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "REST API"
+      - "JWT"
+      - "Autenticação & Autorização"
+      - "Automações"
+
+  - name: "Banco de Dados"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+
+  - name: "DevOps & Infraestrutura"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "Administração de VPS"
+      - "CI/CD"
+      - "GitHub Actions"
+      - "GitLab CI"
+      - "Cloudflare R2"
+
+  - name: "Front-end"
+    keywords:
+      - "Flutter"
+      - "React"
+      - "Vue.js"
+      - "Quasar Framework"

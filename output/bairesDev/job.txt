@@ -1,0 +1,41 @@
+At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.
+
+Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.
+
+When you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.
+
+Flutter Engineer at BairesDev
+
+We are looking for Flutter Engineer to join our Development team and participate in different projects made up of multicultural teams distributed worldwide. We are looking for proactive people, and team players passionate about programming in this language and oriented to provide the best experience to the end user. This is an excellent opportunity for those professionals looking to develop in one of the fastest-growing companies in the industry!
+
+These developers will face numerous technical challenges, so they must use current technologies, and get involved in the mobile world, web applications, devices, etc.
+
+What You Will Do
+
+     Create multi-platform apps for iOS and Android using Google's Flutter development framework.
+     Work with a team of developers to build and deploy Flutter apps, work in the development environment maintenance, and technical detailing.
+     Design, implement and maintain product modules/sub-systems.
+     Perform code and design reviews.
+     Perform bug verification, release testing, and support for assigned products.
+     Conduct unit testing and integration testing.
+     Make sure the delivered product matches the business requirements and criteria.
+
+Here Is What We Are Looking For
+
+     3+ years of experience with Flutter.
+     Experience with Java and Android.
+     Working experience in developing mobile applications for iOS using Swift or Objective-C.
+     Experience writing automated test cases, performance tuning, threading, and offline storage.
+     Advanced English level.
+
+How We Make Your Work (and Your Life) Easier
+
+    100% remote work (from anywhere).
+    Excellent compensation in USD or your local currency if preferred
+    Hardware and software setup for you to work from home.
+    Flexible hours: create your own schedule.
+    Paid parental leaves, vacations, and national holidays.
+    Innovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.
+    Supportive environment with mentorship, promotions, skill development, and diverse growth opportunities.
+
+Join a global team where your unique talents can truly thrive!

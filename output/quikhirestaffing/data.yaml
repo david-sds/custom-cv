@@ -1,0 +1,124 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "JavaScript Frontend Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "JavaScript Developer with strong proficiency in modern frontend frameworks (Vue.js, React) and backend technologies (Node.js, NestJS). Experienced in building responsive web applications, integrating RESTful APIs, and delivering scalable solutions. Skilled in ES6+, asynchronous programming, and Git-based workflows."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Developed and maintained JavaScript applications across client and server side."
+      - "Collaborated with cross-functional teams to deliver scalable digital solutions."
+      - "Managed CI/CD pipelines ensuring reliable deployment workflows."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Built and maintained server-side applications using NestJS and Node.js."
+      - "Integrated user-facing frontend elements with backend logic via RESTful APIs."
+      - "Optimized database queries and application performance using Prisma ORM."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Led frontend development of web and mobile applications using Flutter."
+      - "Integrated RESTful APIs and collaborated with backend developers on data exchange."
+      - "Delivered responsive, high-performance user interfaces."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Developed responsive web applications using Vue.js (Quasar Framework) and JavaScript."
+      - "Collaborated in remote agile teams using Git for version control and code reviews."
+      - "Built and integrated RESTful API consumers for dynamic frontend rendering."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+skills:
+  - name: "Frontend"
+    keywords:
+      - "Vue.js"
+      - "React"
+      - "Quasar Framework"
+      - "Flutter"
+      - "JavaScript"
+      - "ES6+"
+      - "TypeScript"
+  - name: "Backend"
+    keywords:
+      - "Node.js"
+      - "NestJS"
+      - "RESTful APIs"
+      - "JSON"
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore Database"
+      - "CouchDB"
+  - name: "DevOps"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Tools"
+    keywords:
+      - "Git"
+      - "Firebase Storage"
+      - "Bash"
+      - "Neovim"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"

@@ -1,0 +1,38 @@
+Benefícios
+
+Retirados da descrição completa da vaga
+
+    Assistência odontológica
+    Vale-transporte
+    Vale-alimentação
+
+&nbsp;
+Descrição completa da vaga
+
+Atuar no desenvolvimento, manutenção e evolução de sistemas web e mobile, garantindo qualidade técnica, boa arquitetura, integração entre camadas e uma experiência de usuário fluida. Participar ativamente nas decisões técnicas e colaborar com outras áreas (UX/UI, QA, Produto e Negócios) para entregar soluções consistentes e escaláveis.
+
+Front-End:
+
+Domínio de React, Vue.js ou Angular (conforme stack da empresa).Experiência com padrões de arquitetura (component-based, atomic design, etc).Conhecimento sólido em HTML5, CSS3/SASS, JavaScript/TypeScript.Integração com RESTful APIs e consumo de serviços externos.Noções de UX/UI aplicadas ao desenvolvimento.
+
+Back-End:
+
+Experiência com Node.js, NestJS, PHP e frameworks equivalentes (Laravel).Conhecimento em bancos de dados relacionais (MySQL) e NoSQL.Prática com API RESTful, versionamento e documentação.Integração com serviços externos e tratamento de erros.Noções de arquitetura limpa e boas práticas de código.
+
+Experiência com React Native, Flutter.Integração com serviços e APIs REST.Procedimentos de build e publicação (Android/iOS).
+
+Ferramentas e operações:
+
+Controle de versão (Git/GitLab).Integração contínua e pipelines (CI/CD).Conhecimentos básicos em Docker e ambientes cloud (AWS, GCP).Ferramentas de colaboração (Jira, Confluence).
+
+OBS: Vaga Presencial CLT / Horário Comercial / Bairro Capão Raso.
+
+Pagamento: R$5.800,00 - R$5.801,00 por mês
+
+Benefícios:
+
+    Assistência odontológica
+    Vale-alimentação
+    Vale-transporte
+
+Local do trabalho: Presencial

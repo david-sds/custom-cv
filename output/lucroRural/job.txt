@@ -1,0 +1,88 @@
+Curitiba, PR
+&nbsp;
+Benefícios
+
+Retirados da descrição completa da vaga
+
+    Assistência médica
+    Assistência odontológica
+    Vale-transporte
+    Vale-refeição
+    Vale-alimentação
+
+&nbsp;
+Descrição completa da vaga
+
+A Lucro Rural é uma plataforma ERP completa (financeiro, contábil, tributário e comercial) para produtores rurais e contadores rurais. Atuamos em todo o Brasil e hoje atendemos mais de 9 mil fazendas.
+
+Estamos em busca de um Desenvolvedor Full Stack Pleno para fortalecer nosso time de tecnologia. Você atuará no desenvolvimento de novas funcionalidades, manutenção da plataforma e evolução contínua do nosso ERP, participando tanto do backend quanto do frontend.
+
+O que você fará no dia a dia
+
+- Desenvolver novas funcionalidades para nossa plataforma.
+
+- Investigar e corrigir bugs no backend e frontend.
+
+- Desenvolver APIs e regras de negócio utilizando Python e Django Rest Framework.
+
+- Evoluir interfaces em React, garantindo boa usabilidade e performance.
+
+- Trabalhar com PostgreSQL, realizando consultas e otimizações quando necessário.
+
+- Participar de discussões técnicas e propor soluções escaláveis.
+
+O que buscamos
+
+- Experiência com Python e Django Rest Framework.
+
+- Experiência com React.
+
+- Conhecimento em PostgreSQL e SQL.
+
+- Facilidade para aprender novas tecnologias e resolver problemas.
+
+- Perfil colaborativo, organizado e comprometido com qualidade.
+
+- Experiência com uso de IA para desenvolvimento, especialmente Claude Code.
+
+Diferenciais
+
+- Conhecimento em UI/UX e boas práticas de experiência do usuário.
+
+- Experiência com React Native.
+
+- Experiência com otimização de performance e arquitetura de aplicações.
+
+Modelo da vaga e benefícios
+
+- Trabalho presencial no Centro de Curitiba.
+
+- Contratação CLT.
+
+- Remuneração compatível com o mercado.
+
+- Benefício alimentação/refeição.
+
+- Saldo flexível para saúde, transporte e outros.
+
+- Plano de saúde e odontológico com coparticipação.
+
+Gostou da nossa vaga? Inscreva-se e venha construir o futuro da tecnologia no agronegócio conosco!
+
+Pagamento: R$5.000,00 - R$6.000,00 por mês
+
+Benefícios:
+
+    Assistência odontológica
+    Vale-alimentação
+    Vale-refeição
+    Vale-transporte
+
+Pergunta(s) de seleção:
+
+    Quanto tempo de experiência em desenvolvimento você tem?
+    Você trabalha com IA para desenvolver? Se sim, de exemplos de como usa no seu dia a dia.
+    Você mora em Curitiba/PR? Pode trabalhar presencial?
+    Qual sua pretensão salarial para essa vaga?
+
+Local do trabalho: Presencial

@@ -1,0 +1,40 @@
+Descrição completa da vaga
+Resumo da vaga
+
+Estamos em busca de uma pessoa apaixonada por tecnologia, com experiência prática em aplicações modernas utilizando Node.js e React. Esperamos alguém com mentalidade de dono(a), boa autonomia técnica, que proponha soluções, entenda o negócio e contribua ativamente para a evolução técnica do time.
+
+Valorizamos ambientes colaborativos, com uma cultura que incentiva a iniciativa, o desenvolvimento profissional e o uso de tecnologias modernas para enfrentar desafios técnicos relevantes. Se você é hands-on, tem senso crítico, gosta de construir, propor melhorias e crescer junto com um time engajado, essa vaga é pra você!
+Principais responsabilidades
+
+    Atuar como parte de um time ágil, entregando soluções de valor para o negócio de forma autônoma;
+    Projetar, desenvolver, testar e evoluir aplicações fullstack com foco em Node.js (backend) e React (frontend);
+    Garantir a qualidade do código com boas práticas de engenharia, testes automatizados e code reviews;
+    Realizar code review de colegas, contribuindo com feedbacks técnicos construtivos;
+    Colaborar na definição de soluções técnicas e na evolução da arquitetura dos sistemas;
+    Atuar na manutenção e evolução de aplicações já existentes, propondo melhorias arquiteturais quando pertinente;
+    Investigar e solucionar problemas técnicos com relativa independência;
+    Contribuir para a melhoria contínua dos processos, práticas e ferramentas do time;
+    Apoiar e trocar conhecimento com devs de diferentes níveis de experiência, inclusive dando suporte ao crescimento de perfis mais juniores;
+    Participar ativamente das cerimônias ágeis, contribuindo com ideias e direcionamentos técnicos.
+
+INEGOCIÁVEIS | Principais competências e habilidades
+
+    Perfil autônomo, proativo, hands-on e com espírito de time;
+    Experiência sólida com Node.js e React.js em aplicações reais/produção;
+    Boas noções de arquitetura de software e boas práticas de desenvolvimento;
+    Familiaridade com bancos de dados relacionais (PostgreSQL, MySQL) e/ou não relacionais (MongoDB etc.);
+    Capacidade de escrever código limpo, legível, testável e sustentável;
+    Experiência com testes automatizados (unitários e/ou de integração);
+    Vivência com metodologias ágeis (Scrum, Kanban);
+    Boa capacidade de análise e resolução de problemas técnicos de complexidade moderada;
+    Boa comunicação e capacidade de colaborar com outras áreas.
+
+DESEJÁVEIS | Principais competências e habilidades
+
+    Experiência com mensageria (RabbitMQ, SQS);
+    Familiaridade com Docker e práticas de containerização;
+    Experiência com CI/CD e versionamento em Git;
+    Conhecimento de monitoramento e observabilidade (ex: Datadog);
+    Experiência com serviços AWS (EC2, S3, RDS, etc.);
+    Noções de arquitetura orientada a eventos ou DDD;
+    Interesse em evoluir para posições de maior senioridade técnica.

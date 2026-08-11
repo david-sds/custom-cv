@@ -1,0 +1,202 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Full Stack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Full Stack Developer with experience building scalable backend services and APIs using Java, TypeScript, and modern frameworks. Proficient in React and Vue.js frontend development with strong object-oriented programming foundations. Experienced in designing and integrating full-stack applications with RESTful APIs, microservices architecture, and CI/CD pipelines. AI-enthusiastic workflow with Claude Code and Codex."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Full-stack development with focus on backend services, infrastructure consolidation, and CI/CD optimization."
+    highlights:
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, streamlining deployment workflows."
+      - "Orchestrated multi-app deployment (frontend, backend, Moodle, Keycloak) using Docker and Nginx reverse proxy."
+      - "Integrated backend services with Flutter app via RESTful APIs and Web Services for data synchronization."
+      - "Developed custom Moodle plugins and integrated SSO authentication with Keycloak as centralized identity provider."
+      - "Automated Linux server provisioning and maintenance using Docker and custom Bash scripts."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Led full-stack development with focus on backend performance optimization, scalable services, and frontend architecture."
+    highlights:
+      - "Led full-stack development across frontend (Flutter) and backend (NestJS) modules."
+      - "Optimized backend performance with caching strategies, pagination, and dynamic filtering endpoints for scalable services."
+      - "Designed and managed MySQL database with Prisma ORM, implementing data models and migrations."
+      - "Refactored backend permissions system with granular role-based access control."
+      - "Built frontend paginated lists with search, filter caching, and optimized loading states."
+      - "Maintained CI/CD pipeline using GitLab CI."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Frontend development with React and Vue.js, building scalable user interfaces and integrating with backend REST APIs."
+    highlights:
+      - "Led initial frontend architecture using Flutter, establishing project structure and reusable component library."
+      - "Integrated backend REST APIs with error handling, retry logic, and optimistic UI updates."
+      - "Built multi-profile authentication flow with role-based access and profile management."
+      - "Developed CRUD modules for project templates with resources, attachments, and scheduling integration."
+      - "Created task management system with group assignment, file submission, and status tracking."
+      - "Designed paginated lists with search, filter caching, and skeleton loading states."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Full-stack development in agile team with Java backend and Vue.js frontend development."
+    highlights:
+      - "Worked in a remote agile team applying Scrum practices, code review, and automated testing."
+      - "Developed responsive interfaces for web and mobile platforms using Vue.js (Quasar Framework)."
+      - "Debugged legacy Java backend with XML-based endpoint routing and complex business logic."
+      - "Implemented CRUD commands and fixed PDF generation in Java ERP system."
+      - "Maintained legacy web app while contributing to new web platform development."
+
+education:
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Object-Oriented Programming (OOP)"
+      - "Software Architecture"
+      - "Data Structures"
+      - "Data Modeling"
+      - "Software Analysis"
+
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Refactoring"
+      - "Anti-patterns"
+      - "Code Smells"
+      - "Static Analysis"
+
+projects:
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "React frontend for an ADHD assistance platform with real-time features and scalable architecture."
+    highlights:
+      - "Built React 18 SPA with Vite featuring forum, task calendar, and board-based notes."
+      - "Implemented real-time chat using Socket.io with Redux state management."
+      - "Integrated FullCalendar for task scheduling with calendar/list/table views."
+      - "Configured Firebase Hosting deployment with GitHub Actions CI/CD pipeline."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "Bootstrap"
+      - "Axios"
+      - "GitHub Actions"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Full-stack client management system with JWT authentication and role-based access control."
+    highlights:
+      - "Developed REST API with NestJS featuring user/client CRUD, JWT auth, and role-based guards."
+      - "Implemented secure authentication flow with bcrypt password hashing and refresh token persistence."
+      - "Built frontend with MVVM architecture and declarative routing."
+      - "Designed PostgreSQL schema with Prisma ORM including many-to-many relationships."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "Docker"
+
+  - name: "Notion Clone"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Full-stack offline-first document management application with real-time sync architecture."
+    highlights:
+      - "Built REST API with NestJS featuring document CRUD and operation-based sync endpoint."
+      - "Designed PostgreSQL database with Prisma ORM; containerized dev environment with Docker Compose."
+      - "Implemented offline-first sync system with debounced pushes and automatic retry."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Docker"
+
+skills:
+  - name: "Natural languages"
+    keywords:
+      - "Portuguese (Native)"
+      - "English (Advanced)"
+
+  - name: "Programming languages"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "Java"
+      - "SQL"
+      - "HTML"
+      - "CSS"
+
+  - name: "Frontend"
+    keywords:
+      - "React"
+      - "Vue.js"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Vite"
+      - "Bootstrap"
+      - "Axios"
+      - "Socket.io"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "REST API"
+      - "JWT"
+      - "Keycloak"
+      - "SSO"
+
+  - name: "Databases"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+
+  - name: "DevOps & Tools"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"
+
+  - name: "AI Tools"
+    keywords:
+      - "Claude Code"
+      - "Codex"
+      - "OpenCode"

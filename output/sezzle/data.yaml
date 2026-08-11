@@ -1,0 +1,140 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Mobile & Full-Stack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Mobile and full-stack developer with professional experience building cross-platform mobile apps with Flutter and modern frontend/backend technologies (Vue.js, React, TypeScript, NestJS, Java). Strong background in software architecture, relational databases (MySQL, PostgreSQL), CI/CD pipelines, and containerized deployments. Proven ability to lead features end-to-end — from requirements to production — while collaborating closely with product, design, and backend teams. Experienced with AI-powered development tools to enhance productivity and code quality."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, improving deployment reliability."
+      - "Integrated and deployed services on VPS infrastructure with Docker and Nginx."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Owned back-end development and maintenance using NestJS (TypeScript) and Prisma ORM with MySQL."
+      - "Designed and managed relational database models, migrations, and optimized queries."
+      - "Maintained and improved CI/CD pipelines using GitLab CI for automated testing and deployment."
+      - "Administered production VPS environment with Docker, ensuring high availability and scalability."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Led end-to-end development of a cross-platform mobile and web application using Flutter."
+      - "Collaborated closely with clients and stakeholders to clarify requirements and business rules."
+      - "Integrated REST APIs and Firebase Storage, delivering a seamless user experience across platforms."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Worked in a remote agile team, contributing to code reviews, sprint planning, and automated testing."
+      - "Built responsive mobile and web interfaces with dynamic state management using Vue.js (Quasar Framework)."
+      - "Debugged complex Java backend functions and resolved data synchronization issues with CouchDB."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+  - studyType: "Online Studies"
+    area: "Mathematics and Computer Science"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Mathematics"
+      - "Programming Logic"
+      - "Introduction to Computer Science"
+
+skills:
+  - name: "Mobile & Front-end"
+    keywords:
+      - "Flutter"
+      - "React"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "TypeScript"
+      - "JavaScript"
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+      - "REST API Design"
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore Database"
+      - "CouchDB"
+      - "Data Modeling"
+  - name: "DevOps & CI/CD"
+    keywords:
+      - "Docker"
+      - "Linux"
+      - "Nginx"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "Git"
+  - name: "Tools & Practices"
+    keywords:
+      - "Code Review"
+      - "Automated Testing"
+      - "Agile / Scrum"
+      - "Firebase Storage"
+      - "AI-Assisted Development"
+      - "Neovim"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"
+  - language: "French"
+    fluency: "Beginner"
+  - language: "Japanese"
+    fluency: "Beginner"

@@ -1,0 +1,120 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Software Engineer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Software Engineer focused on backend development (Java, NestJS, Node.js) with solid experience in production environments, CI/CD pipelines, and infrastructure administration. Proficient in data modeling (MySQL, PostgreSQL), observability practices, and system reliability. Strong understanding of software engineering fundamentals including data structures, APIs, persistence, and version control. Experienced in collaborative code review practices, cross-functional teamwork, and high-availability system operations."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Contributed to code quality and CI/CD pipeline evolution, migrating from GitLab CI to GitHub Actions with a focus on automation and reliability."
+      - "Integrated and deployed services with Docker and Nginx on VPS infrastructure, following production deployment and monitoring practices."
+      - "Collaborated with cross-functional teams on system deployment and operational efficiency."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Took full responsibility for backend development and maintenance using the NestJS framework, writing well-documented and production-oriented code."
+      - "Managed the MySQL database using Prisma ORM for data modeling, migrations, and persistence."
+      - "Maintained and optimized the CI/CD pipeline using GitLab CI, following continuous delivery practices."
+      - "Administered the VPS (Hostgator), orchestrating deployment and production environment with Docker, ensuring system reliability and performance."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Led development of an educational project management application using Flutter, collaborating with backend developers through API integration."
+      - "Clarified requirements and business rules through direct client communication, contributing to cross-functional collaboration."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Worked in a remote agile team applying Scrum Poker, code review, testing (manual and automated), and daily meetings."
+      - "Developed responsive interfaces and managed dynamic state in web and mobile applications using Vue.js (Quasar Framework)."
+      - "Debugged legacy code and complex Java functions, following code through production."
+      - "Solved issues in complex document synchronization flows with CouchDB, gaining experience with relational databases and SQL."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+skills:
+  - name: "Backend"
+    keywords:
+      - "Java"
+      - "NestJS"
+      - "Node.js"
+      - "Spring Boot"
+      - "Prisma ORM"
+      - "APIs"
+      - "Concurrency"
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "SQL"
+      - "CouchDB"
+  - name: "DevOps & Cloud"
+    keywords:
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "Linux"
+  - name: "Other"
+    keywords:
+      - "Git"
+      - "Version Control"
+      - "Code Review"
+      - "TypeScript"
+      - "Bash"
+
+languages:
+  - language: "Portuguese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Advanced"

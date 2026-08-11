@@ -1,0 +1,53 @@
+Descrição completa da vaga
+
+Dev Full-Stack (Jr/Pleno)
+
+Remoto · Tempo integral
+
+A vaga
+
+Somos uma empresa B2B SaaS em crescimento acelerado, com atuação global em infraestrutura de e-mail para cold outreach. Buscamos um(a) desenvolvedor(a) para assumir a evolução do nosso backend, APIs e automações. Aqui você não cuida de um único sistema: atua de ponta a ponta, transitando entre back-end, front-end, integrações e outras demandas conforme o projeto exige, sempre atento(a) a oportunidades de melhoria e otimização na operação.
+
+Trabalhamos 100% remoto, com autonomia real, foco em impacto e espaço para crescer junto com o produto. Você organiza sua própria rotina, entrega com responsabilidade e tem liberdade para propor ideias, que viram melhorias rapidamente.
+
+Responsabilidades
+
+    Desenvolver, manter e evoluir sistemas em ambiente de produção, garantindo estabilidade, segurança e escalabilidade
+    Trabalhar com bancos de dados e integrações via API, criando e otimizando automações que sustentam os fluxos operacionais
+    Refatorar e melhorar integrações com serviços de terceiros
+    Apoiar o time internamente em questões técnicas e analisar o uso da plataforma para propor melhorias contínuas
+    Participar de projetos especiais, como novas automações, ferramentas internas e funcionalidades do produto, sempre com foco em eficiência e impacto real
+
+O que buscamos
+
+    Experiência com desenvolvimento de software em produção
+    Bom entendimento de bancos de dados e APIs, com preocupação em escrever código limpo, organizado e seguro
+    Perfil proativo: cumpre prazos, pensa de forma sistêmica e resolve desafios sem esperar ordens
+    Gosto por automação e sistemas escaláveis
+    Conforto em trabalhar remotamente, com autonomia, boa comunicação e responsabilidade sobre o que entrega
+
+Diferenciais (não eliminatórios)
+
+    Experiência com infraestrutura ou entregabilidade de e-mails
+    Atuação em empresas B2B
+    Conhecimentos em DevOps
+    Familiaridade com Supabase (PostgreSQL, autenticação e segurança) e ferramentas como Airtable, Stripe, Render, Vercel ou similares
+
+Não esperamos que você conheça toda a stack, valorizamos muito mais quem aprende rápido, é curioso e assume responsabilidade pelos resultados.
+
+Como trabalhamos
+
+Trabalho 100% remoto, você organiza sua rotina, escolhe seu ambiente e tem flexibilidade de horário com foco em entrega. Time enxuto, comunicação direta e espaço genuíno para sugestões, ownership e crescimento técnico. Seu trabalho impacta diretamente o produto e os clientes, e suas ideias são bem-vindas desde o primeiro dia.
+
+Benefícios
+
+    Salário compatível com o mercado
+    Modelo 100% remoto
+    Flexibilidade de horário
+
+Essa vaga faz sentido com você? Então te convidamos a aplicar na nossa página.
+https://milkboxmail.com/careers/developer
+
+Pagamento: R$1.518,00 - R$10.000,00 por mês
+
+Local do trabalho: Remoto

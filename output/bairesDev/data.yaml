@@ -1,0 +1,221 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Flutter Engineer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Fullstack Developer with 3+ years of Flutter experience building cross-platform mobile and web applications. Strong background in backend development (NestJS, Java), data modeling (MySQL, PostgreSQL, Prisma ORM), and DevOps practices (Docker, CI/CD). Proven track record delivering production apps with offline-first architecture, role-based access control, and real-time features. Advanced English proficiency."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Flutter and backend development for LMS integration, SSO authentication, and custom plugin development."
+    highlights:
+      - "Integrated Moodle LMS with Flutter app via Moodle Web Services API for data synchronization."
+      - "Migrated from a self-emitted JWT system with Keycloak as a centralized identity provider."
+      - "Integrated the Flutter app with Moodle seamlessly with Keycloak SSO."
+      - "Developed custom PHP plugins for Moodle to enable gamification features and enhance user experience."
+      - "Orchestrated multi-app deployment (frontend, backend, Moodle, Keycloak) using Docker and Nginx reverse proxy."
+      - "Set up cron jobs for automated database backups to Cloudflare R2."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Led full-stack Flutter and NestJS development focusing on backend performance, permissions system, and frontend UX."
+    highlights:
+      - "Led full-stack development across frontend (Flutter) and backend (NestJS) modules."
+      - "Optimized backend performance with caching strategies, pagination, and dynamic filtering endpoints."
+      - "Refactored backend permissions system with granular role-based access control."
+      - "Built frontend paginated lists with search, filter caching, and optimized loading states."
+      - "Implemented frontend skeleton loading, responsive layouts, and cross-browser compatibility fixes."
+      - "Designed and managed MySQL database with Prisma ORM, implementing data models and migrations."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Established Flutter frontend architecture and developed core feature modules including authentication, onboarding, and project management."
+    highlights:
+      - "Led initial frontend architecture using Flutter, establishing project structure and reusable component library."
+      - "Migrated routing system to GoRouter with declarative navigation and route guards."
+      - "Built multi-profile authentication flow with role-based access, password recovery, and profile management."
+      - "Implemented onboarding system with multi-step forms, validation, and progress tracking."
+      - "Developed CRUD modules for project templates with resources, attachments, and scheduling integration."
+      - "Created task management system with group assignment, file submission, and status tracking."
+      - "Built evaluation forms with configurable scoring, multi-level reviews, and PDF report generation."
+      - "Implemented calendar-based scheduling with availability checks and holiday management."
+      - "Designed paginated lists with search, filter caching, and skeleton loading states."
+      - "Integrated backend REST APIs with error handling, retry logic, and optimistic UI updates."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Full-stack development in agile team with focus on dynamic form systems and legacy Java debugging."
+    highlights:
+      - "Worked in a remote agile team applying Scrum practices, code review, and automated testing."
+      - "Developed responsive interfaces for web and mobile platforms using Vue.js (Quasar Framework)."
+      - "Debugged legacy Java backend with XML-based endpoint routing and 2000+ line functions."
+      - "Fixed problems with dynamic fields in the dynamic form generation system."
+      - "Resolved document synchronization issues with CouchDB including offline-first sync, conflict resolution, and replication."
+
+education:
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Software Architecture"
+      - "Software Analysis"
+
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+projects:
+  - name: "Notion Clone"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Full-stack offline-first document management application with real-time sync architecture."
+    highlights:
+      - "Built REST API with NestJS (TypeScript) featuring document CRUD and operation-based sync endpoint."
+      - "Implemented offline-first sync system with debounced pushes and automatic retry."
+      - "Designed local persistence layer using Drift (SQLite) with operation queue and sync state tracking."
+      - "Created cross-platform Flutter frontend (Web, Android, Linux) with MVVM architecture and Provider state management."
+      - "Modeled PostgreSQL database with Prisma ORM; containerized local dev environment with Docker Compose."
+    technologies:
+      - "Flutter"
+      - "NestJS"
+      - "TypeScript"
+      - "Dart"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Drift (SQLite)"
+      - "Docker"
+      - "Freezed"
+      - "GoRouter"
+      - "Provider"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Full-stack client management system with JWT authentication and role-based access control."
+    highlights:
+      - "Developed REST API with NestJS featuring user/client CRUD, JWT auth (access + refresh tokens), and role-based guards (ADMIN/USER)."
+      - "Implemented secure authentication flow with bcrypt password hashing, refresh token persistence, and route-level authorization."
+      - "Built Flutter Web frontend with MVVM architecture, declarative routing (GoRouter), and immutable models via Freezed."
+      - "Designed PostgreSQL schema with Prisma ORM including many-to-many user-client relationships and address modeling."
+      - "Created reusable UI component library (pagination, dropdowns, autocomplete, skeleton loading states)."
+    technologies:
+      - "Flutter"
+      - "NestJS"
+      - "TypeScript"
+      - "Dart"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "bcrypt"
+      - "Docker"
+      - "Freezed"
+      - "GoRouter"
+      - "Provider"
+
+  - name: "Flutter Games"
+    url: "https://github.com/david-sds/flutter_games"
+    description: "Cross-platform collection of classic puzzle games built with Flutter."
+    highlights:
+      - "Implemented Minesweeper with 4 difficulty levels, flood-fill algorithm for cell clearing, and flag/question mark system."
+      - "Built Sudoku with procedural board generation and validation logic for constraint checking."
+      - "Managed game state reactively using MobX with code generation for observable stores."
+      - "Created responsive layouts adapting to screen orientation with custom cell sizing calculations."
+      - "Deployed across 6 platforms: Web, Android, iOS, Linux, macOS, and Windows."
+    technologies:
+      - "Flutter"
+      - "Dart"
+      - "MobX"
+      - "GoRouter"
+
+skills:
+  - name: "Natural languages"
+    keywords:
+      - "Portuguese (Native)"
+      - "English (Advanced)"
+      - "French (Beginner)"
+      - "Japanese (Beginner)"
+
+  - name: "Programming languages"
+    keywords:
+      - "TypeScript"
+      - "Dart"
+      - "JavaScript"
+      - "Java"
+      - "SQL"
+      - "HTML"
+      - "CSS"
+
+  - name: "Frontend"
+    keywords:
+      - "Flutter"
+      - "React"
+      - "Vue.js"
+      - "GoRouter"
+      - "Freezed"
+      - "Provider"
+      - "MobX"
+      - "Drift"
+      - "Socket.io"
+      - "Material Design"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "REST API"
+      - "JWT"
+      - "SSO"
+      - "Keycloak"
+
+  - name: "Databases"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "SQLite"
+      - "CouchDB"
+
+  - name: "DevOps & Tools"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"

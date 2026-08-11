@@ -1,0 +1,124 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Mobile Pleno"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor focado em tecnologias mobile e web modernas (Flutter, React, Vue.js) e back-end (NestJS, Java). Experiência em arquitetura de software, modelagem de dados e DevOps (Linux, Docker, CI/CD)."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Migração do pipeline CI/CD do GitLab CI para GitHub Actions."
+      - "Implantação do Moodle em infraestrutura VPS com Docker e Nginx."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Responsável pelo desenvolvimento e manutenção back-end com NestJS."
+      - "Gerenciamento do banco MySQL com Prisma ORM para modelagem e migrações."
+      - "Manutenção e otimização do pipeline CI/CD com GitLab CI."
+      - "Administração de VPS e orquestração de deploys com Docker."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Desenvolvimento inicial de aplicativo mobile (Flutter) para gestão de projetos educacionais."
+      - "Integração de APIs e colaboração assíncrona com desenvolvedores back-end."
+      - "Implementação de armazenamento e recuperação de imagens com Firebase Storage."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Atuação em startup com metodologias ágeis (Scrum), code reviews e testes automatizados."
+      - "Desenvolvimento de interfaces responsivas e gerenciamento de estado em apps mobile e web com Vue.js (Quasar Framework)."
+      - "Debug de código legado e funções Java complexas."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Bacharelado"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+skills:
+  - name: "Front-end & Mobile"
+    keywords:
+      - "Flutter"
+      - "React"
+      - "Vue.js"
+      - "Quasar Framework"
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+  - name: "Banco de Dados"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore"
+      - "CouchDB"
+  - name: "DevOps"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Outros"
+    keywords:
+      - "Git"
+      - "TypeScript"
+      - "Metodologias Ágeis"
+      - "Clean Code"
+
+languages:
+  - language: "Português"
+    fluency: "Nativo"
+  - language: "Inglês"
+    fluency: "Avançado"
+  - language: "Francês"
+    fluency: "Iniciante"
+  - language: "Japonês"
+    fluency: "Iniciante"

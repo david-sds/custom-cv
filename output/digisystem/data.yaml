@@ -1,0 +1,154 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Full Stack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Full Stack com experiência sólida em desenvolvimento de aplicações web modernas, atuando com front-end (Flutter, Vue.js, TypeScript) e back-end (NestJS, Java). Forte experiência em arquitetura de software, modelagem de dados (MySQL, PostgreSQL, Prisma ORM), e proficiência em administração de ambientes de servidor e práticas DevOps (Linux, Docker, CI/CD). Comprometido com Programação Orientada a Objetos, Clean Code e princípios SOLID."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Fullstack (Colaborador Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    highlights:
+      - "Participou da migração do pipeline de CI/CD de GitLab CI para GitHub Actions."
+      - "Integrou e fez deploy do Moodle na infraestrutura VPS com Docker e Nginx."
+      - "Atuou com desenvolvimento de APIs REST e integração entre sistemas front-end e back-end."
+
+  - name: "Desenvolvedor Fullstack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    highlights:
+      - "Assumiu responsabilidade total pelo desenvolvimento e manutenção do back-end utilizando o framework NestJS."
+      - "Gerenciou o banco de dados MySQL utilizando Prisma ORM para modelagem de dados e migrações."
+      - "Mantve e otimizou o pipeline de CI/CD utilizando GitLab CI."
+      - "Administrou o VPS (Hostgator), orquestrando o deploy e ambiente de produção com Docker."
+
+  - name: "Desenvolvedor Frontend (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    highlights:
+      - "Liderou o desenvolvimento inicial de um aplicativo de gerenciamento de projetos educacionais (Web e Mobile) utilizando Flutter."
+      - "Esclareceu requisitos e regras de negócio por meio de reuniões presenciais com o cliente."
+      - "Integrou APIs e colaborou de forma assíncrona com desenvolvedores back-end."
+      - "Implementou integração de armazenamento e recuperação de imagens utilizando Firebase Storage."
+
+  - name: "Desenvolvedor Fullstack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    highlights:
+      - "Trabalhou em uma startup como parte de uma equipe ágil remota aplicando práticas como Scrum Poker, testes (manuais e automatizados), code review e reuniões diárias."
+      - "Desenvolveu interfaces responsivas e gerenciou estado dinâmico em aplicações web e mobile utilizando Vue.js (Quasar Framework)."
+      - "Realizou debug de código legado e funções complexas em Java."
+      - "Resolveu problemas em fluxos complexos de sincronização de documentos com CouchDB."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+  - studyType: "Estudos Online"
+    area: "Matemática e Ciência da Computação"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Matemática"
+      - "Lógica de Programação"
+      - "Introdução à Ciência da Computação"
+
+skills:
+  - name: "Front-end & Mobile"
+    keywords:
+      - "Flutter"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "React"
+      - "TypeScript"
+      - "HTML"
+      - "CSS"
+  - name: "Back-end"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Java"
+      - "Prisma ORM"
+      - "APIs REST"
+      - "Microsserviços"
+  - name: "Banco de Dados"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Firestore Database"
+      - "CouchDB"
+      - "Hibernate/JPA"
+  - name: "Testes"
+    keywords:
+      - "Testes Unitários"
+      - "Testes Automatizados"
+      - "Cypress"
+      - "Cucumber"
+  - name: "DevOps"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Nginx"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+  - name: "Conceitos"
+    keywords:
+      - "Programação Orientada a Objetos"
+      - "Clean Code"
+      - "Princípios SOLID"
+      - "Arquitetura de Software"
+  - name: "Inteligência Artificial"
+    keywords:
+      - "LLMs (Large Language Models)"
+      - "Aplicações Inteligentes"
+
+languages:
+  - language: "Português"
+    fluency: "Nativo"
+  - language: "Inglês"
+    fluency: "Avançado"
+  - language: "Francês"
+    fluency: "Iniciante"
+  - language: "Japonês"
+    fluency: "Iniciante"
