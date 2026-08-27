@@ -1,0 +1,26 @@
+[17:35, 8/11/2026] +55 41 9529-7028: David, como vai? É a Marcia de Novais, consultora da 4Search sobre a vaga de Desenvolvedor de Sofware Pleno para grupo empresarial de atuação nacional, com operações integradas e estrutura multinegócios, em São José dos Pinhais (PR). Caso tenha interesse em participar do processo seletivo, seguem abaixo os requisitos da vaga para sua avaliação:
+[17:36, 8/11/2026] +55 41 9529-7028: Requisitos obrigatórios:
+
+* Formação superior completa ou cursando em Engenharia de Software, Sistemas de Informação ou áreas correlatas;
+
+* Experiência comprovada em desenvolvimento de software e sustentação de sistemas; 
+
+* Experiência em projetos de software, do levantamento de requisitos até a entrega;
+
+* Experiência com arquitetura e integrações de sistemas;
+
+* Domínio de linguagens de desenvolvimento e frameworks da empresa (exemplo: Python, Magic, etc.)
+
+* Experiência com banco de dados e performance tuning (SQL Server 2022);
+
+* Conhecimento de regras de negócio, parametrizações e customizações de ERP. 
+
+Requisito desejável:
+
+* Experiência na criação de dashboards.
+[17:36, 8/11/2026] +55 41 9529-7028: Buscamos um Desenvolvedor de Software Pleno para atuar no desenvolvimento, manutenção e evolução dos sistemas corporativos, com foco em customizações, integrações e melhorias no ERP e aplicações internas. A posição envolve contato constante com as áreas de negócio para entendimento das demandas, levantamento de requisitos e construção de soluções alinhadas aos processos da organização. O profissional atuará em todo o ciclo de desenvolvimento, garantindo a qualidade, performance e sustentação dos sistemas, além de contribuir com a análise e otimização de processos, banco de dados e integrações entre diferentes plataformas.
+[17:36, 8/11/2026] +55 41 9529-7028: Trata-se de uma posição em regime PJ - 100% presencial.
+
+Com base nas informações enviadas, qual seria a sua pretensão salarial para esta posição? 
+
+Aguardamos, grata.

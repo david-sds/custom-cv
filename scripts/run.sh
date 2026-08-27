@@ -184,16 +184,16 @@ generate_cv() {
 
 load_cv() {
   mkdir -p "$ROOT_DIR/output"
-  SELECTED_CV=$(
+  OUTPUT_DIR=$(
     find "$ROOT_DIR/output" -mindepth 1 -maxdepth 1 -type d |
       awk -F/ '{print $NF "\t" $0}' |
       fzf --delimiter=$'\t' --with-nth=1 |
       awk -F'\t' '{print $2}'
   )
-
-  local session_id=$(cat "$SELECTED_CV/opencodeSessionId")
-  local role=$(cat "$SELECTED_CV/job.txt")
-  local resume_data=$(cat "$SELECTED_CV/data.yaml")
+  OUTPUT_SUB_DIR="output/$(basename "$OUTPUT_DIR")"
+  local session_id=$(cat "$OUTPUT_DIR/opencodeSessionId")
+  local role=$(cat "$OUTPUT_DIR/job.txt")
+  local resume_data=$(cat "$OUTPUT_DIR/data.yaml")
 
   # if ! opencode session list | awk '{print $1}' | grep -x "$session_id"; then
   # start_opencode_session "$tmp" &

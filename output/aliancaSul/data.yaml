@@ -1,0 +1,151 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Analista de Dados / MIS"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Profissional com experiência em desenvolvimento de software e análise de dados, com foco em modelagem de dados, automação de processos e desenvolvimento de relatórios gerenciais. Conhecimentos sólidos em Python, SQL e ferramentas de Business Intelligence. Busco atuar na estruturação e manutenção de dashboards gerenciais e operacionais, apoiando a tomada de decisão por meio da análise de dados."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Fullstack"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração de CI/CD, integração LMS com autenticação SSO e desenvolvimento de plugins customizados."
+    highlights:
+      - "Automatizou processos de provisionamento e manutenção de servidores Linux utilizando Docker e scripts Bash."
+      - "Desenvolveu scripts de automação para atualização e manutenção de relatórios e dashboards."
+      - "Implementou sistema de backup automatizado de bases de dados."
+      - "Gerenciou e validou bases de dados para integração entre sistemas."
+
+  - name: "Desenvolvedor Fullstack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderança no desenvolvimento full-stack com foco em otimização de performance, modelagem de dados e sistemas de permissões."
+    highlights:
+      - "Projetou e gerenciou banco de dados MySQL com Prisma ORM, implementando modelos de dados e migrações."
+      - "Otimizou performance do backend com estratégias de cache, paginação e endpoints de filtragem dinâmica."
+      - "Implementou sistema de auditoria HTTP com interceptors e logging para sucesso e falhas."
+      - "Desenvolveu relatórios e painéis de acompanhamento de indicadores operacionais."
+      - "Refatorou sistema de permissões com controle de acesso baseado em papéis granulares."
+
+  - name: "Desenvolvedor Frontend (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Desenvolvimento de módulos principais incluindo autenticação, onboarding, gestão de projetos e relatórios."
+    highlights:
+      - "Criou formulários de avaliação com pontuação configurável, revisões multinível e geração de relatórios em PDF."
+      - "Implementou listagens paginadas com busca, cache de filtros e estados de carregamento otimizados."
+      - "Integrou APIs REST com tratamento de erros e lógica de retry."
+      - "Desenvolveu módulos de CRUD para gestão de projetos e agendamento."
+
+  - name: "Desenvolvedor Fullstack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento full-stack em equipe ágil com foco em sistemas de formulários dinâmicos, depuração Java legado e sincronização de documentos."
+    highlights:
+      - "Trabalhou em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Desenvolveu interfaces responsivas para web e mobile utilizando Vue.js."
+      - "Resolveu problemas de sincronização de documentos incluindo resolução de conflitos e replicação."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-padrões"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+  - studyType: "Estudos Online"
+    area: "Matemática e Ciência da Computação"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Matemática"
+      - "Lógica de Programação"
+      - "Introdução à Ciência da Computação"
+
+projects:
+  - name: "Custom CV"
+    url: "https://github.com/david-sds/custom-cv"
+    description: "Ferramenta CLI para geração de currículos personalizados e cartas de apresentação a partir de descrições de vagas."
+    highlights:
+      - "Construiu fluxo interativo que processa descrições de vagas e gera currículos customizados usando IA."
+      - "Implementou sistema de organização por diretório de saída por vaga, organizando descrições, dados customizados e PDFs gerados."
+    technologies:
+      - "Bash"
+      - "YAML"
+      - "Typst"
+      - "jq"
+      - "OpenCode CLI"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+
+  - name: "Linguagens de Programação"
+    keywords:
+      - "Python"
+      - "SQL"
+      - "JavaScript"
+      - "TypeScript"
+      - "PHP"
+      - "Java"
+      - "Bash"
+
+  - name: "Análise e Visualização de Dados"
+    keywords:
+      - "Modelagem de Dados"
+      - "MySQL"
+      - "PostgreSQL"
+      - "Excel"
+      - "Power BI"
+      - "Relatórios Gerenciais"
+      - "Indicadores de Performance"
+
+  - name: "Ferramentas e Tecnologias"
+    keywords:
+      - "Docker"
+      - "Linux"
+      - "Git"
+      - "CI/CD"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "Automação de Processos"
+      - "Scripts de Atualização"

@@ -1,0 +1,328 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Full Stack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Full Stack com experiência em desenvolvimento web e mobile moderno (Flutter, React, Vue.js) e backend (NestJS, Java). Forte experiência em arquitetura de software, modelagem de dados (MySQL, PostgreSQL, Prisma ORM), e proficiência em administração de ambientes de servidor e práticas DevOps (Linux, Docker, CI/CD). Objetivo de otimizar todo o ciclo de vida do desenvolvimento de software, desde a concepção até produção e manutenção."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Full Stack (Funcionário Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração de CI/CD, integração LMS com autenticação SSO e desenvolvimento de plugins customizados."
+    highlights:
+      - "Migrou pipeline de CI/CD de GitLab CI para GitHub Actions, otimizando fluxos de deploy."
+      - "Consolidou infraestrutura de duas instâncias VPS (Hostgator) para uma única VPS (Hostinger), reduzindo custos e simplificando gestão."
+      - "Automatizou provisionamento e manutenção de servidor Linux usando Docker e scripts Bash customizados."
+      - "Orquestrou deploy de múltiplas aplicações (frontend, backend, Moodle, Keycloak) usando Docker e Nginx reverse proxy para ambientes de produção e desenvolvimento."
+      - "Integrou Moodle LMS com aplicação Flutter via Moodle Web Services API para sincronização de dados."
+      - "Desenvolveu plugins PHP customizados para Moodle para funcionalidades de gamificação."
+      - "Migrou de sistema JWT self-emitted para Keycloak como provedor de identidade centralizado."
+      - "Integrou aplicação Flutter com Moodle via Keycloak SSO."
+
+  - name: "Desenvolvedor Full Stack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderou desenvolvimento full-stack com foco em otimização de performance backend, logging de auditoria, sistema de permissões e melhorias de UX no frontend."
+    highlights:
+      - "Liderou desenvolvimento full-stack em módulos frontend (Flutter) e backend (NestJS)."
+      - "Projetou e gerenciou banco de dados MySQL com Prisma ORM, implementando modelos de dados e migrações."
+      - "Otimizou performance backend com estratégias de cache, paginação e endpoints de filtragem dinâmica."
+      - "Implementou HTTP audit com interceptors e logging para sucesso e falhas."
+      - "Refatorou sistema de permissões backend com controle de acesso granular baseado em papéis."
+      - "Construiu listas paginadas no frontend com busca, cache de filtros e estados de carregamento otimizados."
+      - "Manteve pipeline de CI/CD usando GitLab CI."
+      - "Administrou VPS (Hostgator), orquestrando deploy e ambiente de produção com Docker."
+
+  - name: "Desenvolvedor Frontend (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Estabeleceu arquitetura frontend Flutter e desenvolveu módulos principais incluindo autenticação, onboarding, gerenciamento de projetos e relatórios."
+    highlights:
+      - "Liderou arquitetura inicial frontend usando Flutter, estabelecendo estrutura do projeto e biblioteca de componentes reutilizáveis."
+      - "Migrou sistema de roteamento para GoRouter com navegação declarativa e guards de rotas."
+      - "Construiu fluxo de autenticação multi-perfis com acesso baseado em papéis, recuperação de senha e gerenciamento de perfil."
+      - "Implementou sistema de onboarding com formulários multi-step, validação e acompanhamento de progresso."
+      - "Desenvolveu módulos CRUD para templates de projetos com recursos, anexos e integração de agendamento."
+      - "Criou sistema de gerenciamento de tarefas com atribuição de grupo, envio de arquivos e acompanhamento de status."
+      - "Construiu formulários de avaliação com pontuação configurável, revisões multi-nível e geração de relatórios PDF."
+      - "Integrou APIs REST backend com tratamento de erros, lógica de retry e atualizações otimistas de UI."
+
+  - name: "Desenvolvedor Full Stack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento full-stack em equipe ágil com foco em sistemas de formulários dinâmicos, depuração de Java legado e sincronização de documentos."
+    highlights:
+      - "Trabalhou em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Manteve aplicação web legada enquanto contribuía para desenvolvimento de nova plataforma web."
+      - "Corrigiu problemas com campos dinâmicos no sistema de geração de formulários dinâmicos."
+      - "Desenvolveu interfaces responsivas para web e mobile usando Vue.js (Quasar Framework)."
+      - "Depurou backend Java legado com roteamento baseado em XML e funções com 2000+ linhas."
+      - "Implementou comandos CRUD e corrigiu geração de PDF em sistema ERP Java legado."
+      - "Resolveu problemas de sincronização de documentos com CouchDB incluindo sincronização offline-first, resolução de conflitos e replicação."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-padrões"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+  - studyType: "Estudos Online"
+    area: "Matemática e Ciência da Computação"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Matemática"
+      - "Lógica de Programação"
+      - "Introdução à Ciência da Computação"
+
+projects:
+  - name: "Clone do Notion"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Aplicação full-stack de gerenciamento de documentos offline-first com arquitetura de sincronização em tempo real."
+    highlights:
+      - "Construiu API REST com NestJS (TypeScript) com CRUD de documentos e endpoint de sincronização baseado em operações."
+      - "Implementou sistema de sincronização offline-first com pushes debounced e retry automático."
+      - "Projetou camada de persistência local usando Drift (SQLite) com fila de operações e acompanhamento de estado de sincronização."
+      - "Criou frontend Flutter cross-platform (Web, Android, Linux) com arquitetura MVVM e gerenciamento de estado Provider."
+      - "Modelou banco de dados PostgreSQL com Prisma ORM; containerizou ambiente de dev local com Docker Compose."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "Dart"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Drift (SQLite)"
+      - "Docker"
+      - "Freezed"
+      - "GoRouter"
+      - "Provider"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Sistema full-stack de gerenciamento de clientes com autenticação JWT e controle de acesso baseado em papéis."
+    highlights:
+      - "Desenvolveu API REST com NestJS com CRUD usuário/cliente, auth JWT (access + refresh tokens) e guards baseados em papéis (ADMIN/USER)."
+      - "Implementou fluxo de autenticação seguro com hash bcrypt, persistência de refresh token e autorização em nível de rota."
+      - "Construiu frontend Flutter Web com arquitetura MVVM, roteamento declarativo (GoRouter) e modelos imutáveis via Freezed."
+      - "Projetou schema PostgreSQL com Prisma ORM incluindo relacionamentos many-to-many usuário-cliente e modelagem de endereço."
+      - "Criou biblioteca de componentes UI reutilizáveis (paginação, dropdowns, autocomplete, estados de skeleton loading)."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "Dart"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "bcrypt"
+      - "Docker"
+      - "Freezed"
+      - "GoRouter"
+      - "Provider"
+
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "Frontend para plataforma de assistência ADHD com rede social, gerenciamento de tarefas e funcionalidades em tempo real."
+    highlights:
+      - "Construiu SPA React 18 com Vite com fórum (comunidades, posts, comentários), calendário de tarefas e quadros de notas."
+      - "Implementou chat em tempo real usando Socket.io com gerenciamento de estado Redux e tokens de autenticação persistentes."
+      - "Integrou FullCalendar para agendamento de tarefas com visualizações calendário/lista/tabela e gerenciamento de eventos por data."
+      - "Criou testes de auto-avaliação ADHD com acompanhamento de histórico e visualização de resultados."
+      - "Configurou deploy Firebase Hosting com pipeline CI/CD GitHub Actions (preview em PR, deploy em merge)."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "FullCalendar"
+      - "Bootstrap"
+      - "Formik"
+      - "Axios"
+      - "Firebase Hosting"
+      - "GitHub Actions"
+      - "react-intl"
+
+  - name: "EduSymf"
+    url: "https://github.com/david-sds/edu_symf"
+    description: "Sistema de gerenciamento escolar multi-tenant para escolas públicas e privadas brasileiras."
+    highlights:
+      - "Projetou arquitetura modular com 10+ módulos planejados: matrulas, disciplinas, avaliações, frequência e boletins."
+      - "Implementou entidade User com 7 tipos de papéis (Admin da Plataforma a Pai), callbacks de lifecycle Doctrine ORM e soft deletes."
+      - "Construiu operações CRUD com Symfony Forms, templates Twig e proteção CSRF."
+      - "Modelou banco de dados PostgreSQL com Doctrine Migrations e containerização Docker."
+      - "Planejou integração BNCC (padrões curriculares brasileiros) para tag de habilidades de avaliação."
+    technologies:
+      - "Symfony"
+      - "PHP"
+      - "Twig"
+      - "Doctrine ORM"
+      - "PostgreSQL"
+      - "Docker"
+      - "Composer"
+
+  - name: "Custom CV"
+    url: "https://github.com/david-sds/custom-cv"
+    description: "Ferramenta CLI com IA para gerar currículos e cartas de apresentação personalizadas a partir de descrições de vagas."
+    highlights:
+      - "Construiu fluxo interativo de shell que aceita descrições de vagas e gera currículos customizados usando IA."
+      - "Projetou esquema de currículo YAML como única fonte de verdade com template Typst para compilação PDF."
+      - "Implementou sistema de diretório de saída por vaga organizando descrições, dados customizados e PDFs gerados."
+      - "Integrou OpenCode CLI para adaptação de currículo com IA com revisão Git diff antes da compilação final."
+      - "Criou script de instalação para setup seamlessly como skill de IA com symlinks para configuração do agente."
+    technologies:
+      - "Bash"
+      - "YAML"
+      - "Typst"
+      - "jq"
+      - "OpenCode CLI"
+
+  - name: "Dotfiles"
+    url: "https://github.com/david-sds/dotfiles"
+    description: "Configuração de ambiente de desenvolvimento pessoal para Neovim, Tmux e ferramentas CLI."
+    highlights:
+      - "Construiu configuração modular Neovim em Lua com setups LSP para 15+ linguagens e coleções customizadas de snippets."
+      - "Configurou Tmux com vim motions, keybindings customizados e integração lazygit para fluxo de terminal."
+      - "Criou script de instalação para symlinking de configurações em múltiplas máquinas."
+      - "Implementou scripts de sincronização baseados em git para push/pull de mudanças entre ambientes de desenvolvimento."
+      - "Integrou assistentes de codificação com IA (OpenCode, Codex e Claude) com configuração baseada em permissões."
+    technologies:
+      - "Neovim"
+      - "Lua"
+      - "Tmux"
+      - "Bash"
+      - "Alacritty"
+      - "LazyGit"
+      - "OpenCode"
+      - "Codex"
+      - "Claude Code"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+      - "Francês (Iniciante)"
+      - "Japonês (Iniciante)"
+
+  - name: "Linguagens de programação"
+    keywords:
+      - "TypeScript"
+      - "Dart"
+      - "JavaScript"
+      - "PHP"
+      - "Java"
+      - "Bash"
+      - "Lua"
+      - "SQL"
+      - "HTML"
+      - "CSS"
+
+  - name: "Frontend"
+    keywords:
+      - "Flutter"
+      - "React"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "MobX"
+      - "Provider"
+      - "GoRouter"
+      - "Freezed"
+      - "Bootstrap"
+      - "Formik"
+      - "FullCalendar"
+      - "Socket.io"
+      - "Twig"
+      - "Drift"
+      - "Axios"
+      - "Material Design"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Symfony"
+      - "Doctrine ORM"
+      - "Spring Boot"
+      - "Keycloak"
+      - "Moodle"
+      - "bcrypt"
+      - "REST API"
+      - "JWT"
+      - "SSO"
+
+  - name: "Bancos de dados"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "SQLite"
+      - "CouchDB"
+      - "Firestore Database"
+
+  - name: "DevOps & Ferramentas"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "Administração VPS"
+      - "Cloudflare R2"
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"
+      - "Firebase Hosting"
+      - "Composer"
+      - "Typst"
+      - "YAML"
+      - "Neovim"
+      - "Alacritty"
+      - "LazyGit"
+      - "Tmux"
+      - "jq"
+      - "OpenCode"
+      - "Codex"
+      - "Claude Code"

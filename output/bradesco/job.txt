@@ -1,0 +1,104 @@
+Sobre a vaga
+
+Sobre o Bradesco 
+
+A gente acredita no poder da confiança. Confiança que aproxima, orienta e transforma a vida das pessoas no dia a dia. Entrar no Bradesco é fazer parte de um momento real de transformação. Um ambiente que combina a solidez de uma história construída ao longo de décadas com a evolução constante de quem está sempre olhando para frente. Aqui, você encontra espaço para aprender, crescer e assumir protagonismo na sua trajetória, com apoio, estrutura e oportunidades que acompanham o seu desenvolvimento. Mais do que trabalhar em uma grande instituição, é sobre fazer parte de um time que impacta milhões de pessoas, contribui para o desenvolvimento do país e constrói, todos os dias, um futuro mais acessível e sustentável para a sociedade.
+
+ Sobre a área 
+
+Departamento de Sistemas (DS): Viabilizamos soluções de TI que proporcionem o funcionamento harmônico entre os sistemas de suporte ao negócio, mantendo a arquitetura de aplicativos estruturada e tecnologicamente atualizada, atendendo aos requisitos de negócio com alta disponibilidade e performance.
+
+ Como será seu dia a dia? 
+
+Como Pessoa Dev Full Stack PL, você atuará na área de SOLUCOES PJ e suas principais atividades serão:
+
+
+     Desenvolver e evoluir aplicações Full Stack utilizando Java e Angular.
+     Atuar na construção e manutenção de microsserviços e integrações entre sistemas.
+     Participar do desenvolvimento de soluções voltadas ao ecossistema de adquirência e meios de pagamento.
+     Trabalhar em parceria com Tech Leads, Product Owners e demais integrantes da squad.
+     Realizar correções, melhorias e otimizações em aplicações já existentes.
+     Participar de refinamentos técnicos, planejamento de sprints e cerimônias ágeis.
+     Apoiar testes, homologações e implantações de novas funcionalidades.
+     Contribuir para a evolução contínua dos produtos, utilizando boas práticas de desenvolvimento e qualidade de software.
+
+
+ Modelo de trabalho 
+
+Híbrido - 2x Presencial
+
+Unidade: Osasco/Alphaville (SP), Curitiba (PR), Recife (PE) e Uberlândia (MG).
+
+ Perfil que buscamos 
+
+Valorizamos quem entende o cliente em profundidade, trabalha em parceria e transforma conhecimento em entregas com impacto. Profissionais com senso de dono, consistência na execução e foco em resultado, que evoluem continuamente, compartilham aprendizados e usam tecnologia para transformar desafios em soluções relevantes para o negócio.
+
+ Requisitos 
+
+
+     Experiência em desenvolvimento Full Stack com Java e Angular.
+     Conhecimento em desenvolvimento de APIs e arquitetura de microsserviços.
+     Vivência com bancos de dados relacionais e integração entre sistemas.
+     Conhecimento de Git e ferramentas de versionamento de código.
+     Experiência atuando em ambientes ágeis com Scrum ou Kanban.
+     Capacidade de analisar problemas e propor soluções técnicas de forma estruturada.
+     Boa comunicação e facilidade para trabalho em equipe
+     Interesse contínuo por aprendizado e evolução técnica.
+
+
+Será um diferencial se você tiver:
+
+
+     Certificações em metodologias ágeis ou tecnologias de desenvolvimento.
+     Conhecimento em Microsoft Azure e serviços em nuvem.
+     Experiência utilizando ferramentas de IA para aumento de produtividade no desenvolvimento.
+     Graduação concluída em Ciência da Computação, Engenharia de Software, Sistemas de Informação ou áreas correlatas.
+
+
+ O que você encontra aqui 
+
+ Cuidar de você 
+
+
+     Plano de saúde e odontológico
+     Seguro de vida
+     Viva Bem: programa de saúde, bem-estar e qualidade de vida
+     TotalPass
+
+
+ Crescer com você 
+
+
+     Universidade corporativa Bradesco (Unibrad)
+     Parcerias educacionais
+
+
+ Segurança para o seu futuro 
+
+
+     Participação nos lucros ou Bônus (conforme a elegibilidade de cargo)
+     Previdência privada
+     Condições especiais em produtos e serviços
+     Isenção de Tarifas: condições especiais em diversos produtos e serviços
+
+
+ Apoio à sua vida e à sua família 
+
+
+     Vale alimentação e refeição
+     13ª cesta alimentação
+     Auxílio creche ou babá
+     Licença Maternidade de 180 dias, acompanhamento assistencial da gestação até o pós-parto
+     Licença Paternidade estendida de 20 dias
+     Vale transporte opcional
+
+
+Tudo pensado para apoiar sua jornada de crescimento com equilíbrio, segurança e oportunidade.
+
+ Diversidade 
+
+No Bradesco, diversidade é valor e estratégia. Trabalhamos para construir um ambiente inclusivo e um quadro de colaboradores que reflita a diversidade da sociedade brasileira. Por isso, valorizamos pessoas com diferentes histórias e características, como gênero, raça, orientação sexual, deficiência, idade e outras dimensões da diversidade.
+
+Se você acredita na confiança como base para transformar, gosta de desafios e quer crescer em um ambiente que evolui junto com você, seu lugar pode ser aqui. Vem ser Bradesco!
+
+ Vem ser Bradesco com #ConfiançaParaTransformar!
