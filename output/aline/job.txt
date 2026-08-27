@@ -1,0 +1,77 @@
+Engineering - Software Engineer
+Save
+
+Aline
+
+Salary:
+$100K – $100K per year
+
+Stay safe on Himalayas
+
+Never send money to companies. Jobs on Himalayas will never require payment from applicants.
+
+Aline is the bridge between senior care and technology, built to strengthen connection where it matters most. Our all-in-one platform brings together sales, marketing, operations, and engagement tools, empowering senior living communities to work smarter, communicate clearly, and deliver care with heart.
+
+Rooted in industry expertise and born from the merger of leading solutions, Aline serves as a unifying force across the senior care space. We help communities across the country streamline processes, enhance resident and family engagement, and stay aligned through every stage of care.
+
+That’s why everything we build is designed to support stronger collaboration, seamless workflows, and more meaningful experiences for residents, families, and care teams alike.
+
+The purpose of this role is to provide and deliver web applications and features as they relate to Aline.
+
+This role will require involvement in the full software development lifecycle from concept and planning to delivery and deployment. In addition, this role will support the Aline team in troubleshooting and resolving customer support issues as they arise. Responsibilities
+
+    Execute full lifecycle software development
+    Write well designed, testable, efficient code
+    Produce specifications and determine operational feasibility
+    Integrate software components into a fully functional software system
+    Develop software verification plans and quality assurance procedures
+    Document and maintain software functionality
+    Serve as a subject matter expert
+    Comply with project plans and industry standards
+    Deliver development projects on time and within budget.
+    Suggest, plan and implement software improvements and upgrades.
+
+Created By: Tanya Butler July 10, 2026 Version: 3
+
+    Help in preparation and documentation of functional requirements and specifications.
+    Convey project objectives, risks and success criteria to Company Leadership team.
+    Provide support to both Aline customers and the internal team as needed
+    Analyze and resolve software errors accurately on time and provide required status reports.
+    Assist in development and maintenance of user manuals and guidelines.
+    Resolve problems with software products or company software systems working with network
+
+administrators, systems analysts and software engineers.
+
+    Assist in deployments and server updates and upgrades.
+    Assist in QA testing of larger features prior to deployment
+    Support the sales team as needed with technical product information and demonstrations
+
+Qualifications
+
+    Associates or Bachelor’s degree preferred.
+    Strong object -oriented application experience
+    PHP 5 or greater
+    Symfony or similar PHP Zend frameworks
+    MySQL or other relational database experience.
+    Experience with Git version control
+    Familiar with Agile methodology
+    Amazon Web Services
+    Vagrant or Docker
+    jQuery
+    Less Bootstrap
+
+• CSS
+
+• HTML 5
+
+    Linux Ubuntu servers
+    Familiar with C# and the .NET Framework a plus
+    React .js and node .js a plus but not required
+    Doctrine Entity Framework experience a plus
+    Written communication skills including ability to: format, proof-read, and edit
+    Professionalism, self-motivation, and confidentiality are essential
+    Detail-oriented with strong analytical and problem-solving skills
+    Ability to clearly communicate with co-workers
+    Occasional Travel may be required
+
+This job description is intended as a summary of the primary responsibilities of and qualifications for this position. The job description is not intended as inclusive of all duties an individual in this position might be asked to perform or of all qualifications that may be required either now or in the future

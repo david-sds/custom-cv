@@ -162,11 +162,11 @@ generate_cv() {
   local role=$(cat)
 
   i=1
-  while [ -d "$ROOT_DIR/output/cv${i}" ]; do
+  while [ -d "$ROOT_DIR/output/${i}" ]; do
     i=$((i + 1))
   done
 
-  OUTPUT_SUB_DIR="output/cv${i}"
+  OUTPUT_SUB_DIR="output/${i}"
   OUTPUT_DIR="$ROOT_DIR/$OUTPUT_SUB_DIR"
   mkdir "$OUTPUT_DIR"
   echo "$role" >>"$OUTPUT_DIR/job.txt"

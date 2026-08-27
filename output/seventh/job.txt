@@ -1,0 +1,33 @@
+Sobre a vaga
+
+Você curte trabalhar com Flutter e busca um ambiente onde boas práticas de engenharia são valorizadas?
+
+Essa vaga pode ser pra você!
+
+Pré-requisitos:
+
+    Mais de 2 anos de experiência com Flutter/Dart; 
+    Desenvolvimento de aplicativos mobile utilizando o framework Flutter; 
+    Integração com APIs Rest; 
+    Gerenciamento de estados utilizando Cubit/BLoC; 
+    Sólida compreensão em ferramentas de versionamento de código (Git); 
+    Publicação e manutenção de apps nas lojas (Google Play e App Store); 
+    Boas práticas de desenvolvimento de software (Clean Architecture, SOLID, Clean Code, revisão de código por PR); 
+    Experiência em automação de publicações de aplicativo mobile (Ex: Codemagic, Azure Devops, etc); 
+    Participação ativa em code reviews, refinamento técnico e melhorias contínuas; 
+    Experiência em criação de testes unitários e testes de widgets. 
+
+Diferenciais:
+
+    Criação de plugins nativos via Platform Channels / Platform View (Java/Kotlin/Swift/Obj-C); 
+    Atuação em aplicativos white-label. 
+
+Perfil que buscamos:
+
+    Autonomia para propor e implementar soluções 
+    Boa comunicação e espírito de equipe 
+    Interesse por engenharia de software e arquitetura 
+    Foco em qualidade e resultado 
+
+E aí, gostou? #
+VemProTime #JuntosSomosGigantes

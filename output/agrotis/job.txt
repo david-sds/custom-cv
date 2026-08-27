@@ -1,0 +1,33 @@
+
+Você tem paixão por agronegócio e tecnologia? Gostaria de fazer parte de um time enérgico, dedicado à construção de soluções para levar a transformação digital ao agronegócio? Precisamos de pessoas dispostas a aprender constantemente e inovar sobre gestão do agronegócio, gestão de empresas e tecnologias. Aqui você compartilhará conhecimento e se juntará com alguns dos melhores profissionais do agronegócio do time Desenvolvedores.
+
+Responsabilidades e atribuições
+
+    Desenvolvimento fullstack para os produtos do plataforma.
+    Apoio na análise e descrição dos requisitos de escopo.
+    Apoio nas conduções de refinamento técnico.
+    Criar e ou apoiar na criação de diagramas de entidade relacionamento. 
+    Atuar no desenvolvimento N3.
+    Execução de testes unitários.
+    Apoio na construção de BDDs.
+
+
+Requisitos e qualificações
+
+    Conhecimento nas linguagens e ferramentas utilizadas pelo time plataforma: java, React, node js, etc..
+    Conhecimento em metodologias ágeis: sprint, story points..
+    Familiaridade com uso de IA para melhoria de performance de desenvolvimento: ex cursor
+    Compreender conceitos de Devops - pipeline, etc
+
+
+Informações adicionais
+
+    Vale refeição de R$880,00 (desconto de R$176);
+    Vale transporte (sem desconto);
+    Plano de saúde Unimed;
+    Plano Odontológico Dental Uni;
+    Seguro de vida;
+    GymPass;
+    Clube de Descontos Gazeta do Povo;
+    Auxílio Educação;
+    Ótimo ambiente, espaço para refeições, sala de descompressão com games, biblioteca, tênis de mesa, sinuca, muito café e toda segunda-feira quitutes deliciosos;

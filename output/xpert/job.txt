@@ -1,0 +1,32 @@
+Middle Level Software Engineer - LATAM
+Remote (Central/South America)
+Full-time
+View all jobs
+
+Location: LATAM – 100% Remote (Contract)
+Overview
+
+We are seeking a Mid-Level Software Engineer based in Latin America to join our team on a contract basis. You will work alongside a distributed engineering team to design, build, and ship features, bringing solid technical experience and the ability to own well-scoped work independently.
+Responsibilities
+
+    Design, develop, and maintain features across our backend and/or frontend systems.
+
+    Take ownership of well-scoped projects from implementation through delivery.
+
+    Collaborate with engineers, product, and design partners across time zones.
+
+    Write clean, maintainable, and well-tested code.
+
+    Participate in code reviews and contribute to engineering best practices.
+
+Requirements
+
+    3–5 years of professional software development experience.
+
+    Proficiency in one or more modern languages such as Python, JavaScript/TypeScript, or Go.
+
+    Experience designing and consuming APIs and working with relational databases.
+
+    Excellent English speaking and communication skills, with the ability to work independently in a distributed team.
+
+    Based in Latin America and able to overlap with standard US working hours.

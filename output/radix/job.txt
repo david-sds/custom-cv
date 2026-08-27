@@ -1,0 +1,78 @@
+A primeira coisa que você precisa saber é que aqui você não vai cair na rotina. A Radix desenvolve soluções para empresas de diferentes setores e indústrias. Cada projeto tem suas tecnologias, soluções e prazos e você terá oportunidade de atuar e experimentar diferentes desafios. Além da nossa atuação pelo Brasil, com escritório no Rio de janeiro, São Paulo e Belo Horizonte, temos também filiais nos Estados Unidos, fazendo com que a Radix se consolide cada vez mais como uma empresa global.
+
+Quer fazer parte dessa história e transformar ideias e sonhos em realidade?
+
+Como Profissional de Desenvolvimento de Software você vai: 
+
+    Desenvolver e evoluir aplicações e funcionalidades digitais de acordo com os requisitos e casos de uso priorizados pelo projeto;
+    Implementar integrações entre aplicações, APIs, serviços e diferentes fontes de dados;
+    Trabalhar em conjunto com profissionais de dados, arquitetura, produto e UX na construção de soluções integradas;
+    Desenvolver funcionalidades que utilizem dados operacionais, documentos, informações de ativos e outros dados contextualizados;
+    Apoiar a integração das aplicações com modelos e representações digitais dos ativos e processos do cliente;
+    Participar de testes técnicos, funcionais e integrados, identificando e corrigindo problemas ao longo do ciclo de desenvolvimento;
+    Apoiar processos de deployment, validação e estabilização das soluções nos diferentes ambientes;
+    Atuar na investigação e resolução de incidentes e problemas técnicos durante as etapas de desenvolvimento e hypercare;
+    Contribuir com boas práticas de desenvolvimento, revisão de código, versionamento e documentação técnica.
+
+Para essa vaga, você deve ter:
+
+    Experiência com desenvolvimento de software e construção de aplicações em ambiente corporativo;
+    Experiência com desenvolvimento e consumo de APIs e integração entre sistemas;
+    Conhecimento de bancos de dados e manipulação de dados utilizados por aplicações;
+    Familiaridade com desenvolvimento e deployment de aplicações em ambientes cloud;
+    Experiência com Git, versionamento de código e práticas colaborativas de desenvolvimento;
+    Conhecimento de pipelines e processos de CI/CD;
+    Experiência com testes, troubleshooting e resolução de problemas em aplicações;
+    Conhecimento de boas práticas de desenvolvimento, organização de código e manutenção de aplicações;
+    Capacidade de trabalhar em times multidisciplinares, interagindo com profissionais de produto, dados, arquitetura e UX.
+    Inglês avançado para conversação.
+
+É um diferencial se você tiver:
+
+    Experiência em projetos envolvendo Digital Twin ou aplicações orientadas a dados;
+    Vivência em projetos de integração de múltiplas fontes e sistemas corporativos;
+    Experiência com dados industriais, operacionais ou séries temporais;
+    Familiaridade com soluções que integrem informações de ativos, documentos, diagramas ou modelos 3D;
+    Experiência em projetos para os setores industrial, energia, óleo e gás ou manufatura;
+    Vivência com desenvolvimento de soluções para operações, manutenção, confiabilidade ou engenharia;
+    Experiência com aplicações que utilizem grandes volumes de dados ou informações provenientes de diferentes sistemas.
+    Superior completo em Ciência da Computação, Análise de Sistemas, Engenharia ou áreas afins.
+
+Benefícios:
+
+    Assistência Médica Nacional (para o titular e dependentes, com quarto privativo) 
+    Assistência odontológica nacional (para o titular e dependentes) 
+    Vale refeição / alimentação flexível 
+    Auxílio home office 
+    Day off (no mês do aniversário) 
+    Wellhub (antigo Gympass) 
+    Licença Maternidade (6 meses) e Paternidade (20 dias) estendidas 
+    Auxílio creche para filhos de até 3 anos (por filho) 
+    Apoio em saúde mental com a Wellz 
+    Clube de Vantagens com descontos em diversos parceiros 
+    Convênio com instituições de ensino e cursos de idioma 
+    Desenvolvimento Profissional (Universidade Corporativa) 
+    Parceria com empresa de coworkings no Brasil 
+    Programa de Qualidade de Vida e Bem-Estar 
+    Médico consultor para acompanhamento de radixers 
+    Planos de incentivos 
+
+A Radix está sempre no topo das Melhores Empresas para se trabalhar porque:
+
+    Temos profissionais comprometidos, dedicados, curiosos e inovadores. 
+    O espírito de equipe é a nossa maior força. Trabalhamos de forma cooperativa e sabemos que estamos juntos, remando na mesma direção. 
+    Temos um ambiente diverso, que valoriza equidade e inclusão. 
+    Nossa jornada de trabalho é flexível e em quase todos os projetos é possível trabalhar de qualquer lugar do Brasil. 
+    Valorizamos o bem-estar e o cuidado com as nossas pessoas, com programas de apoio à saúde mental, psiquiatra e médico consultor disponíveis.
+
+Curtiu? 
+
+#VemPraRadix 
+
+Código da vaga: 1935
+
+About The Company
+
+Há 16 anos entre as melhores empresas para trabalhar no Rio, no Brasil e em Tecnologia... Prazer, Radix.
+
+Atuamos na transformação digital de clientes em diversos segmentos, implementamos soluções que tornam os processos mais eficientes, através de um time altamente especializado e multidisciplinar. Temos presença global, com projetos em mais de 30 países, para empresas de diferentes tamanhos e setores. Geramos impactos reais, nos negócios e na trajetória das pessoas que passam por aqui.

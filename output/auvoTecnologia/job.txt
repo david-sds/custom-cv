@@ -1,0 +1,87 @@
+SOBRE A OPORTUNIDADE
+
+Auvo nasceu com o propósito de facilitar a rotina de pequenos e médios empreendedores da América Latina. Nosso sistema oferece soluções completas para a gestão de equipes externas, ajudando negócios a serem mais produtivos e ágeis. Estamos presentes em mais de 16 países, incluindo Brasil, Argentina, Chile, Colômbia e México, e ainda estamos crescendo!
+
+Na Auvo você vai encontrar uma equipe talentosa, um ambiente dinâmico e desafiador, autonomia real para resolver problemas e a chance de crescer junto com a empresa.
+
+Buscamos um(a) Desenvolvedor(a) Fullstack - Pleno que seja tecnicamente sólido(a), curioso(a) e apaixonado(a) por entregar software de qualidade. Você vai trabalhar num ambiente de missão crítica, com desafios reais de escala, performance e integração em múltiplos países da América Latina.
+
+RESPONSABILIDADES E ATRIBUIÇÕES
+
+    Desenvolver e manter funcionalidades no backend e frontend da plataforma Auvo. 
+    Colaborar com times de produto, design e dados para entregar soluções de impacto. 
+    Participar de code reviews construtivos, recebendo e fornecendo feedbacks para o desenvolvimento do time. 
+    Auxiliar na identificação de gargalos de performance, propondo e implementando melhorias. 
+    Construir integrações via REST e colaborar na manutenção de APIs GraphQL e gRPC. 
+    Contribuir na evolução e manutenção da arquitetura de microsserviços da plataforma. 
+    Escrever código limpo, testável e documentado, aplicando boas práticas de refatoração. 
+
+REQUISITOS E QUALIFICAÇÕES
+
+O que você precisa ter:
+
+    Backend: Sólidos conhecimentos em .NET / C#, Java ou Golang como linguagem principal. 
+    Frontend: Experiência prática com React ou Vue.js. 
+    Mensageria: Experiência com pelo menos uma ferramenta (RabbitMQ, Kafka, AWS SNS/SQS) e compreensão de conceitos como filas e retentativas. 
+    Banco de Dados: Bons conhecimentos em bancos relacionais (MySQL ou PostgreSQL) e noções de otimização de queries. Experiência básica com NoSQL ou Redis para cache. 
+    APIs: Domínio de APIs REST. 
+    Arquitetura: Vivência em ambientes baseados em microsserviços ou sistemas distribuídos. 
+
+Diferenciais que brilham os olhos:
+
+    Conhecimento em padrões avançados de mensageria (Idempotência, DLQ). 
+    Experiência prática com GraphQL e gRPC. 
+    Noções ou experiência com esteiras de CI/CD (GitHub Actions, Jenkins, ArgoCD ou similares). 
+    Experiência com migração ou transição de stacks legadas (back ou front). 
+    Experiência com IA Generativa (agents, subagents, skills, rules, function calling). 
+    Infrastructure as Code (Terraform, Pulumi, CDK). 
+    Experiência com sistemas de missão crítica ou alta disponibilidade. 
+    Contribuições em projetos open source. 
+
+BENEFÍCIOS
+
+️ Vale-Alimentação
+
+R$34,40 por dia, média de R$760,00 por mês.
+
+ Auxílio Educação
+
+R$212,00 por mês no nosso benefício flexível, para investir no seu crescimento pessoal e profissional.
+
+ Saúde e Bem-estar
+
+    Plano de saúde com subsídio 
+    Plano odontológico completo 
+    Seguro de vida 
+    Wellhub (antigo Gympass) – cuide do corpo e da mente com acesso a academias, apps e muito mais! 
+
+ Vale -Transporte – mobilidade garantida.
+
+Fluency Academy
+
+Tenha acesso a 8 idiomas, com descontos exclusivos, para impulsionar sua carreira!
+
+IPOG
+
+Descontos em mensalidades de Graduação, Pós-Graduação e Cursos de Curta Duração!
+
+️ Convênio Nacional com o SESC – lazer e cultura para toda a família.
+
+ Day Off no seu aniversário – aproveite o seu dia como quiser!
+
+No dress code – aqui, você é livre para ser quem é!
+
+DIFERENCIAIS
+
+Plano de Carreira – oportunidades reais de crescimento e desenvolvimento para construir uma trajetória de sucesso.
+
+Stock Options – após 2 anos de casa, você pode se inscrever para participar do nosso programa de Stock Options – uma oportunidade real de, se aprovado, se tornar sócio da Auvo.
+
+Licença Maternidade e Paternidade Estendidos – mais tempo para curtir e cuidar desse momento tão especial com sua família – 6 meses de licença maternidade e 20 dias de licença paternidade.
+
+Programa de Indicação – indique novos talentos e ganhe R$300,00 por cada indicação contratada que concluir o período de experiência com sucesso.
+
+INFORMAÇÕES ADICIONAIS
+
+    Modelo: Remoto 
+    Horário de trabalho: segunda à sexta-feira, das 08h às 18h.

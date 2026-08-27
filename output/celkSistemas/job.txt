@@ -1,0 +1,81 @@
+A Celk é uma empresa especialista em gestão de saúde pública que está no mercado há 16 anos. Somos focados em transformar a saúde pública do Brasil!
+
+Estamos presente em todo país, e oferecemos soluções que conectam toda a rede de atenção à saúde do cidadão, através de um software flexível, portátil e seguro, para compor uma gestão muito mais integrada e inteligente.
+
+Responsabilidades e atribuições
+
+O(a) Desenvolvedor(a) apoia na gestão de dados e no funcionamento lógico de sistemas, diagnostica falhas e depura aplicativos, cria códigos e bibliotecas reutilizáveis para uso futuro. Apoia com ideias de soluções, objetivando a evolução técnica dos produtos da empresa.
+
+Principais atividades:
+
+     Garantir a manutenção do sistema (legado).
+     Desenvolver e manter aplicações backend e frontend.
+     Desenvolver APIs RESTful e microsserviços eficientes.
+     Integrar APIs e otimizar operações com bancos de dados.
+     Participar ativamente de decisões junto ao time.
+     Criar componentes reutilizáveis e implementar boas práticas de programação.
+     Automatizar testes e garantir a escalabilidade das soluções.
+     Monitorar performance e segurança dos sistemas.
+     Documentar processos e compartilhar conhecimento com a equipe.
+     Otimizar consultas e operações de banco de dados.
+     Garantir a segurança e conformidade dos serviços.
+     Trabalhar com mensageria para comunicação.
+     Criar pipelines de CI/CD e automação de deploys.
+     Implementar e monitorar logs e métricas para otimização contínua.
+
+
+Requisitos e qualificações
+
+Requisitos obrigatórios:
+
+    Ensino Superior concluído na área de Ciências da Computação, ADS, Sistemas da informação, Engenharias ou áreas correlatas;
+    Mínimo 2 anos de experiência com desenvolvimento de software Full Stack;
+    Experiência prévia com arquitetura de microsserviços e APIs RESTful.
+
+
+Conhecimentos necessários:
+
+    Desenvolvimento Backend com Java e Spring Boot.
+    Desenvolvimento Frontend com React.js, Next.js e/ou TypeScript.
+    Arquitetura de microsserviços.
+    Banco de dados relacionais e NoSQL: PostgreSQL e MongoDB.
+    Implementação e otimização de APIs RESTful.
+    Mensageria (SQS, Kafka, RabbitMQ).
+    Segurança e autenticação (OAuth, JWT).
+    Orquestração e containerização usando Docker e Kubernetes.
+    Integração de APIs e otimização de operações com bancos de dados.
+    Monitoramento e análise de logs para otimização contínua.
+    Conhecimento e aplicação de UX/UI e acessibilidade.
+
+
+Diferenciais: 
+
+    Experiência com legado.
+    Experiência com Apache Wicket.
+    Experiência com CI/CD e automação de deploys.
+    Experiência com API Gateway para controle de autenticação e acesso.
+    Conhecimento em arquitetura multi-cloud (AWS, Azure ou GCP).
+    Experiência com testes automatizados e boas práticas de desenvolvimento.
+
+
+Informações adicionais
+
+Benefícios:
+
+Assistência médica
+
+Assistência odontológica
+
+Seguro de vida
+
+Vale-Refeição/Alimentação
+
+Day Off no dia do aniversário
+
+Wellhub (Antiga Gympass)
+
+Jornada: 
+
+Home Office
+
+De Segunda à Sexta, das 8h às 17h (40 horas semanais)

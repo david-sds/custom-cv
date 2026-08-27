@@ -1,0 +1,72 @@
+Sobre a vaga
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Desenvolvedor(a) Fullstack Pleno based in Brazil.
+
+This is an opportunity for a Fullstack Developer to contribute to the evolution of technology solutions supporting public healthcare across Brazil.
+
+You will work across backend and frontend development, building scalable applications, APIs, and microservices.
+
+The role combines new development with the maintenance and modernization of legacy systems.
+
+You will collaborate closely with the technical team, contributing to architectural decisions and continuous improvements.
+
+There is also strong exposure to cloud infrastructure, messaging, security, monitoring, and CI/CD automation.
+
+Your work will directly contribute to reliable, secure, and integrated digital solutions with meaningful real-world impact.
+
+The environment values knowledge sharing, technical excellence, collaboration, and continuous learning.
+
+Accountabilities
+
+    Develop, maintain, and evolve fullstack applications, working across both backend and frontend layers while supporting the modernization of existing legacy systems.
+    Build efficient RESTful APIs and microservices, ensuring scalability, reliability, security, and maintainability.
+    Develop backend solutions using Java and Spring Boot, and frontend applications using React.js, Next.js, and/or TypeScript.
+    Design reusable components, libraries, and technical solutions while applying software engineering best practices.
+    Integrate APIs and optimize database operations, queries, and data access across relational and NoSQL environments.
+    Work with messaging technologies such as SQS, Kafka, and RabbitMQ to support reliable system communication.
+    Implement and maintain authentication and security mechanisms, including OAuth and JWT, while ensuring service compliance.
+    Contribute to containerization and orchestration using Docker and Kubernetes.
+    Develop CI/CD pipelines and deployment automation, supporting efficient and reliable software delivery.
+    Monitor application performance, logs, and metrics, identifying opportunities for optimization and proactively addressing technical issues.
+    Automate tests and contribute to quality assurance, scalability, and continuous improvement of the solutions.
+    Document processes, share technical knowledge, and actively participate in team discussions and architectural decisions.
+
+Requirements
+
+    Completed higher education in Computer Science, Software Engineering, Information Systems, Engineering, or a related field.
+    At least 2 years of professional experience in Fullstack software development.
+    Proven experience with microservices architecture and RESTful APIs.
+    Strong backend development skills with Java and Spring Boot.
+    Experience developing frontend applications with React.js, Next.js, and/or TypeScript.
+    Solid knowledge of relational and NoSQL databases, particularly PostgreSQL and MongoDB.
+    Experience implementing, integrating, and optimizing RESTful APIs and database operations.
+    Knowledge of messaging technologies such as SQS, Kafka, or RabbitMQ.
+    Familiarity with security and authentication concepts, including OAuth and JWT.
+    Experience with Docker and Kubernetes for containerization and orchestration.
+    Understanding of application monitoring, logging, performance optimization, and troubleshooting.
+    Knowledge of UX/UI principles and accessibility.
+    Strong problem-solving skills, collaboration, communication, and willingness to contribute to technical decisions.
+    Experience with legacy systems, Apache Wicket, CI/CD, automated deployments, API Gateways, multi-cloud environments, or automated testing is considered an advantage.
+
+Benefits
+
+    🏥 Medical insurance.
+    🦷 Dental insurance.
+    🛡️ Life insurance.
+    🍽️ Meal/Food allowance.
+    🎂 Day off on your birthday.
+    🏋️ Wellhub wellness and fitness benefit.
+    🏠 100% remote work.
+    🕐 Monday to Friday, from 8:00 AM to 5:00 PM, 40 hours per week.
+
+How Jobgether Works
+
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+
+We appreciate your interest and wish you the best!
+
+ Why Apply Through Jobgether?
+
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.

@@ -1,0 +1,212 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Full Stack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Full Stack Developer focused on modern web/mobile development (React, Flutter) and backend (NestJS, Symfony/PHP). Strong experience in software architecture, data modeling (MySQL, PostgreSQL, Prisma ORM), and DevOps practices (Docker, CI/CD, Linux). Skilled at translating product and business goals into valuable technical solutions."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Full Stack Developer (Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsible for infrastructure consolidation, CI/CD migration, LMS integration with SSO authentication, and custom plugin development."
+    highlights:
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, streamlining deployment workflows."
+      - "Consolidated infrastructure from two VPS instances to a single VPS, reducing costs and simplifying management."
+      - "Automated Linux server provisioning and maintenance using Docker and custom Bash scripts."
+      - "Orchestrated multi-app deployment (frontend, backend, Moodle, Keycloak) using Docker and Nginx reverse proxy."
+      - "Developed custom PHP plugins for Moodle with gamification features."
+      - "Integrated Flutter app with Moodle via Web Services API and Keycloak SSO."
+
+  - name: "Full Stack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Led full-stack development with focus on backend performance optimization, audit logging, permissions system, and frontend UX improvements."
+    highlights:
+      - "Led full-stack development across frontend (Flutter) and backend (NestJS) modules."
+      - "Designed and managed MySQL database with Prisma ORM, implementing data models and migrations."
+      - "Optimized backend performance with caching strategies, pagination, and dynamic filtering endpoints."
+      - "Refactored backend permissions system with granular role-based access control."
+      - "Maintained CI/CD pipeline using GitLab CI and administered VPS with Docker."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Established Flutter frontend architecture and developed core feature modules including authentication, onboarding, project management, and reporting."
+    highlights:
+      - "Established initial frontend architecture using Flutter, defining project structure and reusable component library."
+      - "Migrated routing system to GoRouter with declarative navigation and route guards."
+      - "Built multi-profile authentication flow with role-based access and password recovery."
+      - "Developed CRUD modules for project templates with resources, attachments, and scheduling integration."
+      - "Integrated backend REST APIs with error handling, retry logic, and optimistic UI updates."
+
+  - name: "Full Stack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Full-stack development in agile team with focus on dynamic form systems, legacy Java debugging, and document synchronization."
+    highlights:
+      - "Worked in a remote agile team applying Scrum practices, code review, and automated testing."
+      - "Developed responsive web and mobile interfaces using Vue.js (Quasar Framework)."
+      - "Debugged legacy Java backend with XML-based endpoint routing."
+      - "Resolved document synchronization issues with CouchDB including offline-first sync and conflict resolution."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+projects:
+  - name: "EduSymf"
+    url: "https://github.com/david-sds/edu_symf"
+    description: "Multi-tenant school management system for Brazilian public and private schools."
+    highlights:
+      - "Modular architecture with 10+ planned modules: enrollments, disciplines, assessments, attendance, and report cards."
+      - "Implemented User entity with 7 role types, Doctrine ORM lifecycle callbacks, and soft deletes."
+      - "Built CRUD operations with Symfony Forms, Twig templates, and CSRF protection."
+      - "Modeled PostgreSQL database with Doctrine Migrations and Docker containerization."
+    technologies:
+      - "Symfony"
+      - "PHP"
+      - "Twig"
+      - "Doctrine ORM"
+      - "PostgreSQL"
+      - "Docker"
+      - "Composer"
+
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "Frontend for an ADHD assistance platform with social network, task management, and real-time features."
+    highlights:
+      - "Built React 18 SPA with Vite: forum (communities, posts, comments), task calendar, and board-based notes."
+      - "Implemented real-time chat using Socket.io with Redux state management and persistent auth tokens."
+      - "Integrated FullCalendar for task scheduling with calendar/list/table views."
+      - "Configured Firebase Hosting deployment with GitHub Actions CI/CD pipeline."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "FullCalendar"
+      - "Bootstrap"
+      - "Axios"
+      - "GitHub Actions"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Full-stack client management system with JWT authentication and role-based access control."
+    highlights:
+      - "REST API with NestJS: user/client CRUD, JWT auth (access + refresh tokens), and role-based guards (ADMIN/USER)."
+      - "Secure authentication flow with bcrypt, refresh token persistence, and route-level authorization."
+      - "Flutter Web frontend with MVVM, declarative routing, and immutable models via Freezed."
+      - "PostgreSQL schema with Prisma ORM including many-to-many relationships."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "Docker"
+
+skills:
+  - name: "Languages"
+    keywords:
+      - "Portuguese (Native)"
+      - "English (Advanced)"
+
+  - name: "Programming Languages"
+    keywords:
+      - "JavaScript"
+      - "TypeScript"
+      - "PHP"
+      - "Dart"
+      - "Java"
+      - "Bash"
+      - "SQL"
+      - "HTML"
+      - "CSS"
+
+  - name: "Frontend"
+    keywords:
+      - "React"
+      - "React Native"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "Flutter"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "Bootstrap"
+      - "Axios"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Symfony"
+      - "Doctrine ORM"
+      - "PHP 7.2+"
+      - "REST API"
+      - "JWT"
+      - "SSO"
+      - "Keycloak"
+
+  - name: "Databases"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "SQLite"
+      - "Redis"
+      - "CouchDB"
+
+  - name: "DevOps & Tools"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "GitHub Actions"
+      - "CI/CD"
+      - "Git"
+      - "GitHub"
+      - "Bash Scripting"

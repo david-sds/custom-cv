@@ -1,0 +1,227 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Fullstack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Fullstack Developer with experience in backend (Java, Spring Boot, NestJS) and frontend (React, TypeScript, Flutter). Strong background in software architecture, data modeling (PostgreSQL, MySQL), RESTful APIs, authentication (JWT, OAuth/SSO with Keycloak), containerization (Docker), and CI/CD practices. Committed to building scalable, secure solutions with real-world impact."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Infrastructure consolidation, CI/CD migration, LMS integration with SSO authentication, and custom plugin development."
+    highlights:
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, streamlining deployment workflows."
+      - "Consolidated infrastructure from two VPS instances to a single VPS, reducing costs and simplifying management."
+      - "Automated Linux server provisioning and maintenance using Docker and custom Bash scripts."
+      - "Orchestrated multi-app deployment (frontend, backend, Moodle, Keycloak) using Docker and Nginx reverse proxy."
+      - "Integrated Moodle LMS with Flutter app via Moodle Web Services API."
+      - "Developed custom PHP plugins for Moodle with gamification features."
+      - "Migrated from self-emitted JWT to Keycloak as centralized identity provider."
+      - "Integrated Flutter app with Moodle seamlessly via Keycloak SSO."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Led full-stack development with focus on backend performance optimization, audit logging, permissions system, and frontend UX improvements."
+    highlights:
+      - "Led full-stack development across frontend (Flutter) and backend (NestJS) modules."
+      - "Designed and managed MySQL database with Prisma ORM, implementing data models and migrations."
+      - "Optimized backend performance with caching strategies, pagination, and dynamic filtering endpoints."
+      - "Implemented HTTP audit with interceptors and logging for success and failures."
+      - "Refactored backend permissions system with granular role-based access control (RBAC)."
+      - "Built frontend paginated lists with search, filter caching, and optimized loading states."
+      - "Maintained CI/CD pipeline using GitLab CI."
+      - "Administered VPS, orchestrating deployment and production environment with Docker."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Established Flutter frontend architecture and developed core feature modules including authentication, onboarding, project management, and reporting."
+    highlights:
+      - "Led initial frontend architecture using Flutter, establishing project structure and reusable component library."
+      - "Migrated routing system to GoRouter with declarative navigation and route guards."
+      - "Built multi-profile authentication flow with role-based access, password recovery, and profile management."
+      - "Implemented onboarding system with multi-step forms, validation, and progress tracking."
+      - "Developed CRUD modules for project templates with resources, attachments, and scheduling integration."
+      - "Created task management system with group assignment, file submission, and status tracking."
+      - "Built evaluation forms with configurable scoring, multi-level reviews, and PDF report generation."
+      - "Integrated backend REST APIs with error handling, retry logic, and optimistic UI updates."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remote"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Full-stack development in agile team with focus on dynamic form systems, legacy Java debugging, and document synchronization."
+    highlights:
+      - "Worked in remote agile team applying Scrum practices, code review, and automated testing."
+      - "Maintained legacy web app while contributing to new web platform development."
+      - "Fixed issues with dynamic fields in the dynamic form generation system."
+      - "Developed responsive interfaces for web and mobile platforms using Vue.js (Quasar Framework)."
+      - "Debugged legacy Java backend with XML-based endpoint routing and 2000+ line functions."
+      - "Implemented CRUD commands and fixed PDF generation in legacy Java ERP system."
+      - "Resolved document synchronization issues with CouchDB including offline-first sync and conflict resolution."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+projects:
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Full-stack client management system with JWT authentication and role-based access control."
+    highlights:
+      - "Developed REST API with NestJS featuring user/client CRUD, JWT auth (access + refresh tokens), and role-based guards (ADMIN/USER)."
+      - "Implemented secure authentication flow with bcrypt password hashing, refresh token persistence, and route-level authorization."
+      - "Built Flutter Web frontend with MVVM architecture, declarative routing (GoRouter), and immutable models via Freezed."
+      - "Designed PostgreSQL schema with Prisma ORM including many-to-many user-client relationships and address modeling."
+      - "Created reusable UI component library (pagination, dropdowns, autocomplete, skeleton loading states)."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "Dart"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "bcrypt"
+      - "Docker"
+
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "Frontend for ADHD assistance platform with social network, task management, and real-time features."
+    highlights:
+      - "Built React 18 SPA with Vite featuring forum (communities, posts, comments), task calendar, and board-based notes."
+      - "Implemented real-time chat using Socket.io with Redux state management and persistent auth tokens."
+      - "Integrated FullCalendar for task scheduling with calendar/list/table views and date-based event management."
+      - "Configured Firebase Hosting deployment with GitHub Actions CI/CD pipeline (preview on PR, deploy on merge)."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "FullCalendar"
+      - "Bootstrap"
+      - "GitHub Actions"
+
+  - name: "EduSymf"
+    url: "https://github.com/david-sds/edu_symf"
+    description: "Multi-tenant school management system for Brazilian public and private schools."
+    highlights:
+      - "Designed modular architecture with 10+ modules: enrollments, disciplines, assessments, attendance, and report cards."
+      - "Implemented User entity with 7 role types, Doctrine ORM lifecycle callbacks, and soft deletes."
+      - "Built CRUD operations with Symfony Forms, Twig templates, and CSRF protection."
+      - "Modeled PostgreSQL database with Doctrine Migrations and Docker containerization."
+      - "Planned BNCC (Brazilian curriculum standards) integration for assessment skill tagging."
+    technologies:
+      - "Symfony"
+      - "PHP"
+      - "Twig"
+      - "Doctrine ORM"
+      - "PostgreSQL"
+      - "Docker"
+
+skills:
+  - name: "Languages"
+    keywords:
+      - "Portuguese (Native)"
+      - "English (Advanced)"
+
+  - name: "Programming Languages"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "Java"
+      - "PHP"
+      - "Dart"
+      - "SQL"
+      - "HTML"
+      - "CSS"
+
+  - name: "Frontend"
+    keywords:
+      - "React"
+      - "TypeScript"
+      - "Next.js"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Flutter"
+      - "Vue.js"
+      - "Quasar Framework"
+      - "Bootstrap"
+      - "Socket.io"
+
+  - name: "Backend"
+    keywords:
+      - "Java"
+      - "Spring Boot"
+      - "NestJS"
+      - "Node.js"
+      - "Symfony"
+      - "Doctrine ORM"
+      - "REST API"
+      - "Microservices"
+      - "JWT"
+      - "OAuth"
+      - "SSO"
+      - "Keycloak"
+
+  - name: "Databases"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "MongoDB"
+
+  - name: "DevOps & Tools"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Kubernetes"
+      - "Linux"
+      - "Nginx"
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"
+      - "Monitoring"
+      - "Logging"

@@ -1,0 +1,152 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Software Engineer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Software Engineer with 4+ years of experience building web and mobile applications. Proficient in TypeScript/JavaScript with strong expertise in API design, relational databases (PostgreSQL, MySQL), and full-stack development. Experienced in remote collaboration across time zones."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Backend and frontend development with focus on API integration, infrastructure, and deployment automation."
+    highlights:
+      - "Designed and integrated REST APIs with Moodle LMS using Web Services API for data synchronization."
+      - "Migrated authentication system to Keycloak SSO with JWT token management across multiple applications."
+      - "Orchestrated multi-service deployment (frontend, backend, authentication) using Docker and Nginx."
+      - "Automated CI/CD pipeline migration from GitLab CI to GitHub Actions."
+      - "Managed PostgreSQL database backups and server provisioning with Docker and Bash scripting."
+
+  - name: "Fullstack Developer"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Full-stack development with emphasis on backend performance, API optimization, and database modeling."
+    highlights:
+      - "Designed and managed MySQL database with Prisma ORM, implementing data models and migrations."
+      - "Optimized backend API performance with caching strategies, pagination, and dynamic filtering endpoints."
+      - "Implemented granular role-based access control for API authorization."
+      - "Built frontend integration with REST APIs including error handling, retry logic, and optimistic UI updates."
+
+  - name: "Frontend Developer"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Frontend architecture and development with focus on API integration and component-based design."
+    highlights:
+      - "Integrated backend REST APIs with error handling, retry logic, and optimistic UI updates."
+      - "Built multi-profile authentication flow with role-based access and API communication."
+      - "Designed paginated data lists with search, filter caching,, and skeleton loading states."
+      - "Developed CRUD modules consuming backend APIs with real-time data synchronization."
+
+  - name: "Fullstack Developer"
+    location: "Videnci - Remote"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Full-stack development in remote agile team with focus on web application development and database systems."
+    highlights:
+      - "Worked in remote agile team applying Scrum practices and code review."
+      - "Developed responsive web interfaces using Vue.js (Quasar Framework)."
+      - "Debugged legacy Java backend with XML-based endpoint routing."
+      - "Resolved document synchronization issues with CouchDB including conflict resolution and replication."
+
+education:
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming"
+      - "Software Architecture"
+
+projects:
+  - name: "Notion Clone"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Full-stack offline-first document management application with real-time sync architecture."
+    highlights:
+      - "Built REST API with NestJS (TypeScript) featuring document CRUD and operation-based sync endpoint."
+      - "Designed PostgreSQL database with Prisma ORM; containerized local dev environment with Docker Compose."
+      - "Implemented offline-first sync system with debounced pushes and automatic retry."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Docker"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Full-stack client management system with JWT authentication and role-based access control."
+    highlights:
+      - "Developed REST API with NestJS featuring user/client CRUD, JWT auth (access + refresh tokens), and role-based guards."
+      - "Designed PostgreSQL schema with Prisma ORM including many-to-many relationships."
+      - "Implemented secure authentication flow with bcrypt password hashing and route-level authorization."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+
+skills:
+  - name: "Languages"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "Dart"
+      - "PHP"
+      - "Java"
+      - "SQL"
+
+  - name: "Frontend"
+    keywords:
+      - "Flutter"
+      - "React"
+      - "Vue.js"
+      - "Redux Toolkit"
+      - "Vite"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "REST API"
+      - "JWT"
+      - "SSO"
+      - "Keycloak"
+
+  - name: "Databases"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+
+  - name: "DevOps & Tools"
+    keywords:
+      - "Docker"
+      - "Linux"
+      - "Git"
+      - "GitHub Actions"
+      - "CI/CD"
+      - "Nginx"
+
+  - name: "Languages"
+    keywords:
+      - "Portuguese (Native)"
+      - "English (Advanced)"

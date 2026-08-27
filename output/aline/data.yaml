@@ -1,0 +1,187 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+basics:
+  name: "David Sathler de Siqueira"
+  label: "PHP Full-Stack Developer"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Full-Stack Developer with strong experience in PHP (Symfony, Doctrine ORM), MySQL/PostgreSQL, and Linux server administration. Proficient in Git, Docker, and CI/CD practices. Skilled in object-oriented application development and full software lifecycle delivery."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Fullstack Developer (Part-time employee)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Infrastructure consolidation, CI/CD pipeline management, LMS integration with SSO, and custom PHP plugin development."
+    highlights:
+      - "Developed custom PHP plugins for Moodle to extend functionality and enhance user experience."
+      - "Deployed and configured Moodle LMS on Linux VPS using Docker and Nginx reverse proxy for production and development environments."
+      - "Integrated Moodle with Flutter mobile app via REST API and centralized identity provider (Keycloak SSO)."
+      - "Automated Linux server provisioning and maintenance using Docker and Bash scripts."
+      - "Migrated CI/CD pipeline from GitLab CI to GitHub Actions, streamlining deployment workflows."
+      - "Set up automated database backups to cloud storage via cron jobs."
+
+  - name: "Fullstack Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Full-stack development with focus on backend performance, audit logging, permissions, and frontend UX."
+    highlights:
+      - "Designed and managed MySQL database with ORM, implementing data models and migrations."
+      - "Optimized backend performance with caching strategies, pagination, and dynamic filtering."
+      - "Implemented HTTP audit with interceptors for request/response logging."
+      - "Refactored permissions system with granular role-based access control."
+      - "Maintained CI/CD pipeline using GitLab CI and Docker-based VPS deployment."
+
+  - name: "Frontend Developer (Research Grant)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Established frontend architecture and developed core feature modules including authentication, CRUD, and reporting."
+    highlights:
+      - "Led initial frontend architecture, establishing project structure and reusable component library."
+      - "Built multi-profile authentication flow with role-based access and profile management."
+      - "Developed CRUD modules with search, filter, pagination, and skeleton loading states."
+      - "Integrated backend REST APIs with error handling and retry logic."
+
+  - name: "Fullstack Developer (Internship)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Full-stack development in agile team with dynamic forms, legacy Java debugging, and document sync."
+    highlights:
+      - "Worked in remote agile team applying Scrum practices and code review."
+      - "Maintained legacy web application while contributing to new platform development."
+      - "Developed responsive web interfaces using Vue.js (Quasar Framework)."
+      - "Debugged legacy Java backend with XML-based routing and complex functions."
+      - "Resolved document synchronization issues with CouchDB including conflict resolution."
+
+education:
+  - studyType: "Master's Degree"
+    area: "Software Engineering (Incomplete)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Accessibility"
+      - "Code Smells"
+      - "Anti-patterns"
+      - "Refactoring"
+      - "Static Analysis"
+
+  - studyType: "Bachelor's Degree"
+    area: "Information Systems"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Data Structures"
+      - "Data Modeling"
+      - "Object-Oriented Programming (OOP)"
+      - "Functional Programming"
+      - "Software Architecture"
+      - "Software Analysis"
+
+projects:
+  - name: "EduSymf"
+    url: "https://github.com/david-sds/edu_symf"
+    description: "Multi-tenant school management system built with Symfony."
+    highlights:
+      - "Designed modular architecture with multiple modules: enrollments, disciplines, assessments, attendance, and report cards."
+      - "Implemented User entity with role types, Doctrine ORM lifecycle callbacks, and soft deletes."
+      - "Built CRUD operations with Symfony Forms, Twig templates, and CSRF protection."
+      - "Modeled PostgreSQL database with Doctrine Migrations and Docker containerization."
+    technologies:
+      - "Symfony"
+      - "PHP"
+      - "Twig"
+      - "Doctrine ORM"
+      - "PostgreSQL"
+      - "Docker"
+      - "Composer"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Full-stack client management system with JWT authentication and role-based access."
+    highlights:
+      - "Developed REST API with Node.js featuring user/client CRUD, JWT auth, and role-based guards."
+      - "Implemented secure authentication flow with bcrypt password hashing and refresh tokens."
+      - "Designed PostgreSQL schema with ORM including many-to-many relationships."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "Docker"
+
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "React frontend for ADHD assistance platform with task management and real-time features."
+    highlights:
+      - "Built React SPA with Vite featuring forum, task calendar, and board-based notes."
+      - "Implemented real-time chat using Socket.io with Redux state management."
+      - "Configured deployment with GitHub Actions CI/CD pipeline."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "Socket.io"
+      - "Bootstrap"
+      - "GitHub Actions"
+
+skills:
+  - name: "Natural languages"
+    keywords:
+      - "Portuguese (Native)"
+      - "English (Advanced)"
+
+  - name: "Programming languages"
+    keywords:
+      - "PHP"
+      - "JavaScript"
+      - "TypeScript"
+      - "Java"
+      - "SQL"
+      - "HTML"
+      - "CSS"
+
+  - name: "Frameworks & Libraries"
+    keywords:
+      - "Symfony"
+      - "Doctrine ORM"
+      - "React"
+      - "Node.js"
+      - "NestJS"
+      - "Bootstrap"
+      - "jQuery"
+
+  - name: "Databases"
+    keywords:
+      - "MySQL"
+      - "PostgreSQL"
+      - "Prisma ORM"
+
+  - name: "DevOps & Tools"
+    keywords:
+      - "Docker"
+      - "Linux"
+      - "Nginx"
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"
+      - "Composer"
+      - "Agile"

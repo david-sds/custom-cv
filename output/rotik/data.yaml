@@ -1,0 +1,163 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Full Stack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Full Stack com experiência em JavaScript/TypeScript, frameworks modernos de front-end (React, Vue.js) e back-end (NestJS). Forte experiência em arquitetura de software, modelagem de dados (MySQL, PostgreSQL, Prisma ORM), APIs REST e práticas DevOps (Docker, CI/CD, Linux). Foco em entregar valor ao usuário através de produtos digitais de qualidade."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Full Stack"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração de CI/CD, integração LMS com autenticação SSO e desenvolvimento de plugins customizados."
+    highlights:
+      - "Migrei pipeline de CI/CD de GitLab CI para GitHub Actions, otimizando fluxos de deploy."
+      - "Orquestrei deploy multi-aplicação (frontend, backend, Moodle, Keycloak) usando Docker e Nginx reverse proxy."
+      - "Integrei app Flutter com Moodle via Web Services API e autenticação Keycloak SSO."
+      - "Desenvolvi plugins PHP customizados para Moodle com funcionalidades de gamificação."
+
+  - name: "Desenvolvedor Full Stack"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderança em desenvolvimento full-stack com foco em otimização de performance backend, sistema de auditoria e melhorias de UX no frontend."
+    highlights:
+      - "Liderei desenvolvimento full-stack em módulos de frontend (Flutter) e backend (NestJS)."
+      - "Projetei e gerenciei banco MySQL com Prisma ORM, implementando modelos de dados e migrations."
+      - "Otimizei performance backend com estratégias de cache, paginação e endpoints de filtro dinâmico."
+      - "Implementei sistema de permissões refatorado com controle de acesso baseado em funções granulares."
+
+  - name: "Desenvolvedor Frontend"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Estabelecimento da arquitetura frontend com Flutter e desenvolvimento de módulos principais incluindo autenticação, onboarding e gestão de projetos."
+    highlights:
+      - "Liderei arquitetura inicial frontend usando Flutter, estabelecendo estrutura e biblioteca de componentes reutilizáveis."
+      - "Implementei sistema de autenticação multi-perfil com acesso baseado em funções e recuperação de senha."
+      - "Desenvolvi módulos CRUD para templates de projetos com recursos, anexos e integração de agendamento."
+
+  - name: "Desenvolvedor Full Stack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento full-stack em equipe ágil com foco em sistemas de formulários dinâmicos, depuração Java legado e sincronização de documentos."
+    highlights:
+      - "Trabalhei em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Desenvolvi interfaces responsivas para web e mobile usando Vue.js (Quasar Framework)."
+      - "Resolvi problemas de sincronização de documentos com CouchDB incluindo sync offline-first e resolução de conflitos."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos"
+      - "Arquitetura de Software"
+
+projects:
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "Frontend para plataforma de assistência TDAH com rede social, gestão de tarefas e funcionalidades em tempo real."
+    highlights:
+      - "Construí SPA React 18 com Vite apresentando fórum, calendário de tarefas e notas baseadas em quadro."
+      - "Implementei chat em tempo real usando Socket.io com gerenciamento de estado Redux."
+      - "Configurei deploy Firebase Hosting com pipeline CI/CD GitHub Actions."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "Socket.io"
+      - "GitHub Actions"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Sistema full-stack de gestão de clientes com autenticação JWT e controle de acesso baseado em funções."
+    highlights:
+      - "Desenvolvi API REST com NestJS apresentando CRUD usuário/cliente, auth JWT e guards baseados em funções."
+      - "Projetei schema PostgreSQL com Prisma ORM incluindo relacionamentos muitos-para-muitos."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "Docker"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+
+  - name: "Linguagens de Programação"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "PHP"
+      - "Dart"
+      - "SQL"
+
+  - name: "Frontend"
+    keywords:
+      - "React"
+      - "Vue.js"
+      - "Flutter"
+      - "Quasar Framework"
+      - "Vite"
+      - "Redux Toolkit"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Symfony"
+      - "REST API"
+      - "JWT"
+      - "Autenticação"
+
+  - name: "Bancos de Dados"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "CouchDB"
+
+  - name: "DevOps & Ferramentas"
+    keywords:
+      - "Docker"
+      - "Git"
+      - "GitHub Actions"
+      - "GitLab CI"
+      - "CI/CD"
+      - "Linux"
+      - "Nginx"

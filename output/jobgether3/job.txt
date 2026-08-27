@@ -1,0 +1,69 @@
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Desenvolvedor(a) Web - Full Stack based in Brazil.
+
+As a Full Stack Web Developer, you will join a multidisciplinary team focused on building high-quality Web and Mobile applications. You will work across the technology stack, contributing to front-end, back-end, databases, and application architecture. The role combines hands-on development with strong product and business awareness, ensuring that technical solutions create meaningful value. You will have the autonomy to own your deliveries while collaborating closely with other developers and stakeholders. The environment encourages experimentation, continuous learning, constructive debate, and the adoption of technologies that genuinely improve projects. You will have the opportunity to contribute to scalable, maintainable, and innovative software while growing alongside an engaged engineering team.
+
+Accountabilities
+
+    Develop and maintain Web and Mobile applications across front-end and back-end layers, contributing to solutions that meet product and business needs.
+    Analyze requirements and understand the broader impact of technical decisions before implementing solutions.
+    Take ownership of development activities and ensure delivered solutions meet quality, performance, and maintainability standards.
+    Work collaboratively with a multidisciplinary engineering team, participating in technical discussions, code reviews, and constructive debates.
+    Contribute to front-end development using technologies such as JavaScript, HTML, CSS, React, React Native, and/or VueJS.
+    Develop back-end solutions using PHP, Golang, and/or NodeJS, with an openness to expanding expertise across the technology stack.
+    Design and work with SQL and NoSQL databases, including Redis, considering data modeling, application performance, and scalability.
+    Apply engineering practices such as TDD, Clean Code, Design Patterns, and appropriate development methodologies.
+    Use GitHub-based development workflows, including branching strategies, issues, pull requests, and collaborative version control.
+    Evaluate new technologies and development tools, bringing relevant innovations and practical improvements to projects.
+    Consider the interaction between application layers, databases, networking, infrastructure, and performance when designing and implementing solutions.
+    Contribute ideas and technical feedback that support continuous improvement and sustainable team growth.
+
+Requirements
+
+    Experience with GitHub workflows, including branching, issues, pull requests, and collaborative development practices.
+    Solid knowledge of JavaScript, CSS, and HTML.
+    Professional knowledge of at least one of the following back-end technologies, with willingness to develop expertise in the others: PHP 7.2+, Golang, or NodeJS.
+    For PHP development, familiarity with frameworks such as Symfony and/or Laravel is valuable.
+    Experience with React, React Native, and/or VueJS.
+    Knowledge of SQL and/or NoSQL database modeling, including Redis.
+    Understanding of TDD, Clean Code, and Design Patterns.
+    Ability to understand the relationship between front-end, back-end, databases, networking, and application performance.
+    Strong ownership mindset, discipline, organization, and accountability for delivered work.
+    Proactive and curious approach, with a genuine interest in researching and learning new technologies and tools.
+    Strong critical-thinking skills and willingness to challenge existing tools or approaches constructively.
+    Ability to communicate openly, collaborate effectively, and participate in healthy technical discussions.
+    Ability to understand product and business objectives and translate them into valuable technical solutions.
+
+Nice To Have
+
+    Basic Bash scripting knowledge.
+    Familiarity with virtualization and containers, particularly Docker.
+    Knowledge of component-oriented applications.
+    Experience with Single Page Applications integrated with RESTful APIs.
+    Experience with AWS services such as EC2 and S3.
+    Comfortable working with terminals and command-line applications.
+    Experience designing horizontally scalable microservices using functional programming techniques and hexagonal architecture.
+
+Benefits
+
+    Health insurance: Unimed Nacional, with 100% of the monthly premium for a plan with 50% co-payment covered by the company.
+    Life insurance: 50% of the cost covered if the benefit is selected.
+    Flexible working hours: 40-hour workweek with flexibility based on prior team agreement.
+    Transparent career development plan with clearly defined progression opportunities.
+    Annual bonus based on the impact of your contributions.
+    Quarterly internal learning events, including talks, hackathons, and social initiatives.
+    Internal team and social events that encourage collaboration and connection.
+    R$2,000 annual education/home-office budget for courses, conferences, books, furniture, computer equipment, or other eligible materials.
+    Optional English classes, with a 1.5-hour weekly session.
+    A collaborative culture focused on continuous learning, technical excellence, innovation, and sustainable team growth.
+
+How Jobgether Works
+
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+
+We appreciate your interest and wish you the best!
+
+ Why Apply Through Jobgether?
+
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
