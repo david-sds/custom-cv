@@ -1,0 +1,210 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Fullstack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Fullstack com foco em desenvolvimento web e mobile moderno (React, Flutter) e backend (NestJS, Node.js). Experiência sólida em arquitetura de software, modelagem de dados (MySQL, PostgreSQL, Prisma ORM), boas práticas de DevOps (Docker, CI/CD) e metodologias ágeis. Capacidade de atuar em integrações de alta complexidade e soluções para ambientes de grande escala."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Fullstack"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração de CI/CD, integração LMS com autenticação SSO e desenvolvimento de plugins customizados."
+    highlights:
+      - "Migrou pipeline de CI/CD de GitLab CI para GitHub Actions, otimizando fluxos de deploy."
+      - "Consolidou infraestrutura de duas instâncias VPS para uma única, reduzindo custos e simplificando gestão."
+      - "Automatizou provisionamento e manutenção de servidor Linux utilizando Docker e scripts Bash."
+      - "Orquestrou deploy multi-app (frontend, backend, Moodle, Keycloak) com Docker e Nginx reverse proxy."
+      - "Integrou aplicação Flutter com Moodle via Moodle Web Services API."
+      - "Migrou sistema de autenticação JWT para Keycloak como provedor de identidade centralizado."
+
+  - name: "Desenvolvedor Fullstack"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderança no desenvolvimento fullstack com foco em otimização de performance backend, sistema de auditoria e permissões."
+    highlights:
+      - "Liderou desenvolvimento fullstack em frontend (Flutter) e backend (NestJS)."
+      - "Projetou e gerenciou banco MySQL com Prisma ORM, implementando modelos de dados e migrações."
+      - "Otimizou performance backend com estratégias de cache, paginação e endpoints de filtro dinâmico."
+      - "Implementou sistema de permissões com controle de acesso baseado em papéis granular."
+      - "Manteve pipeline de CI/CD utilizando GitLab CI."
+      - "Administrou VPS, orquestrando deploy e ambiente de produção com Docker."
+
+  - name: "Desenvolvedor Frontend"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Estabelecimento da arquitetura frontend com Flutter e desenvolvimento de módulos de autenticação, onboarding e gestão de projetos."
+    highlights:
+      - "Liderou arquitetura inicial do frontend com Flutter, definindo estrutura do projeto e biblioteca de componentes reutilizáveis."
+      - "Implementou fluxo de autenticação multi-perfil com controle de acesso baseado em papéis."
+      - "Desenvolveu módulos CRUD para templates de projetos com recursos e agendamento."
+      - "Integrou APIs REST do backend com tratamento de erros e lógica de retry."
+
+  - name: "Desenvolvedor Fullstack"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento fullstack em equipe ágil com foco em sistemas de formulários dinâmicos e debug de backend Java legado."
+    highlights:
+      - "Trabalhou em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Desenvolveu interfaces responsivas para web e mobile usando Vue.js (Quasar Framework)."
+      - "Debugou backend Java legado com roteamento baseado em XML."
+      - "Implementou CRUD e corrigiu geração de PDF em sistema ERP Java legado."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-padrões"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+  - studyType: "Estudos Online"
+    area: "Matemática e Ciência da Computação"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Matemática"
+      - "Lógica de Programação"
+      - "Introdução à Ciência da Computação"
+
+projects:
+  - name: "Notion Clone"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Aplicação fullstack de gerenciamento de documentos offline-first com arquitetura de sincronização em tempo real."
+    highlights:
+      - "Construiu API REST com NestJS (TypeScript) com CRUD de documentos e endpoint de sincronização baseado em operações."
+      - "Implementou sistema de sincronização offline-first com push com debounce e retry automático."
+      - "Modeled banco PostgreSQL com Prisma ORM; containerizou ambiente local com Docker Compose."
+    technologies:
+      - "NestJS"
+      - "Flutter"
+      - "TypeScript"
+      - "Dart"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Docker"
+
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "Frontend para plataforma de assistência ADHD com rede social, gestão de tarefas e funcionalidades em tempo real."
+    highlights:
+      - "Construiu SPA React 18 com Vite apresentando fórum, calendário de tarefas e board de notas."
+      - "Implementou chat em tempo real usando Socket.io com gerenciamento de estado Redux."
+      - "Configurou deploy Firebase Hosting com pipeline CI/CD GitHub Actions."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "Firebase Hosting"
+      - "GitHub Actions"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Sistema fullstack de gestão de clientes com autenticação JWT e controle de acesso baseado em papéis."
+    highlights:
+      - "Desenvolveu API REST com NestJS com CRUD usuário/cliente, autenticação JWT e guards baseados em papéis."
+      - "Implementou fluxo seguro de autenticação com hash bcrypt e tokens de refresh."
+      - "Modeled esquema PostgreSQL com Prisma ORM incluindo relacionamentos muitos-para-muitos."
+    technologies:
+      - "NestJS"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "Docker"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+
+  - name: "Linguagens de Programação"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "Node.js"
+      - "Dart"
+      - "PHP"
+      - "Java"
+      - "SQL"
+
+  - name: "Frontend"
+    keywords:
+      - "React"
+      - "React Hooks"
+      - "Context API"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Flutter"
+      - "Vue.js"
+      - "Vite"
+      - "Axios"
+      - "Socket.io"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "REST API"
+      - "Microsserviços"
+      - "JWT"
+      - "Autenticação"
+      - "Integração de Sistemas"
+
+  - name: "Banco de Dados"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "SQLite"
+
+  - name: "DevOps & Ferramentas"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "CI/CD"
+      - "GitHub Actions"
+      - "GitLab CI"
+      - "Git"
+      - "Linux"
+      - "Nginx"
+      - "Metodologias Ágeis"
+      - "Scrum"

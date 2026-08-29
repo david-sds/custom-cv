@@ -1,0 +1,28 @@
+Sobre a vaga
+
+Empresa de Engenharia e Tecnologia busca profissional Desenvolvedor Fullstack Node.js React em Curitiba.
+
+A Soditech é uma empresa especializada em soluções tecnológicas e inovação. Oferece serviços de desenvolvimento de software e consultoria em tecnologia da informação.
+
+Responsabilidades
+
+Desenvolver e manter microsserviços e APIs de alta performance, garantindo escalabilidade e confiabilidade das soluções. Projetar e implementar integrações robustas entre sistemas internos e externos. Desenvolver soluções utilizando Node.js, NestJS, React.js, TypeScript, Hooks e Context API. Implementar e manter arquiteturas de mensageria, utilizando Pub/Sub, RabbitMQ, Kafka e tecnologias similares. Criar e manter documentação técnica de APIs utilizando Swagger. Desenvolver e executar testes unitários e de integração, garantindo a qualidade e estabilidade das aplicações. Participar de discussões arquiteturais e decisões estratégicas de design, contribuindo para a evolução das soluções. Atuar em times ágeis, aplicando boas práticas de engenharia e desenvolvimento de software. Evoluir pipelines de CI/CD e contribuir para a cultura DevOps. Atuar em integrações de alta complexidade e soluções para ambientes de grande escala.
+
+Atuações anteriores em Programador Fullstack, Engenheiro de Software Fullstack, Desenvolvedor Web Fullstack ou Desenvolvedor de Aplicações Fullstack podem indicar afinidade com algumas das atividades desta posição.
+
+Requisitos Desejáveis
+
+Escolaridade: Ensino superior completo
+
+Experiência: Necessário experiência
+
+Remuneração e Benefícios
+
+    Salário: Faixa salarial será informada na entrevista.
+    TotalPass
+    StarBem.
+
+Informações Adicionais
+
+    Contrato: Home Office. Modalidade 100% remota. Candidatos de Pinhais, Almirante Tamandaré, São José dos Pinhais ou Colombo também são considerados para esta vaga.
+    Período: Tempo Integral

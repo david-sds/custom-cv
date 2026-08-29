@@ -1,0 +1,80 @@
+Na Premiersoft, transformamos desafios em soluções reais!
+Com mais de uma década de atuação em desenvolvimento, somos movidos por um propósito claro: criar experiências tecnológicas que impulsionam negócios e aceleram a transformação dos nossos clientes.
+
+Nosso time, formado por mais de 200 #Heroes, une excelência técnica ao nosso DNA: Team Player, Growth Driven e Problem Solver. Somos movidos por desafios, guiados pela inovação e comprometidos com a entrega de soluções de alto impacto, todos os dias.
+
+Sobre a oportunidade: 
+
+Buscamos um profissional com perfil Fullstack, que tenha facilidade para transitar entre frontend e backend e interesse em atuar em um produto tecnológico com bastante espaço para construção e aplicação prática de novas tecnologias.
+
+Você fará parte do desenvolvimento e evolução de uma plataforma baseada em dados, inteligência artificial e automação, voltada à identificação, enriquecimento e conexão de talentos com oportunidades educacionais e iniciativas de impacto.
+
+O principal desafio será contribuir para a evolução e escalabilidade da aplicação, incluindo a migração de um ambiente local para uma infraestrutura em nuvem e o desenvolvimento de novas funcionalidades utilizando IA Generativa, processamento de dados e automação.
+
+Você será responsável por:
+
+    Desenvolver e evoluir funcionalidades end-to-end, atuando no frontend e backend da plataforma.
+    Desenvolver interfaces orientadas a dados utilizando React, Next.js e TypeScript.
+    Construir e manter APIs REST e integrações utilizando Node.js e NestJS.
+    Contribuir para a migração da aplicação de um ambiente local para um ambiente em nuvem.
+    Desenvolver soluções envolvendo Inteligência Artificial Generativa e LLMs.
+    Implementar funcionalidades de busca semântica, RAG e sistemas de recomendação.
+    Trabalhar com processamento, consolidação e enriquecimento de dados provenientes de diferentes fontes.
+    Desenvolver e integrar ETLs e pipelines de dados.
+    Contribuir com soluções de coleta automatizada de dados públicos e automações.
+    Trabalhar com estruturas de dados e relacionamentos complexos entre diferentes entidades.
+    Desenvolver dashboards e interfaces para visualização e exploração de dados.
+    Apoiar a evolução da arquitetura da aplicação, visando escalabilidade, performance e manutenção.
+    Atuar em conjunto com o time técnico na definição e implementação das soluções.
+
+O que você precisa ter:
+
+    Experiência sólida com desenvolvimento Fullstack.
+    Experiência com React, Next.js e TypeScript.
+    Experiência com Node.js e NestJS.
+    Experiência no desenvolvimento e integração de APIs REST.
+    Conhecimento em PostgreSQL e modelagem de dados.
+    Experiência com desenvolvimento de aplicações orientadas a dados.
+    Conhecimento ou experiência prática com Inteligência Artificial Generativa e LLMs.
+    Conhecimento em busca semântica, RAG e/ou sistemas de recomendação.
+    Experiência com integração e processamento de dados provenientes de diferentes fontes.
+    Conhecimento em arquitetura e desenvolvimento de aplicações escaláveis.
+    Conhecimento em Microsoft Azure ou experiência com ambientes de cloud.
+
+📍 Contratação Remota.
+
+🔵 O que oferecemos: 
+
+    Ambiente colaborativo, com troca constante de conhecimento;
+    Cultura aberta à inovação, ideias e protagonismo;
+    Uso de tecnologias atuais e boas práticas de mercado;
+    Foco em excelência técnica e impacto real nas entregas;
+    Incentivo contínuo ao aprendizado e desenvolvimento profissional.
+
+ 🔵 Nossos benefícios:
+
+    TotalPass: acesso a academias, estúdios e práticas de bem-estar;
+    Convênio com clínica de saúde mental;
+    Descanso remunerado: 10 dias úteis para recarregar as energias e cuidar de você;
+    Gifts via Flash - birthday gift e time in company gift;
+    Bônus por indicação de talentos - R$ 2.000,00 por contratação;
+    Desenvolvimento contínuo com PDI, feedbacks e apoio a certificações;
+    Aulas de inglês gratuitas: preparando você para atuação em oportunidades internacionais;
+
+🎯  Veja como é fazer parte do time Premiersoft  
+
+🎯 Saiba mais sobre nós 
+
+🎯 Conheça nossa Sede  
+
+A comunicação ao longo do processo seletivo acontece por e-mail ou WhatsApp. Para não perder nenhuma atualização, adicione o domínio @premiersoft.net à sua lista de remetentes confiáveis e fique de olho na sua caixa de entrada e spam.
+About the company
+
+Somos uma empresa de soluções tecnológicas inovadoras que transformam vidas e potencializam resultados. Com mais de 15 anos de experiência no mercado, temos sido parceiros estratégicos de inúmeros negócios, capacitando-os a alcançar seu potencial máximo. Nossa experiência, qualidade e compromisso são os pilares para impulsionar o crescimento e o alcance dos objetivos de nossos clientes!
+
+Buscamos a excelência por meio de profissionais engajados e em constante evolução , fomentando a cooperação entre os #Heroes através da nossa cultura. Temos o compromisso de criar um sólido senso de pertencimento , depositando confiança no trabalho de cada um e proporcionando um ambiente de trabalho excepcional.
+
+Aqui na Premiersoft, incorporamos o arquétipo do Herói. Acreditamos em protagonistas que sabem trabalhar em equipe, enfrentam desafios, confiam em seus mentores e superam obstáculos para alcançar seu crescimento pessoal.
+--- "É por isso que aqui todos são #Heroes!" ---
+
+Venha ser um #Hero você também!

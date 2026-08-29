@@ -12,6 +12,7 @@ require typst
 require opencode
 require jq
 require prettierd
+require fzf
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$SCRIPT_DIR/.."
@@ -116,6 +117,9 @@ compile() {
   fi
 }
 
+cover_letter() { # TODO
+}
+
 confirm_cv() {
   local resume_data="$1"
   local session_id="$2"
@@ -135,6 +139,9 @@ confirm_cv() {
     local res=$(edit "$resume_data")
     confirm_cv "$res" "$session_id"
     ;;
+  [Cc]*)
+    cover_letter "$resume_data" "$session_id"
+    ;;
   *)
     echo "Invalid option" >&2
     confirm_cv "$resume_data" "$session_id"
@@ -142,40 +149,51 @@ confirm_cv() {
   esac
 }
 
+is_opencode_session() {
+  local session_id=$1
+  [ -n "$session_id" ] || return 1
+  opencode session list |
+    awk '{print $1}' |
+    grep -qx "$session_id"
+}
+
 start_opencode_session() {
-  local outfile=$1
-  local data=$2
+  tmp=$(mktemp)
+  local data=$1
 
   opencode run "/custom-cv ${data}" \
     --model opencode/mimo-v2.5-free \
     --format json 2>/dev/null |
-    jq -r '.sessionID? // empty' >"$outfile"
+    jq -r '.sessionID? // empty' >"$tmp" &
+
+  local session_pid=$!
+
+  spinner "$session_pid" "Starting OpenCode session" >&2
+  wait "$session_pid" || return 1
+  printf '\r\033[K' >&2
+
+  local session_id=$(head -n1 "$tmp")
+  echo "$session_id"
+
+  rm -f "$tmp"
 }
 
 generate_cv() {
-  tmp=$(mktemp)
-
-  start_opencode_session "$tmp" &
-  local session_pid=$!
-
   echo "Paste the job description. Press Ctrl+D when done:"
   local role=$(cat)
+
+  local session_id=$(start_opencode_session "$role")
+  echo "Session id: $session_id"
 
   i=1
   while [ -d "$ROOT_DIR/output/${i}" ]; do
     i=$((i + 1))
   done
-
   OUTPUT_SUB_DIR="output/${i}"
   OUTPUT_DIR="$ROOT_DIR/$OUTPUT_SUB_DIR"
   mkdir "$OUTPUT_DIR"
+  printf '%s\n' "$session_id" >"$OUTPUT_DIR/opencodeSessionId"
   echo "$role" >>"$OUTPUT_DIR/job.txt"
-
-  spinner "$session_pid" "Starting OpenCode session" >&2
-  wait "$session_pid" || return 1
-  printf '\r\033[K' >&2
-  local session_id=$(head -n1 "$tmp")
-  rm -f "$tmp"
 
   local resume_data=$(generate_resume_data "$role" "$session_id") || exit $?
 
@@ -191,17 +209,33 @@ load_cv() {
       awk -F'\t' '{print $2}'
   )
   OUTPUT_SUB_DIR="output/$(basename "$OUTPUT_DIR")"
-  local session_id=$(cat "$OUTPUT_DIR/opencodeSessionId")
-  local role=$(cat "$OUTPUT_DIR/job.txt")
-  local resume_data=$(cat "$OUTPUT_DIR/data.yaml")
 
-  # if ! opencode session list | awk '{print $1}' | grep -x "$session_id"; then
-  # start_opencode_session "$tmp" &
-  # local session_pid=$!
-  # TODO init a new session with the saved data
-  # fi
+  local role=$(cat "$OUTPUT_DIR/job.txt" 2>/dev/null)
+  local resume_data=$(cat "$OUTPUT_DIR/data.yaml" 2>/dev/null)
+  local session_id=$(cat "$OUTPUT_DIR/opencodeSessionId" 2>/dev/null)
+  if ! is_opencode_session "$session_id"; then
+    local context=$(cat <<EOF_DELIM
+Role description:
+```
+$role
+```
 
-  confirm_cv "$resume_data" "$session_id"
+Resume data:
+```yaml
+$resume_data
+```
+EOF_DELIM)
+    session_id=$(start_opencode_session "$context")
+    printf '%s\n' "$session_id" >"$OUTPUT_DIR/opencodeSessionId"
+  fi
+
+  if [ -n "$resume_data" ]; then
+    confirm_cv "$resume_data" "$session_id"
+  else
+    local resume_data=$(generate_resume_data "$role" "$session_id") || exit $?
+
+    confirm_cv "$resume_data" "$session_id"
+  fi
 }
 
 main_menu() {

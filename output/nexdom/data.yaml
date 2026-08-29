@@ -1,0 +1,166 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Fullstack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Fullstack com experiência em modelagem de dados relacionais (MySQL, PostgreSQL), desenvolvimento backend (Java, NestJS) e práticas ágeis (Scrum). Forte vivência em manutenção de sistemas legados, resolução de problemas complexos e trabalho em equipe colaborativo. Busca atuar com excelência na entrega de soluções de alta qualidade e manutenção."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Fullstack (Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração de CI/CD e desenvolvimento de módulos backend e frontend."
+    highlights:
+      - "Migrou pipeline de CI/CD de GitLab CI para GitHub Actions, otimizando fluxos de deploy."
+      - "Consolidou infraestrutura de duas instâncias VPS em uma única, reduzindo custos e simplificando gestão."
+      - "Automatizou provisionamento e manutenção de servidor Linux com Docker e scripts Bash."
+      - "Orquestrou deployment multi-aplicação (frontend, backend, Moodle, Keycloak) usando Docker e Nginx reverse proxy."
+      - "Integrou Moodle LMS com aplicativo Flutter via Moodle Web Services API para sincronização de dados."
+
+  - name: "Desenvolvedor Fullstack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderança no desenvolvimento full-stack com foco em otimização de performance backend, logging de auditoria e sistema de permissões."
+    highlights:
+      - "Liderou desenvolvimento full-stack em módulos frontend (Flutter) e backend (NestJS)."
+      - "Projetou e gerenciou banco de dados MySQL com Prisma ORM, implementando modelos de dados e migrações."
+      - "Otimizou performance backend com estratégias de cache, paginação e endpoints de filtragem dinâmica."
+      - "Implementou auditoria HTTP com interceptors e logging para sucesso e falhas."
+      - "Refatorou sistema de permissões backend com controle de acesso granular baseado em funções."
+
+  - name: "Desenvolvedor Frontend (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Estabelecimento da arquitetura frontend Flutter e desenvolvimento de módulos principais incluindo autenticação, onboarding e gestão de projetos."
+    highlights:
+      - "Liderou arquitetura inicial frontend usando Flutter, estabelecendo estrutura do projeto e biblioteca de componentes reutilizáveis."
+      - "Implementou fluxo de autenticação multi-perfil com acesso baseado em funções, recuperação de senha e gestão de perfis."
+      - "Desenvolveu módulos CRUD para templates de projetos com recursos, anexos e integração de agendamento."
+      - "Criou sistema de gestão de tarefas com atribuição de grupo, envio de arquivos e acompanhamento de status."
+      - "Integrou APIs REST backend com tratamento de erros, lógica de retry e atualizações otimistas de UI."
+
+  - name: "Desenvolvedor Fullstack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento full-stack em equipe ágil com foco em sistemas de formulários dinâmicos, depuração de Java legado e sincronização de documentos."
+    highlights:
+      - "Trabalhou em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Manteve aplicação web legada contribuindo para desenvolvimento de nova plataforma web."
+      - "Corrigiu problemas com campos dinâmicos no sistema de geração de formulários dinâmicos."
+      - "Desenvolveu interfaces responsivas para plataformas web e mobile usando Vue.js (Quasar Framework)."
+      - "Depurou backend Java legado com roteamento de endpoints baseado em XML e funções com mais de 2000 linhas."
+      - "Implementou comandos CRUD e corrigiu geração de PDF em sistema ERP Java legado."
+      - "Resolveu problemas de sincronização de documentos com CouchDB incluindo sincronização offline-first, resolução de conflitos e replicação."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-padrões"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+projects:
+  - name: "EduSymf"
+    url: "https://github.com/david-sds/edu_symf"
+    description: "Sistema de gestão escolar multi-tenant para escolas públicas e privadas brasileiras."
+    highlights:
+      - "Projetou arquitetura modular com 10+ módulos planejados: matrículas, disciplinas, avaliações, frequência e boletins."
+      - "Implementou entidade Usuário com 7 tipos de funções (Admin da Plataforma até Pai), callbacks de lifecycle do Doctrine ORM e exclusões suaves."
+      - "Construiu operações CRUD com Symfony Forms, templates Twig e proteção CSRF."
+      - "Modelou banco de dados PostgreSQL com Doctrine Migrations e containerização com Docker."
+      - "Planejou integração BNCC (diretrizes curriculares brasileiras) para tagging de habilidades em avaliações."
+    technologies:
+      - "Symfony"
+      - "PHP"
+      - "Twig"
+      - "Doctrine ORM"
+      - "PostgreSQL"
+      - "Docker"
+      - "Composer"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+
+  - name: "Linguagens de Programação"
+    keywords:
+      - "SQL"
+      - "Java"
+      - "TypeScript"
+      - "JavaScript"
+      - "PHP"
+      - "Bash"
+
+  - name: "Backend"
+    keywords:
+      - "NestJS"
+      - "Node.js"
+      - "Spring Boot"
+      - "REST API"
+      - "JWT"
+      - "SSO"
+      - "Keycloak"
+
+  - name: "Banco de Dados"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "SQLite"
+      - "Modelagem de Dados Relacional"
+
+  - name: "Metodologias e Práticas"
+    keywords:
+      - "Scrum"
+      - "Kanban"
+      - "Princípios Ágeis"
+      - "Code Review"
+      - "Testes Automatizados"
+
+  - name: "DevOps e Ferramentas"
+    keywords:
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"

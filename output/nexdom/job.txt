@@ -1,0 +1,79 @@
+Sobre a vaga
+
+Prazer, nós somos a NEXDOM Healthtech 🤝🏽
+
+Você está preparado para fazer parte de uma empresa que promove inovação e qualidade na gestão de operadoras de planos de saúde, oferece um completo pacote de benefícios, plano de desenvolvimento e está há mais 20 anos no mercado?
+
+Aqui, o nosso compromisso é criar um ambiente positivo e sustentável! E muito mais do que oferecer soluções inovadoras, queremos fazer parte de grandes sonhos e que gerem valor para todos.
+
+Estamos sempre dispostos a aprender e reconhecer nossos erros. Valorizamos o conhecimento e a troca de perspectivas, reconhecendo que o resultado é gerado de forma coletiva.
+
+Nossos líderes diariamente incentivam a criatividade e a busca contínua por ideias e soluções que transformem nossos produtos, serviços e processos, fortalecendo a nossa cultura de atuar com excelência! 🤩
+
+Somos #remotefirst! Incentivamos a liberdade geográfica para você atuar de onde quiser, tendo uma rotina com mais flexibilidade e qualidade para alcançarmos grandes resultados juntos.
+
+A nossa missão é promover inovação e qualidade na gestão de operadoras de planos de saúde! E para esse time ficar completo, só falta você! 💚
+
+Responsabilidades e atribuições
+
+    Desenvolver soluções de alta qualidade, com código limpo, seguro e de fácil manutenção;
+    Analisar, interpretar e criticar as soluções especificadas, indicando possíveis conformidades;
+    Atuar com autonomia e senso de dono, buscando soluções para os desafios sem depender de direcionamentos constantes;
+    Demonstrar postura de resolvedor de problemas, superando obstáculos técnicos ou de negócio com agilidade e assertividade;
+    Implementar e manter soluções/sistemas, garantindo estabilidade e segurança;
+    Efetuar testes de verificação e validação das funcionalidades implementadas;
+    Documentar as soluções desenvolvidas para garantir rastreabilidade e padronização;
+    Avaliar e discutir problemas e soluções em conjunto com o time, sempre buscando o melhor resultado para os desafios encontrados;
+    Atuar de forma proativa na resolução de problemas técnicos ou de negócio;
+    Apoiar clientes internos e externos quando necessário, prestando suporte técnico;
+    Participar dos ritos (dailies, reviews, retrospectivas, plannings);
+    Colaborar com a evolução contínua das práticas e processos do time, visando aumento de produtividade e entrega de valor;
+    Apoiar o time diariamente, esclarecendo dúvidas de negócio e removendo impedimentos;
+    Acompanhar sua performance por meio das métricas e indicadores do time;
+
+
+Requisitos e qualificações
+
+    Experiência em desenvolvimento de software, com foco em PL/SQL.
+    Organização e disciplina para lidar tanto com alto volume de demandas quanto com projetos de grande porte;
+    Perfil proativo, com iniciativa para identificar e eliminar impedimentos;
+    Capacidade de se adaptar rapidamente a novas situações, resolvendo problemas de forma prática e eficaz;
+    Conhecimento em modelagem de dados relacionais;
+    Domínio de metodologias de desenvolvimento de sistemas;
+    Vivência com práticas ágeis (Scrum, Kanban, princípios ágeis);
+    Familiaridade com BDD e TDD;
+    Boa comunicação verbal e escrita, com capacidade de trabalhar em equipe e manter boas relações interpessoais;
+    Visão analítica e sistêmica, com capacidade de realizar análises quantitativas;
+
+
+Informações adicionais
+
+Será um diferencial: 
+
+    Experiência com SGU GPL (Sistema de Gestão Unimed);
+    Vivência em sistemas da Unimed ou no setor de saúde suplementar;
+    Experiência com Java;
+
+
+Os benefícios de trabalhar na NEXDOM são: 
+
+    Plano de Saúde para você e dependentes (sem mensalidade 👀); 
+    Plano Odontológico para você e dependentes (sem mensalidade 👀); 
+    Vale Alimentação/Refeição; 
+    Totalpass;
+    Programa de Saúde Emocional para você e seus dependentes; 
+    Seguro de Vida; 
+    Day off no mês do aniversário; 
+    Auxílio Home Office;
+
+
+E mais: 
+
+    Ambiente leve e descontraído; 
+    Cultura focada em Inovação, Excelência, Comprometimento e Trabalho em Equipe; 🚀 
+    Empresa em grande desenvolvimento. 
+
+
+Aqui na NEXDOM, prezamos pela Diversidade, Equidade e Inclusão. Todas as nossas oportunidades são destinadas a pessoas com deficiência, LGBTQIAP+, pessoas pretas, de diversas culturas e idades. Quanto mais diversidade, melhor. 💚
+
+Se você está participando ou vai participar de um processo seletivo conosco, acesse oAviso de Privacidade para Candidatose conheça como cuidamos das suas informações com transparência e responsabilidade.
