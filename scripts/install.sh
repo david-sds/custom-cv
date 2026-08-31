@@ -11,3 +11,6 @@ for skill in "${SOURCE_DIR}"/skills/*/; do
   ln -sfn "$skill" "${SKILLS_DIR}/${SKILL_NAME}"
   echo "Installed ${SKILL_NAME}"
 done
+
+mkdir -p "$HOME/.local/bin"
+ln -s "$SOURCE_DIR/scripts/run.sh" "$HOME/.local/bin/ccv"
