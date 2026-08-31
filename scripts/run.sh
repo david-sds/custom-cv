@@ -126,8 +126,11 @@ job_menu() {
     new_cv "$role"
     ;;
   [Oo]*)
-    opencode -s "$session_id"
+    attach_opencode "$session_id"
     job_menu "$resume_data" "$session_id" "$dirname"
+    ;;
+  [Mm]*)
+    echo "Going back to Main Menu..."
     ;;
   *)
     echo "Invalid option" >&2

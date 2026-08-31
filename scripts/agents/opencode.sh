@@ -65,3 +65,9 @@ prompt_opencode() {
 
   printf '%s\n' "$res"
 }
+
+attach_opencode() {
+  local session_id=$1
+
+  opencode -s "$session_id"
+}
