@@ -91,7 +91,7 @@ job_menu() {
   local session_id=$2
   local dirname=$3
 
-  read -rp "Job Menu [C]ompile/[D]iff/[S]ugest/[E]dit/Cover [L]etter/[N]ew " answer
+  read -rp "Job Menu [C]ompile/[D]iff/[S]ugest/[E]dit/Cover [L]etter/[O]pen Agent/[N]ew " answer
   case "$answer" in
   [Cc]*)
     compile "$resume_data" "$session_id" "$dirname"
@@ -124,6 +124,10 @@ job_menu() {
     echo "Paste the job description. Press Ctrl+D when done:"
     local role=$(cat)
     new_cv "$role"
+    ;;
+  [Oo]*)
+    opencode -s "$session_id"
+    job_menu "$resume_data" "$session_id" "$dirname"
     ;;
   *)
     echo "Invalid option" >&2
