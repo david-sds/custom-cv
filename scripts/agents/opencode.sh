@@ -18,7 +18,7 @@ init_opencode_session() {
   tmp=$(mktemp)
   local data=$1
 
-  opencode run "/custom-cv ${data}" \
+  opencode run "${data}" \
     --model opencode/big-pickle \
     --format json 2>/dev/null |
     jq -r '.sessionID? // empty' >"$tmp" &

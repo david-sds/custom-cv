@@ -1,0 +1,235 @@
+basics:
+  name: "David Sathler de Siqueira"
+  label: "Desenvolvedor Full-Stack"
+  email: "dave.sathler@gmail.com"
+  phone: "+5541999672365"
+  summary: "Desenvolvedor Fullstack com foco em tecnologias modernas de desenvolvimento web/mobile (React.js, React Native) e backend (Node.js, NestJS). Forte experiência em arquitetura de software, modelagem de dados (MySQL, PostgreSQL, Prisma ORM) e proficiência em administração de ambientes de servidor e práticas DevOps (Linux, Docker, CI/CD). Busco otimizar todo o ciclo de vida do processo de software, desde a concepção até a produção e manutenção."
+  location:
+    city: "Curitiba"
+    region: "Paraná"
+    countryCode: "BRA"
+    postalCode: "81630170"
+  profiles:
+    - network: "LinkedIn"
+      username: "david-sds"
+      url: "https://www.linkedin.com/in/david-sds"
+
+    - network: "Github"
+      username: "david-sds"
+      url: "https://www.github.com/david-sds"
+
+work:
+  - name: "Desenvolvedor Fullstack (Funcionário Part-time)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2026-01-01
+    summary: "Responsável por consolidação de infraestrutura, migração CI/CD, integração LMS com autenticação SSO e desenvolvimento de plugins customizados."
+    highlights:
+      - "Liderou desenvolvimento full-stack em frontend (React.js) e módulos backend (Node.js/NestJS)."
+      - "Projetou e gerenciou banco de dados MySQL com Prisma ORM, implementando modelos de dados e migrações."
+      - "Otimizou performance do backend com estratégias de cache, paginação e endpoints de filtragem dinâmica."
+      - "Manteve pipeline CI/CD utilizando GitLab CI e GitHub Actions."
+      - "Administrou VPS, orquestrando deploy e ambiente de produção com Docker e AWS."
+
+  - name: "Desenvolvedor Fullstack (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2025-01-01
+    endDate: 2025-12-31
+    summary: "Liderou desenvolvimento full-stack com foco em otimização de performance backend, logging de auditoria, sistema de permissões e melhorias de UX no frontend."
+    highlights:
+      - "Liderou desenvolvimento full-stack em frontend (React.js) e módulos backend (Node.js/NestJS)."
+      - "Projetou e gerenciou banco de dados MySQL com Prisma ORM, implementando modelos de dados e migrações."
+      - "Otimizou performance do backend com estratégias de cache, paginação e endpoints de filtragem dinâmica."
+      - "Refatorou sistema de permissões backend com controle de acesso baseado em funções granular."
+      - "Manteve pipeline CI/CD utilizando GitLab CI."
+
+  - name: "Desenvolvedor Frontend (Bolsa de Pesquisa)"
+    location: "Fagundez Tecnologia - HOTMILK"
+    startDate: 2023-05-01
+    endDate: 2024-12-31
+    summary: "Estabeleceu arquitetura frontend React.js e desenvolveu módulos principais incluindo autenticação, onboarding, gerenciamento de projetos e relatórios."
+    highlights:
+      - "Liderou arquitetura inicial do frontend usando React.js, estabelecendo estrutura do projeto e biblioteca de componentes reutilizáveis."
+      - "Construiu fluxo de autenticação multi-perfil com acesso baseado em funções, recuperação de senha e gerenciamento de perfil."
+      - "Implementou módulos CRUD para templates de projetos com recursos, anexos e integração de agendamento."
+      - "Integrou APIs REST backend com tratamento de erros, lógica de retry e atualizações otimistas de UI."
+
+  - name: "Desenvolvedor Fullstack (Estágio)"
+    location: "Videnci - Remoto"
+    startDate: 2021-12-01
+    endDate: 2022-12-01
+    summary: "Desenvolvimento full-stack em equipe ágil com foco em sistemas de formulários dinâmicos, depuração Java legado e sincronização de documentos."
+    highlights:
+      - "Trabalhou em equipe remota ágil aplicando práticas Scrum, code review e testes automatizados."
+      - "Desenvolveu interfaces responsivas para plataformas web e mobile usando React.js."
+      - "Implementou comandos CRUD e corrigiu geração de PDF no sistema ERP Java legado."
+
+education:
+  - studyType: "Mestrado"
+    area: "Engenharia de Software (Incompleto)"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2024-01-01
+    endDate: 2025-06-30
+    courses:
+      - "Micro-frontends"
+      - "Acessibilidade"
+      - "Code Smells"
+      - "Anti-padrões"
+      - "Refatoração"
+      - "Análise Estática"
+
+  - studyType: "Graduação"
+    area: "Sistemas de Informação"
+    institution: "Pontifícia Universidade Católica do Paraná"
+    startDate: 2020-01-01
+    endDate: 2023-12-31
+    courses:
+      - "Estruturas de Dados"
+      - "Modelagem de Dados"
+      - "Programação Orientada a Objetos (POO)"
+      - "Programação Funcional"
+      - "Arquitetura de Software"
+      - "Análise de Software"
+
+  - studyType: "Estudos Online"
+    area: "Matemática e Ciência da Computação"
+    institution: "Khan Academy"
+    startDate: 2017-01-01
+    endDate: 2020-06-30
+    courses:
+      - "Matemática"
+      - "Lógica de Programação"
+      - "Introdução à Ciência da Computação"
+
+projects:
+  - name: "Hyper Focus Frontend"
+    url: "https://github.com/hyper-focus-adhd/hyper-focus-frontend"
+    description: "Frontend para plataforma de assistência a TDAH com rede social, gerenciamento de tarefas e recursos em tempo real."
+    highlights:
+      - "Construiu SPA React.js 18 com Vite apresentando fórum (comunidades, posts, comentários), calendário de tarefas e notas baseadas em quadro."
+      - "Implementou chat em tempo real usando Socket.io com gerenciamento de estado Redux e tokens de autenticação persistentes."
+      - "Integrou FullCalendar para agendamento de tarefas com visualizações calendário/lista/tabela e gerenciamento de eventos por data."
+      - "Configurado deploy Firebase Hosting com pipeline CI/CD GitHub Actions (preview em PR, deploy em merge)."
+    technologies:
+      - "React"
+      - "Vite"
+      - "Redux Toolkit"
+      - "React Router"
+      - "Socket.io"
+      - "FullCalendar"
+      - "Bootstrap"
+      - "Formik"
+      - "Axios"
+      - "Firebase Hosting"
+      - "GitHub Actions"
+      - "react-intl"
+
+  - name: "Conéctar CRUD"
+    url: "https://github.com/david-sds/conectar-crud"
+    description: "Sistema full-stack de gerenciamento de clientes com autenticação JWT e controle de acesso baseado em funções."
+    highlights:
+      - "Desenvolveu API REST com Node.js/NestJS apresentando CRUD usuário/cliente, auth JWT (access + refresh tokens) e guards baseados em funções (ADMIN/USER)."
+      - "Implementou fluxo de autenticação seguro com hash de senha bcrypt, persistência de refresh token e autorização a nível de rota."
+      - "Construiu frontend React.js com arquitetura MVVM, roteamento declarativo (React Router) e modelos imutáveis via Freezed."
+      - "Projetou esquema PostgreSQL com Prisma ORM incluindo relações muitos-para-muitos usuário-cliente e modelagem de endereço."
+      - "Criou biblioteca de componentes UI reutilizáveis (paginação, dropdowns, autocomplete, estados de skeleton loading)."
+    technologies:
+      - "Node.js"
+      - "NestJS"
+      - "React"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "JWT"
+      - "bcrypt"
+      - "Docker"
+      - "Freezed"
+      - "React Router"
+
+  - name: "Notion Clone"
+    url: "https://github.com/david-sds/notion_clone"
+    description: "Aplicação full-stack de gerenciamento de documentos offline-first com arquitetura de sincronização em tempo real."
+    highlights:
+      - "Construiu API REST com Node.js/NestJS (TypeScript) apresentando CRUD de documentos e endpoint de sincronização baseado em operações."
+      - "Implementou sistema de sincronização offline-first com pushes debounced e retry automático."
+      - "Projetou camada de persistência local usando Drift (SQLite) com fila de operações e acompanhamento de estado de sincronização."
+      - "Modelou banco de dados PostgreSQL com Prisma ORM; containerizou ambiente de desenvolvimento local com Docker Compose."
+    technologies:
+      - "Node.js"
+      - "NestJS"
+      - "React"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Prisma ORM"
+      - "Drift (SQLite)"
+      - "Docker"
+      - "React Router"
+
+skills:
+  - name: "Idiomas"
+    keywords:
+      - "Português (Nativo)"
+      - "Inglês (Avançado)"
+      - "Francês (Iniciante)"
+      - "Japonês (Iniciante)"
+
+  - name: "Linguagens de Programação"
+    keywords:
+      - "TypeScript"
+      - "JavaScript"
+      - "React"
+      - "React Native"
+      - "Node.js"
+      - "NestJS"
+      - "HTML"
+      - "CSS"
+      - "SQL"
+      - "Bash"
+
+  - name: "Frontend"
+    keywords:
+      - "React"
+      - "React Native"
+      - "React Router"
+      - "Redux Toolkit"
+      - "Vite"
+      - "Bootstrap"
+      - "Formik"
+      - "Socket.io"
+      - "FullCalendar"
+      - "Axios"
+      - "Material Design"
+
+  - name: "Backend"
+    keywords:
+      - "Node.js"
+      - "NestJS"
+      - "REST API"
+      - "JWT"
+      - "bcrypt"
+      - "SSO"
+      - "Keycloak"
+
+  - name: "Bancos de Dados"
+    keywords:
+      - "PostgreSQL"
+      - "MySQL"
+      - "Prisma ORM"
+      - "SQLite"
+      - "CouchDB"
+      - "Firestore Database"
+
+  - name: "DevOps & Ferramentas"
+    keywords:
+      - "Git"
+      - "GitLab CI"
+      - "GitHub Actions"
+      - "CI/CD"
+      - "Docker"
+      - "Docker Compose"
+      - "Linux"
+      - "Nginx"
+      - "AWS"
+      - "Firebase Hosting"
+      - "Cloudflare R2"
+      - "Scrum"
+      - "Metodologia Ágil"

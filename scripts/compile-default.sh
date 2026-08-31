@@ -4,6 +4,10 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$SCRIPT_DIR/.."
 cd $ROOT_DIR
 
+source "$SCRIPT_DIR/utils.sh"
+
+require typst
+
 mkdir -p "$ROOT_DIR/output/default/"
 
 typst compile "$ROOT_DIR/templates/david-sds.typ" \
