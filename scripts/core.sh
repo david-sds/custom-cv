@@ -58,8 +58,8 @@ edit() {
 }
 
 sugest() {
-  local sugestions=$2
-  local session_id=$1
+  local sugestions=$1
+  local session_id=$2
 
   local resume_data=$(generate_resume_data "$sugestions" "$session_id") || exit $?
 
