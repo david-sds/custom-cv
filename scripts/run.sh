@@ -10,6 +10,8 @@ source "$SCRIPT_DIR"/agents/*.sh
 require jq
 require fzf
 
+trap 'kill_opencode_server 2>/dev/null; exit 130' INT TERM EXIT
+
 new_cv() {
   local role=$1
 
@@ -61,7 +63,7 @@ load_cv() {
   job_menu "$resume_data" "$session_id" "$dirname"
 }
 
-fix_errors() {
+confirm_fix_menu() {
   local resume_data=$1
   local session_id=$2
   local dirname=$3
@@ -96,7 +98,7 @@ job_menu() {
   [Cc]*)
     compile "$resume_data" "$session_id" "$dirname"
     if [ "$?" -ne 0 ]; then
-      fix_errors "$resume_data" "$session_id"
+      confirm_fix_menu "$resume_data" "$session_id"
     else
       echo "$dirname/cv.pdf generated!" >&2
     fi
@@ -162,6 +164,9 @@ main_menu() {
     ;;
   esac
 }
+
+start_opencode_server
+echo "CUSTOM CV!"
 
 while "$RUNNING"; do
   main_menu

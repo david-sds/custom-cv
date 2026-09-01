@@ -1,10 +1,19 @@
 #!/usr/bin/env bash
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+PORT=4096
 
 source "$SCRIPT_DIR/utils.sh"
 
 require opencode
+
+start_opencode_server() {
+  opencode serve --port "$PORT" >/dev/null &
+}
+
+kill_opencode_server() {
+  kill $(lsof -ti ":$PORT")
+}
 
 is_opencode_session() {
   local session_id=$1
@@ -19,6 +28,7 @@ init_opencode_session() {
   local data=$1
 
   opencode run "${data}" \
+    --attach "http://localhost:$PORT" \
     --model opencode/big-pickle \
     --format json 2>/dev/null |
     jq -r '.sessionID? // empty' >"$tmp" &
@@ -46,7 +56,9 @@ prompt_opencode() {
     return 1
   }
 
-  opencode run "$prompt" -s "$session_id" 2>"$err" >"$out" &
+  opencode run "$prompt" \
+    --attach "http://localhost:$PORT" \
+    --session "$session_id" 2>"$err" >"$out" &
 
   pid=$!
   spinner "$pid" "$loading_msg" >&2
@@ -69,5 +81,5 @@ prompt_opencode() {
 attach_opencode() {
   local session_id=$1
 
-  opencode -s "$session_id"
+  opencode --session "$session_id"
 }
